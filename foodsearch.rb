@@ -84,5 +84,5 @@ puts "Searching for " + query + "..."
 Bossweb.new("site:yelp.com #{query}").results 
 
 # let's get results from anywhere
-Bossweb.new("#{query}").results
+Bossweb.new("site:urbanspoon.com #{query}").results
 
