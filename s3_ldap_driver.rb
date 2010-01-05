@@ -2,7 +2,7 @@
 
 require 's3_ldap_client.rb'
 
-barce = ADUser.new('jim.barcelona@mccann.com','LIMkim!$#3', 'mccann\Wordpress Global Admins', 'http://170.200.167.51/WPAuth.asmx?WSDL')
+barce = ADUser.new('jim.barcelona@mccann.com','PASS', 'mccann\Wordpress Global Admins', 'http://170.200.167.51/WPAuth.asmx?WSDL')
 barce.authenticate
 puts barce.inspect
 
