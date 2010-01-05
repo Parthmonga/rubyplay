@@ -6,6 +6,7 @@ require 'date'
 require 'yaml'
 require 'net/http'
 require 'uri'
+require "stringio"
 
 yamlstring = ''
 File.open("/Users/Jim/rubyplay/settings.yaml", "r") { |f|
