@@ -4,21 +4,24 @@ require 'rubygems'
 require 'soap/wsdlDriver'
 require 'pp'
 require 'aws/s3'
+require 'yaml'
 
 LDAP_URI_FILE   = "./ldap_uri.txt"
-ACCESS_KEY_FILE = "./access_key_s3.txt"
-SECRET_FILE     = "./secret_s3.txt"
 
 
 class S3connection
-	attr_accessor :access_key_id, :secret_access_key
-	def initialize()
-		File.open(ACCESS_KEY_FILE, 'r') do |aFile|
-			aFile.each_line { |line| @@access_key_id = line.chomp }
-		end
-		File.open(SECRET_FILE, 'r') do |aFile|
-			aFile.each_line { |line| @@secret_access_key= line.chomp }
-		end
+	attr_accessor :access_key_id, :secret_access_key, :yaml_file
+
+
+	# TODO: use yaml
+	def initialize(config_file)
+		yamlstring = ''
+		@@yaml_file = config_file
+		File.open(@@yaml_file, "r") { |f| yamlstring = f.read }
+		s3config = YAML::load(yamlstring)
+		puts s3config.inspect
+		@@access_key_id     = s3config["access_key"]
+		@@secret_access_key = s3config["secret_key"]
 	end
 
 	def get_key
@@ -32,15 +35,14 @@ end
 
 
 class ADUser
-	attr_accessor :emailaddress, :password, :role, :wdsl, :isAuth
+	attr_accessor :emailaddress, :password, :role, :groups, :wdsl, :isAuth
 
-	def initialize(emailaddress , password)
-		File.open(LDAP_URI_FILE, 'r') do |aFile|
-			aFile.each_line { |line| @mldap_uri = line.chomp }
-		end
+	def initialize(emailaddress, password, group, ldap_uri)
+		@mldap_uri = ldap_uri
 		@wdsl = SOAP::WSDLDriverFactory.new(@mldap_uri)
 		@emailaddress = emailaddress
 		@password     = password
+		@groups       = group
 	end
 
 	def authenticate
@@ -48,7 +50,7 @@ class ADUser
 		response = soap.AuthenticateUser(
 			:emailaddress => @emailaddress,
 			:password     => @password,
-			:admins       => 'mccann\Wordpress Global Admins',
+			:admins       => @groups,
 			:editors      => '',
 			:authors      => '',
 			:contributors => '',
@@ -61,23 +63,4 @@ class ADUser
 		@role   = response.role
 	end
 end # end class
-
-barce = ADUser.new('jim.barcelona@mccann.com','password')
-barce.authenticate
-puts barce.inspect
-
-if barce.isAuth == true
-
-	s3c = S3connection.new()
-	AWS::S3::Base.establish_connection!(
-    	:access_key_id     => s3c.get_key(),
-    	:secret_access_key => s3c.get_secret()
-  	)
-
-	AWS::S3::Service.buckets.each { |i| print i.name + "\n" }
-else
-
-	puts "Not authorized to view"
-
-end
 
