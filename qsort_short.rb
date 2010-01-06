@@ -26,8 +26,12 @@ def randomizedlist(size)
   return randomlist
 end
 
-rlist = randomizedlist(40000)
 a = Time.now.to_f
-quicksort(rlist)
+rlist = randomizedlist(40000)
 b = Time.now.to_f
+print "randomized list generated in "
 p(b - a)
+quicksort(rlist)
+c = Time.now.to_f
+print "items sorted in "
+p(c - b)
