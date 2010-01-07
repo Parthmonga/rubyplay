@@ -11,7 +11,7 @@ def prhash(hashlist)
   byValue = Array.new
   hashlist.each do |key, value|
     # puts key.to_s + " " + value.to_s
-    if value > 100
+    if value > 54
       byValue.push(value.to_s + " " + key.to_s)
     end
   end
@@ -42,7 +42,8 @@ def parse_log(logfile)
   return ips
 end
 
-PATH = '/Users/Jim/botters/'
+# PATH = '/Users/Jim/botters/'
+PATH = '/mnt/ebs2/barce/botlogs/'
 logs = Array.new
 # logs = %w(w2_access_log	w3_access_log-20091220 w1_access_log w2_access_log-20091220 w1_access_log-20091220 w3_access_log)
 # logs = %w(w2_access_log)
