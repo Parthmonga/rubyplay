@@ -9,7 +9,7 @@ require 'uri'
 require "stringio"
 
 yamlstring = ''
-File.open("/Users/Jim/rubyplay/settings.yaml", "r") { |f|
+File.open("./settings.yaml", "r") { |f|
     yamlstring = f.read
 }
 db = YAML::load(yamlstring)
@@ -17,7 +17,7 @@ db = YAML::load(yamlstring)
 
 
 my = Mysql::new(db["host"], db["user"], db["pass"], db["db"])
-res = my.query("select * from concurrent_users")
+res = my.query("select * from wp_users")
 res.each do |row|
 	puts row.inspect
 end
