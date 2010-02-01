@@ -7,6 +7,9 @@ require 'cgi'
 require 'optparse'
 require 'json'
 require 'memcache'
+require 'digest/md5'
+
+#   digest = Digest::MD5.hexdigest("Hello World\n")
 
 
 query = ARGV.join(" ")
@@ -22,13 +25,15 @@ mc = MemCache::new '127.0.0.1:11211',
 @url = 'http://search.twitter.com/search.json?q=' + query.to_s
 puts @url
 
-if mc.get("json_search_data_"+ query.to_s).nil?
+digest = Digest::MD5.hexdigest(query)
+puts digest
+if mc.get("json_search_data_"+ digest).nil?
 	@json_search_data = Net::HTTP.get_response(URI.parse(@url)).body
 	@header          = Net::HTTP.get_response(URI.parse(@url)).header
-	mc.set("json_search_data_"+ query.to_s, @json_search_data, 30)
+	mc.set("json_search_data_"+ digest, @json_search_data, 30)
 	puts "setting memcache"
 else
-	@json_search_data = mc.get("json_search_data_"+ query.to_s)
+	@json_search_data = mc.get("json_search_data_"+ digest)
 	puts "getting from memcache"
 end
 
