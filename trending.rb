@@ -8,14 +8,26 @@ require 'optparse'
 require 'json'
 require 'memcache'
 
-def parse_daily
+def parse_trend(item)
+	item.each { |query|
+		puts "\t" + query["name"]
+	}
+end
 
+def parse_daily(stuff)
 
+	stuff.each { |item|
+		if item.is_a?(String)
+			puts item
+		else
+			parse_trend(item)
+		end
+	}
 
 end 
 
 mc = MemCache::new '127.0.0.1:11211',
-                       :debug => true,
+                       :debug => false,
                        :c_threshold => 100_000,
                        :compression => false,
                        :namespace => 'foo'
@@ -35,7 +47,7 @@ end
 result = JSON.parse(@json_trend_data)
 # puts result.inspect
 result["trends"].each { |stuff|
-	# puts stuff.inspect
+	puts stuff["name"] + "\t" + stuff["url"]
 }
 
 DAILY = './daily.json'
@@ -46,5 +58,5 @@ end
 result = JSON.parse(@json_daily_data)
 
 result["trends"].each { |stuff|
-	parse_daily(stuff)
+	# parse_daily(stuff)
 }
