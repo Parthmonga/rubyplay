@@ -10,6 +10,24 @@
 # e.g.:  ./chambers_parser.rb MCA.json.txt
 #
 #
+#
+# "Categories"
+# "FullDescription"
+# "ID"
+# "Images"
+# "Keywords"
+# "Latitude"
+# "Longitude"
+# "MemberSince"
+# "Name"
+# "POI_Info"
+# "Phone1"
+# "Phone2"
+# "PhysicalAddress"
+# "ShortDescription"
+# "WebsiteUrl"
+# 
+
 
 require 'rubygems'
 require 'net/http'
@@ -18,11 +36,65 @@ require 'cgi'
 require 'optparse'
 require 'json'
 
+def parse_member(member)
+
+  # puts "member: " + member.inspect
+  member.each { |key, value|
+
+    puts key.inspect # + ": " + value.inspect
+    if key == 'Categories'
+      # puts value.inspect
+    end
+    if key == 'Keywords'
+      # puts value.inspect
+    end
+    if key == 'Images'
+      # puts value.inspect
+    end
+    if key == 'POI_Info'
+      # puts value.inspect
+    end
+
+  }
+
+end
 
 s_file = ARGV[0]
 puts s_file
 
-# result = JSON.parse(json_data)
+if s_file.nil?
+  s_file = "MCA.json.txt"
+end
 
+listfile = File.open(s_file, "r")
 
+json_string = String.new
+listfile.each { |line|
+
+  json_string = json_string + line
+
+}
+
+listfile.close
+result = JSON.parse(json_string)
+
+# puts result.inspect
+result.each { |key, value|
+
+  if key == 'Members'
+    @memberlist = value
+  else 
+    # puts "key: " + key.inspect
+    # puts "value: " + value.inspect
+  end
+}
+
+@memberlist.each { |member|
+
+  # puts "member: " + member.inspect
+  # puts "----[start]----"
+  parse_member(member)
+  # puts "----[end]----"
+
+}
 
