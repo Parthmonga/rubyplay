@@ -41,9 +41,13 @@ def parse_member(member)
   # puts "member: " + member.inspect
   member.each { |key, value|
 
-    puts key.inspect # + ": " + value.inspect
+    # save member to listings
+    # save categories
+    # save keywords
+    # save images
+
     if key == 'Categories'
-      # puts value.inspect
+      
     end
     if key == 'Keywords'
       # puts value.inspect
@@ -51,8 +55,8 @@ def parse_member(member)
     if key == 'Images'
       # puts value.inspect
     end
-    if key == 'POI_Info'
-      # puts value.inspect
+    if key == 'MemberSince'
+      puts value.inspect
     end
 
   }
@@ -84,7 +88,7 @@ result.each { |key, value|
   if key == 'Members'
     @memberlist = value
   else 
-    # puts "key: " + key.inspect
+    puts "key: " + key.inspect
     # puts "value: " + value.inspect
   end
 }
