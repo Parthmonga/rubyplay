@@ -79,7 +79,7 @@ class Cityyelp < Yelp
 end
 
 def output_help
-  puts "usage: catsyelp.rb -q --city='San Francisco' --state='CA'"
+  puts "usage: catsyelp.rb -q 'fish tacos' --city='San Francisco' --state='CA'"
 end
 
 opts = OptionParser.new 
