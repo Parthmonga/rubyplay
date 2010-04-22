@@ -27,8 +27,8 @@ API_KEY_FILE = '/Users/barce/apikeys/yelp_YWSID.txt'
 #
 #
 class Yelp
-  attr_accessor :base, :app_id, :query, :sent, :rawquery
-  def initialize(query)
+  attr_accessor :base, :app_id, :query, :sent, :rawquery, :city, :state
+  def initialize(query, city, state)
     File.open(API_KEY_FILE, 'r') do |aFile|
       aFile.each_line { |line| @@app_id = line.chomp }
     end
@@ -40,6 +40,8 @@ class Yelp
     query  = query.sub(/$/, '%22') if query =~ /[+]/
     @query = query
     @sent = "&ywsid=" + CGI.escape(@@app_id) 
+    @city = city
+    @state = state
   end
 end
 
@@ -50,15 +52,18 @@ end
 #
 class Cityyelp < Yelp
   def results
-    @sent = "http://api.yelp.com/business_review_search?term=" + @query + "&location=" + CGI.escape("San Francisco, CA") + @sent
+    @sent = "http://api.yelp.com/business_review_search?term=" + @query + "&location=" + CGI.escape("#{@city}, #{@state}") + @sent
     puts @sent
     json_data = Net::HTTP.get_response(URI.parse(@sent)).body
     # puts xml_data
     puts
     result = JSON.parse(json_data)
     result.each { |key, value| 
+      puts key
+      # puts value.inspect
       if key == 'businesses'
         value.each { |business|
+          # puts business.inspect
           if business["name"] =~ /#{@rawquery}/i
             puts "-----[" + business["name"] + "]-----"
             puts business["address1"]
@@ -73,9 +78,28 @@ class Cityyelp < Yelp
   end
 end
 
-query = ARGV.join(" ")
-puts "Searching for " + query + "..."
+def output_help
+  puts "usage: yelp.rb -q --city='San Francisco' --state='CA'"
+end
+
+opts = OptionParser.new 
+OptionParser.new do |o|
+  o.on('-q QUERY') { |query| $query = query}
+  o.on('-c CITY') { |city| $city = city }
+  o.on('-s STATE') { |state| $state= state}
+  o.on('-h') { output_help; exit }
+  o.parse!
+end
+
+p :query => $query, :city => $city, :state => $state
+
+# TO DO - add additional options
+            
+
+query = $query
+city = $city
+state = $state
 
 # let's get results from yelp
-Cityyelp.new("#{query}").results 
+Cityyelp.new("#{query}", city, state).results 
 
