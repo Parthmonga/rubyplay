@@ -61,13 +61,12 @@ end
 class Cityyelp < Yelp
   def results
     @sent = "http://api.yelp.com/business_review_search?term=" + @query + "&location=" + CGI.escape("#{@city}, #{@state}") + @sent
-    puts @sent
+    # puts @sent
     json_data = Net::HTTP.get_response(URI.parse(@sent)).body
     # puts xml_data
-    puts
     result = JSON.parse(json_data)
     result.each { |key, value| 
-      puts key
+      # puts key
       # puts value.inspect
       if key == 'businesses'
         value.each { |business|
@@ -91,7 +90,7 @@ OptionParser.new do |o|
   o.parse!
 end
 
-p :query => $query, :city => $city, :state => $state
+# p :query => $query, :city => $city, :state => $state
 
 # TO DO - add additional options
             
