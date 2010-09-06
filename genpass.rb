@@ -1,4 +1,3 @@
-#!/usr/bin/env ruby
 #
 #
 # this program generates
@@ -6,11 +5,12 @@
 # based on /usr/share/dict/words
 # 
 
-DICT = '/usr/share/dict/words'
+def genpass
+@dict = '/usr/share/dict/words'
 
 words = []
 
-File.open(DICT, 'r') do |aFile|
+File.open(@dict, 'r') do |aFile|
 	aFile.each_line { |line| words.push(line.chomp) }
 end
 
@@ -30,5 +30,7 @@ while (words[second].to_s.length > 6)
 end 
 num    = rand(99)
 
-puts words[first] + num.to_s + words[second]
+return words[first] + num.to_s + words[second]
+
+end
 
