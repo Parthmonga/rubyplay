@@ -1,4 +1,4 @@
-#!/usr/local/bin/ruby
+#!/usr/bin/ruby
 
 require 'rubygems'
 require 'cassandra'
@@ -10,7 +10,8 @@ twitter = Cassandra.new('Twitter', ['192.168.0.103:9160'])
 # twitter.insert(:Users, "5", {'screen_name' => "buttonscat"})
 # twitter.insert(:Users, "6", {'screen_name' => "barce"})
 # twitter.insert(:Users, "7", {'screen_name' => "johnz"})
-twitter.remove(:Users, "8")
+twitter.insert(:Users, "8", {'login' => "crazy8", 'pass' => 'flakyflaky'})
+# twitter.remove(:Users, "8")
 # twitter.delete(:Users, "8")
 # puts twitter.inspect
 

@@ -17,10 +17,15 @@ db = YAML::load(yamlstring)
 
 
 my = Mysql::new(db["host"], db["user"], db["pass"], db["db"])
-res = my.query("select * from wp_users")
+res = my.query("select * from links")
 res.each do |row|
-	puts row.inspect
+	# puts row.inspect
 end
 
+res = my.query("insert into links (url) values ('http://www.google.com/')")
+puts res
+puts my.insert_id
+# res.free 
+my.close if my
 
 

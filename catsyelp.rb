@@ -70,6 +70,7 @@ class Cityyelp < Yelp
       # puts value.inspect
       if key == 'businesses'
         value.each { |business|
+          # puts @rawquery
           parse_cats(business["categories"])
         }
       end 
@@ -100,5 +101,7 @@ city = $city
 state = $state
 
 # let's get results from yelp
+print "#{query}|#{city}|#{state}|"
 Cityyelp.new("#{query}", city, state).results 
 
+puts
