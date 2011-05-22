@@ -7,6 +7,9 @@ require 'yaml'
 interested       = YAML::load_file('interested.yml')
 not_interested = YAML::load_file('not_interested.yml')
 
+puts interested.inspect
+puts not_interested.inspect
+
 # Create our Bayes / LSI classifier
 classifier = Classifier::Bayes.new('Interested', 'Not Interested')
 
@@ -30,6 +33,15 @@ print "\n"
 print "Kaylee: " 
 print classifier.classify "Kaylee: shorter, blonde hair, blue eyes, thin"
 print "\n"
+print "Lisa: "
+print classifier.classify "Lisa: shorter, brown hair, blue eyes, thin"
+print "\n"
+print "Emily: "
+print classifier.classify "Emily: taller, red hair, green eyes, medium"
+print "\n"
+
+# Print the classifier itself
+p classifier
 
 # Print the classifier itself
 p classifier
