@@ -6,15 +6,20 @@
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/achbd for more book information.
 #---
-module Codebreaker
-  class Game
-    def initialize(output)
-      @output = output
-    end
-    
-    def start
-      @output.puts 'Welcome to Codebreaker!' 
-      @output.puts 'Enter guess:'
-    end
+class CucumberGreeter
+  def greet
+    "Hello Cucumber!"
   end
+end
+
+Given /^a greeter$/ do
+  @greeter = CucumberGreeter.new
+end
+
+When /^I send it the greet message$/ do
+  @message = @greeter.greet
+end
+
+Then /^I should see "([^"]*)"$/ do |greeting|
+  @message.should == greeting
 end
