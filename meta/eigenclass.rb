@@ -10,7 +10,8 @@ class Intro
   include Greetings
 end
 
-Intro.spanish
+# the code below doesn't work but an Eigenized version of it will
+# Intro.spanish
 
 module Salutations
   def spanish; 'hola'; end
