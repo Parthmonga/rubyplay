@@ -43,12 +43,7 @@ client = TwitterOAuth::Client.new(
 
 puts "authorized? #{client.authorized?}"
 
-# url
-# alerts
-# send DMs to this account
-# regex
-
-# puts client.inspect
+# count # of twitter replies sent
 def get_replies(timeline)
   i = 0
   timeline.each { |tl|
@@ -62,7 +57,7 @@ end
 
 
 @replies = 0
-(16..16).each { |i|
+(1..16).each { |i|
   puts "page: #{i}"
   timeline = client.user_timeline("count" => 3200, "screen_name" => 'meganberry', "page" => i)
   @replies = @replies + get_replies(timeline)
@@ -72,7 +67,3 @@ end
 puts "megan did: "
 puts @replies
 puts "out of 3200 tweets."
-# puts timeline.count
-# timeline.each { |tl| puts tl.inspect # puts tl['text'] }
-# client.message("#{ARGV[2].chomp}", "something's changed with #{s.url} : alert #{i}")
-
