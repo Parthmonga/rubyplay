@@ -64,3 +64,16 @@ def qpower(base, exponent)
 end
 
 puts qpower(2, 3)
+
+
+class NilClass
+
+  def teetimes_for(date)
+    puts 'hi'
+  end
+
+end
+
+a = nil
+date = ''
+a.teetimes_for(date)
