@@ -37,14 +37,13 @@ class Status      ### A mock class to fetch a status: follow or unfollow.
 	end
 end
 
-class Warner      ### An abstract observer of FollowNotifier objects.
-	def initialize(follownotifier, limit)
-		@limit = limit
+class Alerter      ### An abstract observer of FollowNotifier objects.
+	def initialize(follownotifier)
 		follownotifier.add_observer(self)
 	end
 end
 
-class WarnUnfollow < Warner
+class AlertUnfollow < Alerter
 	def update(time, status)
 		if status == 'unfollow'
 			print "--- #{time.to_s}: unfollow\n"
@@ -52,7 +51,7 @@ class WarnUnfollow < Warner
 	end
 end
 
-class WarnFollow   < Warner
+class AlertFollow   < Alerter
 	def update(time, status)
 		if status == 'follow'
 			print "--- #{time.to_s}: follow\n"
@@ -61,6 +60,8 @@ class WarnFollow   < Warner
 end
 
 status = FollowNotifier.new("barce")
-WarnUnfollow.new(status, 80)
-WarnFollow.new(status, 120)
+# AlertUnfollow.new(status)  ### we do not need to alert on unfollow.
+AlertFollow.new(status)
 status.run
+
+
