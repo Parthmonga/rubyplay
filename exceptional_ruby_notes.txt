@@ -1,0 +1,31 @@
+ruby-1.8.7-p72 :008 > games = Array.new
+ => [] 
+ruby-1.8.7-p72 :009 > games << game1
+ => [{"title"=>"R3"}] 
+ruby-1.8.7-p72 :010 > games << game2
+ => [{"title"=>"R3"}, {"title"=>"wow"}] 
+ruby-1.8.7-p72 :011 > games.map {|game| game['title']}
+ => ["R3", "wow"] 
+ruby-1.8.7-p72 :012 > games.map {|game| game['title']}.uniq.join ','
+ => "R3,wow" 
+ruby-1.8.7-p72 :013 > game3 = Hash.new
+ => {} 
+ruby-1.8.7-p72 :014 > games << game3
+ => [{"title"=>"R3"}, {"title"=>"wow"}, {}] 
+ruby-1.8.7-p72 :015 > games.map {|game| game['title']}.uniq.join ','
+ => "R3,wow," 
+ruby-1.8.7-p72 :016 > games.map {|game| game['title']}.uniq.join ','
+ => "R3,wow," 
+ruby-1.8.7-p72 :017 > games << nil
+ => [{"title"=>"R3"}, {"title"=>"wow"}, {}, nil] 
+ruby-1.8.7-p72 :018 > games.map {|game| game['title']}.uniq.join ','
+NoMethodError: undefined method `[]' for nil:NilClass
+  from (irb):18
+  from (irb):18:in `map'
+  from (irb):18
+  from :0
+ruby-1.8.7-p72 :019 > games.map {|game| game['title'] unless game.nil? }.uniq.join ','
+ => "R3,wow," 
+ruby-1.8.7-p72 :020 > games.map {|game| game['title'] unless game.nil? }.uniq.join ','
+ => "R3,wow," 
+
