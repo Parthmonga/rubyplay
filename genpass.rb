@@ -34,3 +34,4 @@ return words[first] + num.to_s + words[second]
 
 end
 
+puts genpass
