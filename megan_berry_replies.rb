@@ -59,8 +59,13 @@ end
 @replies = 0
 (1..16).each { |i|
   puts "page: #{i}"
-  timeline = client.user_timeline("count" => 3200, "screen_name" => 'meganberry', "page" => i)
-  @replies = @replies + get_replies(timeline)
+  begin
+    timeline = client.user_timeline("count" => 3200, "screen_name" => 'meganberry', "page" => i)
+    @replies = @replies + get_replies(timeline)
+  rescue JSON::ParserError
+    puts "skipping page #{i}"
+  end
+  puts "replies: #{@replies}"
   sleep 5
 }
 
