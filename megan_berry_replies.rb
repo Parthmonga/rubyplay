@@ -10,8 +10,6 @@ require "uri"
 require "twitter_oauth"
 require 'digest/md5'
 
-puts "Hi"
-
 
 yamlstring = ''
 File.open("./auth.yaml", "r") { |f|
