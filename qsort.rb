@@ -65,7 +65,7 @@ def randomizedlist(size)
 end
 
 
-rlist = randomizedlist(40000)
+rlist = randomizedlist(40)
 # rlist.each { |i| print i.to_s + " "  }
 
 print "\n"
