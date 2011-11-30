@@ -7,6 +7,7 @@ require 'yaml'
 interested       = YAML::load_file('interested.yml')
 not_interested = YAML::load_file('not_interested.yml')
 
+# this is just an array of strings. 1 row of strings per person
 puts interested.inspect
 puts not_interested.inspect
 
@@ -14,7 +15,13 @@ puts not_interested.inspect
 classifier = Classifier::Bayes.new('Interested', 'Not Interested')
 
 # Train the classifier
-not_interested.each { |boo| classifier.train_not_interested boo }
+
+not_interested.each { |boo| 
+  puts '---boo.inspect---'
+  puts boo.inspect
+  puts '---boo.inspect---'
+  classifier.train_not_interested boo 
+}
 interested.each { |good_one| classifier.train_interested good_one }
 
 # Let's classify some folks not interested in me
