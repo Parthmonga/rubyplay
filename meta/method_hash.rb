@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 # h = MethodHash.new
-# h.#{foo} = 'bar'
+# h.foo = 'bar'
 # h.foo
 #    => 'bar'
 
@@ -9,6 +9,12 @@ class MethodHash
 
   def initialize
     @myhash = {}
+  end
+
+  # this code below allows a copy of the object rather than a reference
+  def initialize_copy(source)
+    super
+    @myhash = @myhash.clone
   end
 
   def mh_assign(m_name)
@@ -46,3 +52,11 @@ puts "printing h.foo = 'bar2'"
 h.foo = 'bar2'
 puts h.foo
 puts h.inspect
+
+puts 'i = h'
+i = h.dup
+puts 'the below will not work unless initialize_copy is defined'
+puts 'i.foo = "baz"'
+i.foo = 'baz'
+puts i.foo
+puts h.foo
