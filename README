@@ -29,3 +29,10 @@ smalltasks.rb - another gearman script example.
 yelp.rb - a ruby script that uses the Yelp API to find places to eat.
 
 
+notes:
+
+sort by building_name attribute:
+@offices.sort! { |a,b| a.building_name <=> b.building_name }
+
+sort by building_name and then number:
+@offices.sort_by {|o|[o.building_name,o.number]}
