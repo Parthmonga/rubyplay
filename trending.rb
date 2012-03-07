@@ -31,7 +31,10 @@ mc = MemCache::new '127.0.0.1:11211',
                        :c_threshold => 100_000,
                        :compression => false,
                        :namespace => 'foo'
-@url = 'http://search.twitter.com/trends.json'
+
+# 2487956 == 'san francisco' woeid
+# 1 == US woeid
+@url = 'http://api.twitter.com/1/trends/2487956.json'
 
 if mc.get("json_trend_data").nil?
 	@json_trend_data = Net::HTTP.get_response(URI.parse(@url)).body
@@ -45,18 +48,8 @@ end
 
 
 result = JSON.parse(@json_trend_data)
-# puts result.inspect
-result["trends"].each { |stuff|
+# puts result[0]["trends"]
+result[0]["trends"].each { |stuff|
 	puts stuff["name"] + "\t" + stuff["url"]
 }
 
-DAILY = './daily.json'
-File.open(DAILY, 'r') do |aFile|
-	aFile.each_line { |line| @json_daily_data = line.chomp }
-end
-
-result = JSON.parse(@json_daily_data)
-
-result["trends"].each { |stuff|
-	# parse_daily(stuff)
-}
