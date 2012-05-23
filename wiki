@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+opts = OptionParser.new 
+
+def output_help 
+
+  puts "usage: wiki -q query"
+
+end
+
+OptionParser.new do |o|
+  o.on('-q QUERY') { |query| $query = query}
+  o.on('-h') { output_help; exit }
+  o.parse!
+end
+
+query = $query
+
+query = query.gsub(" ", "_")
+
+
+stuff = %x[dig +short txt #{query}.wp.dg.cx]
+puts stuff
