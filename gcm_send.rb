@@ -15,7 +15,7 @@ delayWhileIdle = "true" #true or false
 url = URI.parse('https://android.googleapis.com/gcm/send')
 req = Net::HTTP::Post.new(url.path)
 req.content_type = 'application/json'
-req.set_form_data({'registration_id'=>registration_id, 'timeToLive'=>timeToLive, 'delay_while_idle'=>delayWhileIdle, 'data.msg'=>'Hello, Jeff!'})
+req.set_form_data({'registration_id'=>registration_id, 'timeToLive'=>timeToLive, 'delay_while_idle'=>delayWhileIdle, 'data.url'=>"viame://b2test", 'data.alert'=>"Hello! Just another test. One more on the way from the backend app."})
 
 req.add_field "Authorization", "key=" + key                                     
 
