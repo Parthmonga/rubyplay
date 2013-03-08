@@ -14,7 +14,7 @@ end
 raw_minute = %x[./current_users.rb 1]
 mau = get_users(raw_minute)
 
-raw_hour = %x[./current_users.rb 240]
+raw_hour = %x[./current_users.rb 60]
 hau = get_users(raw_hour)
 
 total = 0

@@ -37,8 +37,12 @@ fh.each { |line|
   a_times.each do |s_time|
     if line.include? s_time
       # grep this [-uid:704974-]
-      if line =~ /uid:([0-9]+)\-\]/
-        @users << $1 
+      begin
+        if line =~ /uid:([0-9]+)\-\]/
+          @users << $1 
+        end
+      rescue
+        puts 'error'
       end
     end
   end
