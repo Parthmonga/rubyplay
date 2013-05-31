@@ -8,6 +8,7 @@ require "uri"
 require "twitter_oauth"
 require 'digest/md5'
 require "json"
+require "active_record"
 
 
 yamlstring = ''
@@ -19,56 +20,89 @@ File.open("./auth.yaml", "r") { |f|
 puts @settings.inspect
 
 @access_token = @settings['access_token']
-# All methods require authentication (either by client ID or access token).
-# To get your Instagram OAuth credentials, register an app at http://instagr.am/oauth/client/register/
 Instagram.configure do |config|
   config.client_id = @settings['client_id']
   config.access_token = @access_token
 end
 
+ActiveRecord::Base.establish_connection(
+    :adapter => "postgresql",
+    :database => "#{@settings['database']}",
+    :username => "#{@settings['username']}",
+    :password => "",
+    :host => "#{@settings['host']}",
+    :port => @settings['port'],
+    :pool => 8
+)
 
-class User
-  attr_accessor :id, :username, :bio
+class User < ActiveRecord::Base
 end
 
-me = Instagram.user('self')
-puts me.id
+
 
 @users_list = Array.new
 
 def get_followers(user_id)
-  sent = "https://api.instagram.com/v1/users/" + user_id + "/followed-by?access_token=" + @access_token + "&client_id=" + @settings['client_id']
-  puts sent
+  followers = 0
+  sent = "https://api.instagram.com/v1/users/" + user_id.to_s + "/followed-by?access_token=" + @access_token + "&client_id=" + @settings['client_id'] + "&count=100"
 
-  uri = URI.parse(sent)
-  # args = {include_entities: 0, include_rts: 0, screen_name: 'johndoe', count: 2, trim_user: 1}
-  # uri.query = URI.encode_www_form(args)
-  http = Net::HTTP.new(uri.host, uri.port)
-  http.use_ssl = true
-  # http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+  i_sentinel = 1
+  followers_list = Array.new
 
-  request = Net::HTTP::Get.new(uri.request_uri)
+  while i_sentinel > 0 do
+    puts sent
+  
+    uri = URI.parse(sent)
+    # args = {include_entities: 0, include_rts: 0, screen_name: 'johndoe', count: 2, trim_user: 1}
+    # uri.query = URI.encode_www_form(args)
+    http = Net::HTTP.new(uri.host, uri.port)
+    http.use_ssl = true
+    # http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+  
+    request = Net::HTTP::Get.new(uri.request_uri)
+  
+    response = http.request(request)
+    json_data = response.body
+  
+    result = JSON.parse(json_data)
+    puts result["pagination"]
+    sent = result["pagination"]["next_url"]
+    puts result["pagination"]["next_cursor"]
+    result["data"].each do |user|
+      uid = 0
+      begin
+        uid = User.find(user["id"]).id
+      rescue
 
-  response = http.request(request)
-  json_data = response.body
+      end
+      if uid == 0
+        u = User.new
+        u.instagram_id = user["id"]
+        u.name         = user["username"]
+        u.bio          = user["bio"]
+        u.reference_id = user_id
+        u.save
+      end
+      followers = followers + 1
+    end
 
-  result = JSON.parse(json_data)
-  puts result["pagination"]
-  result["data"].each do |user|
-
-    u = User.new
-    u.id = user["id"]
-    u.username = user["username"]
-    u.bio = user["bio"]
-
-    @users_list << u
-  end
+    if result["pagination"]["next_cursor"].nil?
+      i_sentinel = 0
+    end
+    puts "followers: #{followers}"
+  end # while loop
+  followers
 end
 
-get_followers(me.id)
+me = Instagram.user('self')
+puts me.id
+followers = get_followers(me.id)
+followings = get_followings(me.id)
 
 
-puts @users_list.inspect
-# page_1 = Instagram.user_recent_media(777)
-# page_2_max_id = page_1.pagination.next_max_id
-# page_2 = Instagram.user_recent_media(777, :max_id => page_2_max_id ) unless page_2_max_id.nil?
+# get_followers(282741) #mayhemstudios
+# get_followers(375151762) #
+
+
+
+
