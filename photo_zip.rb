@@ -208,35 +208,37 @@ def generate_zip(username, user_mail)
   fh = File.open("#{temp_dir}/index.html","wb")
   fh.write("<!DOCTYPE html>\n")
   
-  fh.write "<head><title>Via.Me Archive</title>"
-  fh.write "<style>"
-  fh.write "body { font-family: Arial; }"
-  fh.write "</style>"
-  fh.write "</head>"
-  fh.write "<body>"
-  fh.write "<center><h1>Archived Media</h1></center>"
-  fh.write "<table>"
-  fh.write "<tr>"
+  fh.write "<head><title>Via.Me Archive</title>\n"
+  fh.write "<style>\n"
+  fh.write "body { font-family: Arial; }\n"
+  fh.write "img{ width: auto; max-width: 300px; height: auto; max-height: 300px; }\n"
+  fh.write "</style>\n"
+  fh.write "</head>\n"
+  fh.write "<body>\n"
+  fh.write "<center><h1>Archived Media</h1></center>\n"
+  fh.write "<table>\n"
+  fh.write "<tr>\n"
   
   i=1
   photos.each do |photo|
     caption = newcaption(photo,i-1)
     file = newfilename(caption,photo)
     
-    fh.write "<!-- #{i} -->"
-    fh.write "<td>"
+    fh.write "<!-- #{i} -->\n"
+    fh.write "<td>\n"
     suffix = get_suffix(file)
     if suffix =~ /(jpg|jpeg|tif|tiff|gif|png|bmp|name)/i
-      fh.write "<a href=\"" + URI::encode(file) + "\"><img width='600' height='600' src=\"" + URI::encode(file) + "\" border=0></a>"
+      fh.write "<a href=\"" + URI::encode(file) + "\"><img width='300' height='300' src=\"" + URI::encode(file) + "\" border=0></a>\n"
     else
-      fh.write "<a href=\"" + URI::encode(file) + "\"><img width='600' height='600' src='alt_file.png' border=0></a>"
+      fh.write "<a href=\"" + URI::encode(file) + "\"><img width='300' height='300' src='alt_file.png' border=0></a>\n"
     end
-    fh.write "<p>#{photo.text}</p>"
-    fh.write "</td>"
+    fh.write "<p>#{photo.created_at.strftime('%b %d, %Y')}</p>\n"
+    fh.write "<p>#{photo.text}</p>\n"
+    fh.write "</td>\n"
 
-    if i%2 == 0
-      fh.write "</tr>"
-      fh.write "<tr>"
+    if i%3 == 0
+      fh.write "</tr>\n"
+      fh.write "<tr>\n"
     end
 
 
@@ -244,9 +246,9 @@ def generate_zip(username, user_mail)
     
   end
   
-  fh.write "</tr>"
-  fh.write "</table>"
-  fh.write "</body>"
+  fh.write "</tr>\n"
+  fh.write "</table>\n"
+  fh.write "</body>\n"
   fh.write("</html>\n")
   fh.close
   FileUtils::cp("#{temp_dir}/index.html", "#{temp_dir}/#{folder2}/index.html")
@@ -291,4 +293,4 @@ def generate_zip(username, user_mail)
 
 end
 
-generate_zip('barce',MY_EMAIL)
+generate_zip('barce',@settings['email'])
