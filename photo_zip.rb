@@ -129,7 +129,7 @@ def generate_zip(username, user_mail)
       file_name = "r600x600_#{i}.jpg" if file_name == 'r600x600.jpg'
       puts "modified file_name: #{file_name}"
       puts "temp_dir: #{temp_dir}"
-
+    
       begin
         if file_name =~ /[\[\]]+/
           %x[wget -O "#{temp_dir}/#{folder}/#{file_name}" #{posts.original_media_url}]
@@ -193,7 +193,7 @@ def generate_zip(username, user_mail)
     puts caption    
 
     new_file_name = newfilename(caption,photo)
-    
+
     puts "copying #{temp_dir}/#{folder}/#{photo.file} to #{temp_dir}/#{folder2}/#{new_file_name}"
     puts "FileUtils::cp(\"#{temp_dir}/#{folder}/#{photo.file}\", \"#{temp_dir}/#{folder2}/#{new_file_name}\")"
     FileUtils::cp("#{temp_dir}/#{folder}/#{photo.file}", "#{temp_dir}/#{folder2}/#{new_file_name}")
@@ -202,12 +202,13 @@ def generate_zip(username, user_mail)
   end
 
   # add alt_file
-  %x[wget -O "#{temp_dir}/#{folder2}/alt_file.png" http://pic.via.me.s3.amazonaws.com/alt_file.png]
-  
+  %x[wget -O "#{temp_dir}/#{folder2}/music_600x600.png" http://pic.via.me.s3.amazonaws.com/music_600x600.png]
+  %x[wget -O "#{temp_dir}/#{folder2}/play_600x600.png" http://pic.via.me.s3.amazonaws.com/play_600x600.png]
+
   # add index
   fh = File.open("#{temp_dir}/index.html","wb")
   fh.write("<!DOCTYPE html>\n")
-  
+
   fh.write "<head><title>Via.Me Archive</title>\n"
   fh.write "<style>\n"
   fh.write "body { font-family: Arial; }\n"
@@ -218,19 +219,23 @@ def generate_zip(username, user_mail)
   fh.write "<center><h1>Archived Media</h1></center>\n"
   fh.write "<table>\n"
   fh.write "<tr>\n"
-  
+
   i=1
   photos.each do |photo|
     caption = newcaption(photo,i-1)
     file = newfilename(caption,photo)
-    
+
     fh.write "<!-- #{i} -->\n"
     fh.write "<td>\n"
     suffix = get_suffix(file)
     if suffix =~ /(jpg|jpeg|tif|tiff|gif|png|bmp|name)/i
       fh.write "<a href=\"" + URI::encode(file) + "\"><img width='300' height='300' src=\"" + URI::encode(file) + "\" border=0></a>\n"
+    elsif suffix =~ /(wav|aiff|au|mp3|ogg|aac|wma)/i
+      fh.write "<a href=\"" + URI::encode(file) + "\"><img width='300' height='300' src=\"music_600x600.png\" border=0></a>\n"
+    elsif suffix =~ /(fla|flv|m4v|mpeg|mpg|vmw|rm|ram|mov|avi)/i
+      fh.write "<a href=\"" + URI::encode(file) + "\"><img width='300' height='300' src=\"play_600x600.png\" border=0></a>\n"
     else
-      fh.write "<a href=\"" + URI::encode(file) + "\"><img width='300' height='300' src='alt_file.png' border=0></a>\n"
+      fh.write "<a href=\"" + URI::encode(file) + "\"><img width='300' height='300' src='play_600x600.png' border=0></a>\n"
     end
     fh.write "<p>#{photo.created_at.strftime('%b %d, %Y')}</p>\n"
     fh.write "<p>#{photo.text}</p>\n"
@@ -243,9 +248,9 @@ def generate_zip(username, user_mail)
 
 
     i = i + 1    
-    
+
   end
-  
+
   fh.write "</tr>\n"
   fh.write "</table>\n"
   fh.write "</body>\n"
@@ -253,6 +258,7 @@ def generate_zip(username, user_mail)
   fh.close
   FileUtils::cp("#{temp_dir}/index.html", "#{temp_dir}/#{folder2}/index.html")
   # end add index section
+
   
   
   # base temp dir
