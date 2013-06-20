@@ -14,7 +14,8 @@ require 'zip/zipfilesystem'
 require 'open-uri'
 require 'aws/s3'
 require 'archive/zip'
-
+require 'fileutils'
+require 'filemagic'
 
 yamlstring = ''
 File.open("./auth.yaml", "r") { |f|
@@ -123,7 +124,8 @@ def generate_zip(username, user_mail)
       # get file_name
       a_url_slashes = posts.original_media_url.split('/')
       file_name = a_url_slashes[a_url_slashes.count-1]
-      file_name = file_name.gsub('(','\(').gsub(')','\)')
+      file_name = file_name.gsub('(','\\(').gsub(')','\\)')
+      file_name = file_name.gsub(/['"\\\x0]/,'\\\\\0')
       puts "posts.id: #{posts.id}"
       puts "file_name: #{file_name}"
       file_name = "r600x600_#{i}.jpg" if file_name == 'r600x600.jpg'
@@ -132,10 +134,13 @@ def generate_zip(username, user_mail)
     
       begin
         if file_name =~ /[\[\]]+/
-          %x[wget -O "#{temp_dir}/#{folder}/#{file_name}" #{posts.original_media_url}]
+          puts "using wget to download #{posts.original_media_url} to #{temp_dir}/#{folder}/#{file_name}"
+          %x[wget -O "#{temp_dir}/#{folder}/#{file_name}" "#{posts.original_media_url}"]
         elsif file_name =~ /[^A-Za-z0-9_.:\/\-]+/
-          %x[wget -O "#{temp_dir}/#{folder}/#{file_name}" #{posts.original_media_url}]
+          puts "using wget to download #{posts.original_media_url} to #{temp_dir}/#{folder}/#{file_name}"
+          %x[wget -O "#{temp_dir}/#{folder}/#{file_name}" "#{posts.original_media_url}"]
         else
+          puts "using open to get #{posts.original_media_url} to #{temp_dir}/#{folder}/#{file_name}"
           open("#{temp_dir}/#{folder}/#{file_name}", 'wb') do |file|
             file << open(posts.original_media_url).read
           end
@@ -196,7 +201,16 @@ def generate_zip(username, user_mail)
 
     puts "copying #{temp_dir}/#{folder}/#{photo.file} to #{temp_dir}/#{folder2}/#{new_file_name}"
     puts "FileUtils::cp(\"#{temp_dir}/#{folder}/#{photo.file}\", \"#{temp_dir}/#{folder2}/#{new_file_name}\")"
-    FileUtils::cp("#{temp_dir}/#{folder}/#{photo.file}", "#{temp_dir}/#{folder2}/#{new_file_name}")
+    begin
+      puts "copying #{temp_dir}/#{folder}/#{photo.file} to #{temp_dir}/#{folder2}/#{new_file_name}"
+      puts "FileUtils::cp(\"#{temp_dir}/#{folder}/#{photo.file}\", \"#{temp_dir}/#{folder2}/#{new_file_name}\")"
+      FileUtils::cp("#{temp_dir}/#{folder}/#{photo.file}", "#{temp_dir}/#{folder2}/#{new_file_name}")
+    rescue => error
+      puts "copy failed"
+      puts error.inspect
+    end
+
+
     puts "----[#{i}]----"
     i = i + 1
   end
