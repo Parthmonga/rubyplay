@@ -224,6 +224,8 @@ def generate_zip(username, user_mail)
   fh.write("<!DOCTYPE html>\n")
 
   fh.write "<head><title>Via.Me Archive</title>\n"
+  fh.write('<meta http-equiv="Content-Type" content="text/html; charset=utf-8">')
+  fh.write("\n")
   fh.write "<style>\n"
   fh.write "body { font-family: Arial; }\n"
   fh.write "img{ width: auto; max-width: 300px; height: auto; max-height: 300px; }\n"
