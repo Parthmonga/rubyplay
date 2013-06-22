@@ -53,16 +53,21 @@ end
 
 def primes(ordinal)
 
+
   is_prime = 1
-  (2..(ordinal/2)).each do |i|
+  limit = ordinal.to_i / 2
+
+  (2..limit).each do |i|
     if ordinal % i == 0
       is_prime = 0
     end
   end
 
-  puts "#{ordinal} is prime" if is_prime == 1
+  if is_prime == 1
+    return ordinal
+  end
 
-  is_prime
+  return 0
 end
 
 def factors(ordinal)
@@ -70,6 +75,31 @@ def factors(ordinal)
 
 
 end
+
+i_factor = 1000000
+i_factor = 600851475143
+a = Array.new
+puts "getting primes..."
+(1..i_factor).each do |i|
+  i_tmp = primes(i)
+  puts i
+  if i_tmp > 0
+    a << i_tmp
+  end
+end
+puts "end getting primes"
+puts ""
+puts "getting prime factors..."
+
+a.each do |prime|
+
+  puts "#{prime} is a prime factor" if i_factor % prime == 0
+
+end
+
+puts "end getting prime factors"
+# The prime factors of 13195 are 5, 7, 13 and 29.
+# What is the largest prime factor of the number 600851475143 ?
 
 # total = three_or_five(1000)
 # puts total
