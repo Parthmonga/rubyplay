@@ -80,13 +80,24 @@ i_factor = 1000000
 i_factor = 600851475143
 a = Array.new
 puts "getting primes..."
-(1..i_factor).each do |i|
-  i_tmp = primes(i)
+# (1..i_factor).each do |i|
+i_sentinel = 0
+i_limit = 5
+i = 0
+i_factor_tmp = i_factor
+
+while i_sentinel <= 0
   puts i
+  i_tmp = primes(i_factor_tmp)
   if i_tmp > 0
     a << i_tmp
+    i_sentinel = 1
   end
+  i_sentinel = 1 if i == i_limit
+  i = i + 1
+  i_factor_tmp = i_factor_tmp - 1
 end
+
 puts "end getting primes"
 puts ""
 puts "getting prime factors..."
