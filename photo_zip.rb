@@ -229,6 +229,7 @@ def generate_zip(username, user_mail)
   fh.write "<style>\n"
   fh.write "body { font-family: Arial; }\n"
   fh.write "img{ width: auto; max-width: 300px; height: auto; max-height: 300px; }\n"
+  fh.write "td{ width: auto; max-width: 500px;}\n"
   fh.write "</style>\n"
   fh.write "</head>\n"
   fh.write "<body>\n"
