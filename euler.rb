@@ -84,10 +84,10 @@ puts "getting primes..."
 i_sentinel = 0
 i_limit = 5
 i = 0
-i_factor_tmp = i_factor
+i_factor_tmp = i_factor / 2
 
 while i_sentinel <= 0
-  puts i
+  puts "#{Time.now}: #{i}"
   i_tmp = primes(i_factor_tmp)
   if i_tmp > 0
     a << i_tmp
@@ -100,7 +100,7 @@ end
 
 puts "end getting primes"
 puts ""
-puts "getting prime factors..."
+puts "getting largest prime factor..."
 
 a.each do |prime|
 
