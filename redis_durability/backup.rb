@@ -20,7 +20,8 @@ File.open("./auth.yaml", "r") { |f|
 
 @settings = YAML::load(yamlstring)
 
-
+redis_db_dir = "/usr/local/var/db/redis/"
+redis_logger_db_dir = "/usr/local/var/db/redis/"
 
 begin
   redis = Redis.new
@@ -29,7 +30,7 @@ rescue => error
   exit
 end
 
-redis.set("test33","hello")
+redis.set("test33","a142f576525f22b3d739fe080c4cbfa2")
 
 puts redis.get("test33")
 
@@ -62,6 +63,13 @@ File.open("#{server_dir}/config/rubber/rubber-redis_logger.yml", "r") { |f|
 }
 @redis_logger_settings = YAML::load(yamlstring)
 
-puts @settings.inspect
-puts @redis_settings.inspect
-puts @redis_logger_settings.inspect
+puts rails_env
+unless rails_env == 'development'
+  puts @redis_settings['redis_logger_db_dir']
+  puts @redis_logger_settings['redis_logger_db_dir']
+  redis_db_dir = @redis_settings['redis_db_dir']
+  redis_logger_db_dir = @redis_logger_settings['redis_logger_db_dir']
+end
+
+puts redis_db_dir
+puts redis_logger_db_dir
