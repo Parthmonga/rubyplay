@@ -73,3 +73,46 @@ end
 
 puts redis_db_dir
 puts redis_logger_db_dir
+
+
+# copy files to s3
+
+def s3_db_upload(db_file, db_path)
+
+  begin
+    AWS::S3::Base.establish_connection!(
+      :access_key_id     => ENV['AWS_ACCESS_KEY_ID'],
+      :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
+    )
+  
+    AWS::S3::S3Object.store(db_file, open(db_path), 'r1EffectsWeb_backups', :access => :public_read)
+  rescue => error
+    puts "upload failed to s3"
+    puts error.inspect
+    exit
+  end
+  puts "uploaded to http://r1EffectsWeb_backups.s3.amazonaws.com/#{db_file}"
+
+
+end
+
+begin
+  s3_db_upload("dump.rdb",redis_db_dir + "dump.rdb")
+rescue => error
+end
+
+begin
+  s3_db_upload("appendonly.aof",redis_db_dir + "appendonly.aof")
+rescue => error
+end
+
+begin
+  s3_db_upload("dump_logger.rdb",redis_logger_db_dir + "dump_logger.rdb")
+rescue => error
+end
+
+begin
+  s3_db_upload("appendonly_logger.aof",redis_logger_db_dir + "appendonly_logger.aof")
+rescue => error
+  puts "s3_db_upload failure"
+end
