@@ -97,16 +97,12 @@ def s3_db_upload(db_file, db_path, rails_env)
 end
 
 s3_db_upload("dump.rdb",redis_db_dir + "dump.rdb", rails_env)
-puts "failed on dump.rdb"
 
 s3_db_upload("appendonly.aof",redis_db_dir + "appendonly.aof", rails_env)
-puts "failed on appendonly.aof"
 
 
 s3_db_upload("dump_logger.rdb",redis_logger_db_dir + "dump_logger.rdb", rails_env)
-puts "failed on dump_logger.rdb"
 
 
 s3_db_upload("appendonly_logger.aof",redis_logger_db_dir + "appendonly_logger.aof", rails_env)
-puts "failed on appendonly_logger.aof"
 
