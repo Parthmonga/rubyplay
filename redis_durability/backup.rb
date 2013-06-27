@@ -77,7 +77,7 @@ puts redis_logger_db_dir
 
 # copy files to s3
 
-def s3_db_upload(db_file, db_path)
+def s3_db_upload(db_file, db_path, rails_env)
 
   begin
     AWS::S3::Base.establish_connection!(
@@ -85,34 +85,35 @@ def s3_db_upload(db_file, db_path)
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     )
   
-    AWS::S3::S3Object.store(db_file, open(db_path), 'r1EffectsWeb_backups', :access => :public_read)
+    AWS::S3::S3Object.store(db_file, open(db_path), "#{@settings['bucket']}/#{rails_env}", :access => :public_read)
   rescue => error
     puts "upload failed to s3"
     puts error.inspect
     exit
   end
-  puts "uploaded to http://r1EffectsWeb_backups.s3.amazonaws.com/#{db_file}"
+  puts "uploaded to http://#{@settings['bucket']}.s3.amazonaws.com/#{rails_env}/#{db_file}"
 
 
 end
 
 begin
-  s3_db_upload("dump.rdb",redis_db_dir + "dump.rdb")
+  s3_db_upload("dump.rdb",redis_db_dir + "dump.rdb", rails_env)
 rescue => error
 end
 
 begin
-  s3_db_upload("appendonly.aof",redis_db_dir + "appendonly.aof")
+  s3_db_upload("appendonly.aof",redis_db_dir + "appendonly.aof", rails_en)
 rescue => error
 end
 
 begin
-  s3_db_upload("dump_logger.rdb",redis_logger_db_dir + "dump_logger.rdb")
+  s3_db_upload("dump_logger.rdb",redis_logger_db_dir + "dump_logger.rdb", rails_en)
 rescue => error
 end
 
 begin
-  s3_db_upload("appendonly_logger.aof",redis_logger_db_dir + "appendonly_logger.aof")
+  s3_db_upload("appendonly_logger.aof",redis_logger_db_dir + "appendonly_logger.aof", rails_en)
 rescue => error
   puts "s3_db_upload failure"
 end
+
