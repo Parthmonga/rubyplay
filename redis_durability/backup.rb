@@ -87,7 +87,7 @@ def s3_db_upload(db_file, db_path, rails_env)
   
     AWS::S3::S3Object.store(db_file, open(db_path), "#{@settings['bucket']}/#{rails_env}", :access => :public_read)
   rescue => error
-    puts "upload failed to s3"
+    puts "upload failed to s3 for #{db_file}, #{db_path}, #{rails_env}"
     puts error.inspect
     exit
   end
@@ -96,24 +96,17 @@ def s3_db_upload(db_file, db_path, rails_env)
 
 end
 
-begin
-  s3_db_upload("dump.rdb",redis_db_dir + "dump.rdb", rails_env)
-rescue => error
-end
+s3_db_upload("dump.rdb",redis_db_dir + "dump.rdb", rails_env)
+puts "failed on dump.rdb"
 
-begin
-  s3_db_upload("appendonly.aof",redis_db_dir + "appendonly.aof", rails_en)
-rescue => error
-end
+s3_db_upload("appendonly.aof",redis_db_dir + "appendonly.aof", rails_env)
+puts "failed on appendonly.aof"
 
-begin
-  s3_db_upload("dump_logger.rdb",redis_logger_db_dir + "dump_logger.rdb", rails_en)
-rescue => error
-end
 
-begin
-  s3_db_upload("appendonly_logger.aof",redis_logger_db_dir + "appendonly_logger.aof", rails_en)
-rescue => error
-  puts "s3_db_upload failure"
-end
+s3_db_upload("dump_logger.rdb",redis_logger_db_dir + "dump_logger.rdb", rails_env)
+puts "failed on dump_logger.rdb"
+
+
+s3_db_upload("appendonly_logger.aof",redis_logger_db_dir + "appendonly_logger.aof", rails_env)
+puts "failed on appendonly_logger.aof"
 
