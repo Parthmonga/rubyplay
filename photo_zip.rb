@@ -90,6 +90,9 @@ def newcaption(photo,i)
         caption = photo.text[0..20]
       end
       caption = caption.gsub(" ","_")
+      caption = caption.gsub("!","_")
+      caption = caption.gsub("'","_")
+      caption = caption.gsub('"',"_")
       caption = "_" + URI::encode(caption) + "_#{i}"
     end
   rescue => error
