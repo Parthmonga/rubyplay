@@ -1,7 +1,22 @@
 require 'rubygems'
 require 'twilio-ruby'
 require 'yaml'
+require 'optparse'
 
+def output_help
+  puts "usage: dragonsbreathe.rb -i imgfile -k memcache_key -n times"
+end
+
+opts = OptionParser.new
+OptionParser.new do |o|
+  o.on('-p PHONE') { |phone| $phone = phone}
+  o.on('-m MESSAGE') { |message| $message= message}
+  o.on('-h') { output_help; exit }
+  o.parse!
+end
+
+@phone   = phone
+@message = message
 
 yamlstring = ''
 File.open("./twilio.yaml", "r") { |f|
@@ -12,15 +27,19 @@ File.open("./twilio.yaml", "r") { |f|
 
 
 
+# puts @settings['tw_account_sid']
+# puts @settings['tw_auth_token']
 
 
-message = 'sup there'
 @tw_account_sid = @settings['tw_account_sid']
 @tw_auth_token  = @settings['tw_auth_token']
+@tw_phone       = @settings['tw_phone']
 
 @client = Twilio::REST::Client.new(@tw_account_sid, @tw_auth_token)
 
 
 @account = @client.account
-@message = @account.sms.messages.create({:from => '+15555555555', :to => '555-555-5454', :body => message})
+@message = @account.sms.messages.create({:from => @tw_phone, :to => @phone, :body => @message})
 
+puts @message
+puts @message.inspect
