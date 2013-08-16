@@ -33,7 +33,7 @@ ActiveRecord::Base.establish_connection(
     :adapter => "postgresql",
     :database => "#{@settings['database']}",
     :username => "#{@settings['username']}",
-    :password => "",
+    :password => "#{@settings['password']}",
     :host => "#{@settings['host']}",
     :port => @settings['port'],
     :pool => 8
@@ -319,4 +319,4 @@ def generate_zip(username, user_mail)
 
 end
 
-generate_zip('barce',@settings['email'])
+generate_zip('knmtkn62',@settings['email'])
