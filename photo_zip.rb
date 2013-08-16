@@ -16,6 +16,21 @@ require 'aws/s3'
 require 'archive/zip'
 require 'fileutils'
 require 'filemagic'
+require 'optparse'
+
+def output_help
+  puts "usage: photo_zip.rb -u username"
+end
+
+opts = OptionParser.new
+OptionParser.new do |o|
+  o.on('-u USER') { |user| $user= user}
+  o.on('-h') { output_help; exit }
+  o.parse!
+end
+
+@user = user
+
 
 yamlstring = ''
 File.open("./auth.yaml", "r") { |f|
@@ -319,4 +334,4 @@ def generate_zip(username, user_mail)
 
 end
 
-generate_zip('knmtkn62',@settings['email'])
+generate_zip(@user,@settings['email'])
