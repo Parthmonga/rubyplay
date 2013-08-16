@@ -1,22 +1,23 @@
+#!/usr/bin/env ruby
 require 'rubygems'
 require 'twilio-ruby'
 require 'yaml'
 require 'optparse'
 
 def output_help
-  puts "usage: dragonsbreathe.rb -i imgfile -k memcache_key -n times"
+  puts "usage: twilio.rb -p phone -m message" 
 end
 
 opts = OptionParser.new
 OptionParser.new do |o|
   o.on('-p PHONE') { |phone| $phone = phone}
-  o.on('-m MESSAGE') { |message| $message= message}
+  o.on('-m MESSAGE') { |message| $message = message}
   o.on('-h') { output_help; exit }
   o.parse!
 end
 
-@phone   = phone
-@message = message
+@phone   = $phone
+@message = $message
 
 yamlstring = ''
 File.open("./twilio.yaml", "r") { |f|
