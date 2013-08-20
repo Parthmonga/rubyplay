@@ -24,12 +24,12 @@ end
 
 opts = OptionParser.new
 OptionParser.new do |o|
-  o.on('-u USER') { |user| $user= user}
+  o.on('-u USER') { |user| $user = user}
   o.on('-h') { output_help; exit }
   o.parse!
 end
 
-@user = user
+@user = $user
 
 
 yamlstring = ''
