@@ -89,19 +89,25 @@ def get_followers(user_id)
     if result["pagination"]["next_cursor"].nil?
       i_sentinel = 0
     end
-    puts "followers: #{followers}"
+    puts "id: #{user_id} followers: #{followers}"
   end # while loop
   followers
 end
 
-me = Instagram.user('self')
+# me = Instagram.user('self')
+me = Instagram.user(3080417)
 puts me.id
-followers = get_followers(me.id)
-followings = get_followings(me.id)
+puts me.inspect
+
+# puts Instagram.user_search("igerssf")
+# puts Instagram.location_search("37.7808851","-122.3948632")
+# followers = get_followers(me.id)
+# followings = get_followings(me.id)
 
 
 # get_followers(282741) #mayhemstudios
 # get_followers(375151762) #
+get_followers(me.id)
 
 
 

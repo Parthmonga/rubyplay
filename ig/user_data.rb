@@ -27,9 +27,9 @@ end
 
 
 # 633269381 <-- gscalini
-# id = 633269381
+id = 633269381
 start_id = id
-finish_id = id + 2
+finish_id = id + 1000
 # me = Instagram.user(id)
 
 
@@ -42,9 +42,16 @@ html = "<h1>recent photos for #{id}</h1>"
 # puts html
 
 (start_id..finish_id).each do |id|
-  media_items = Instagram.user_recent_media(id)
-  media_item = media_items.first
-  puts DateTime.strptime(media_item.caption.created_time, "%s")
+  begin
+    media_items = Instagram.user_recent_media(id)
+    if media_items
+      media_item = media_items.first
+      puts DateTime.strptime(media_item.caption.created_time, "%s")
+    end
+  rescue => details
+    puts details.inspect
+  end
+  media_items = nil
 end
 
 # puts Instagram.user_search("gscalini")
