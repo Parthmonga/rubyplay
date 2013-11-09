@@ -19,7 +19,7 @@ require 'optparse'
 require 'json'
 
 
-API_KEY_FILE = '/Users/barce/apikeys/yelp_YWSID.txt'
+API_KEY_FILE = '/Users/newuser/repos/rubyplay/yelp_YWSID.txt'
 
 #
 #
@@ -65,12 +65,14 @@ class Cityyelp < Yelp
         value.each { |business|
           # puts business.inspect
           if business["name"] =~ /#{@rawquery}/i
-            puts "-----[" + business["name"] + "]-----"
-            puts business["address1"]
-            puts business["address2"]
-            puts business["mobile_url"]
-            puts business["url"]
-            puts 
+            # puts "-----[" + business["name"] + "]-----"
+            # puts business["address1"]
+            # puts business["address2"] if business["address2"].length > 0
+            # puts "#{business["city"]}, #{@state} #{business["zip"]}"
+            # puts business["mobile_url"]
+            # puts business["url"]
+            puts "#{business["latitude"]},#{business["longitude"]}"
+            # puts business.inspect
           end
         }
       end 
