@@ -1,0 +1,70 @@
+Script started on Fri Oct 11 17:12:40 2013
+[1m[7m%[27m[1m[0m                                                                                ]2;newuser@RadiumOnes-MacBook-Pro: ~/repos/rubyplay/ig]1;..s/rubyplay/ig[0m[27m[24m[J[36m┌[[01;37mnewuser[00m[36m☮[01;37mRadiumOnes-MacBook-Pro.local[00m[36m][37m-[36m([01;37m~/repos/rubyplay/ig[00m[36m)-[[00m[37mgit://[01;37mmaster [31m✗[00m[00m[36m]-
+└> [00m[Krruby ./get_followers.rb[1m [0m[0m 
+]2;ruby ./get_followers.rb]1;ruby{"client_id"=>"0677dd18af16474bbf9818ffce064618", "client_secret"=>"e71882a5f1454c9db0d0d1ed04a6ff6a", "access_token"=>"109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "host"=>"localhost", "port"=>5432, "database"=>"ig", "username"=>"newuser"}
+3080417
+#<Hashie::Mash bio="Follow 4 great pics & meetups! \nTag SF pics: #igerssf \nigerssf@gmail.com\nManIGers: @lpow88 @findingjudi @barce @throughthetinylens @reneeavargas" counts=#<Hashie::Mash followed_by=5910 follows=1105 media=743> full_name="Instagramers SF" id="3080417" profile_picture="http://images.ak.instagram.com/profiles/profile_3080417_75sq_1366528950.jpg" username="igerssf" website="http://www.photowalkit.com">
+https://api.instagram.com/v1/users/3080417/followed-by?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422&client_id=0677dd18af16474bbf9818ffce064618&count=100
+{"next_url"=>"https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1380001097760&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "next_cursor"=>"1380001097760"}
+1380001097760
+followers: 98
+https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1380001097760&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422
+{"next_url"=>"https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1378070184809&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "next_cursor"=>"1378070184809"}
+1378070184809
+followers: 195
+https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1378070184809&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422
+{"next_url"=>"https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1376897488546&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "next_cursor"=>"1376897488546"}
+1376897488546
+followers: 293
+https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1376897488546&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422
+{"next_url"=>"https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1375711634638&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "next_cursor"=>"1375711634638"}
+1375711634638
+followers: 384
+https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1375711634638&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422
+{"next_url"=>"https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1374261292651&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "next_cursor"=>"1374261292651"}
+1374261292651
+followers: 480
+https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1374261292651&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422
+{"next_url"=>"https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1372801382536&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "next_cursor"=>"1372801382536"}
+1372801382536
+followers: 564
+https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1372801382536&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422
+{"next_url"=>"https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1371356759976&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "next_cursor"=>"1371356759976"}
+1371356759976
+followers: 656
+https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1371356759976&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422
+{"next_url"=>"https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1368898940797&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "next_cursor"=>"1368898940797"}
+1368898940797
+followers: 749
+https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1368898940797&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422
+{"next_url"=>"https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1366605147122&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "next_cursor"=>"1366605147122"}
+1366605147122
+followers: 844
+https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1366605147122&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422
+{"next_url"=>"https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1364466172888&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "next_cursor"=>"1364466172888"}
+1364466172888
+followers: 938
+https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1364466172888&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422
+{"next_url"=>"https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1362061567831&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "next_cursor"=>"1362061567831"}
+1362061567831
+followers: 1033
+https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1362061567831&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422
+{"next_url"=>"https://api.instagram.com/v1/users/3080417/followed-by?count=100&cursor=1358250824698&client_id=0677dd18af16474bbf9818ffce064618&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422", "next_cursor"=>"1358250824698"}
+1358250824698
+^C/Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.13/lib/active_support/core_ext/class/attribute.rb:81:in `block (2 levels) in connection_handler=': Interrupt
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.13/lib/active_record/relation/delegation.rb:7:in `connection'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.13/lib/active_record/relation/finder_methods.rb:335:in `find_one'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.13/lib/active_record/relation/finder_methods.rb:314:in `find_with_ids'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.13/lib/active_record/relation/finder_methods.rb:107:in `find'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.13/lib/active_record/querying.rb:5:in `find'
+	from ./get_followers.rb:74:in `block in get_followers'
+	from ./get_followers.rb:71:in `each'
+	from ./get_followers.rb:71:in `get_followers'
+	from ./get_followers.rb:110:in `<main>'
+
+[1m[7m%[27m[1m[0m                                                                                ]2;newuser@RadiumOnes-MacBook-Pro: ~/repos/rubyplay/ig]1;..s/rubyplay/ig[0m[27m[24m[J[36m┌[[01;37mnewuser[00m[36m☮[01;37mRadiumOnes-MacBook-Pro.local[00m[36m][37m-[36m([01;37m~/repos/rubyplay/ig[00m[36m)-[[00m[37mgit://[01;37mmaster [31m✗[00m[00m[36m]-
+└> [00m[K
+
+Script done on Fri Oct 11 17:13:02 2013

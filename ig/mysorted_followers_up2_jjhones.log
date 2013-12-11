@@ -1,0 +1,2661 @@
+Script started on Fri Nov  1 18:43:03 2013
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    ]2;newuser@r1barce: ~/repos/rubyplay/ig]1;..s/rubyplay/ig[0m[27m[24m[J[36m┌[[01;37mnewuser[00m[36m☮[01;37mr1barce.local[00m[36m][37m-[36m([01;37m~/repos/rubyplay/ig[00m[36m)-[[00m[37mgit://[01;37mmaster [31m✗[00m[00m[36m]-
+└> [00m[Krruby bigdata_igerssf.rb[1m [0m[0m 
+]2;ruby bigdata_igerssf.rb]1;ruby#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/940786.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/14999222.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+109:0otaht:130:0.8384615384615385
+479:110110100101one:1110:0.4315315315315315
+1252:1197:109:11.486238532110091
+2343:123shoutouts12345:6403:0.3659222239575199
+165:15pacifichts:228:0.7236842105263158
+22:17jassy:378:0.0582010582010582
+7843:19dotdot:33215:0.2361282553063375
+135:1_world:524:0.25763358778625955
+20:1bluecanoe:26:0.7692307692307693
+14:1dfanpage_xo:140:0.1
+867:1sfgiant:890:0.9741573033707865
+309:1smileylindsay:707:0.43705799151343705
+130:2013sfgiants:165:0.7878787878787878
+1739:2_mini_blobs:7059:0.2463521745289701
+43:2cauldrons:45:0.9555555555555556
+40:2cute_3000:166:0.24096385542168675
+7885:2instagood:3878:2.0332645693656524
+238:2macs:204:1.1666666666666667
+8789:365ml:29860:0.29434025452109847
+27:37_degrees:144:0.1875
+810:3ypanda:869:0.9321058688147296
+144:415lauren:114:1.263157894736842
+711:420highmaintenance:1459:0.4873200822481151
+48:446_kuwait:118:0.4067796610169492
+820:4blankwalls:195:4.205128205128205
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/762452.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1670:4fifteen:1795:0.9303621169916435
+586:538z_kevintylermuncy:477:1.228511530398323
+5:5421948qwer:28:0.17857142857142858
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/445920499.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+701:666flinn:1570:0.4464968152866242
+416:6m:339:1.2271386430678466
+2167:6xth_sense:323:6.708978328173375
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/201152260.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+8816:7x7sf:941:9.36875664187035
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/178174289.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+111:91savannah:293:0.378839590443686
+3084:93still:518:5.953667953667954
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/749590.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+159:94thday:118:1.347457627118644
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/49088300.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+547:___________poop:688:0.7950581395348837
+1433:____mawi:808:1.7735148514851484
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3081231.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/190477791.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/184931906.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/16584912.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+514:_anthonyjames21:755:0.680794701986755
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/18337358.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+344:_bigjerm:742:0.4636118598382749
+572:_bitchimdope_98:1526:0.3748361730013106
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/17909013.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6915282.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+740:_brushed_:387:1.9121447028423773
+1176:_bydistance:771:1.5252918287937742
+988:_ccc:240:4.116666666666666
+476:_chasmarie:627:0.759170653907496
+155:_cheerperfect:166:0.9337349397590361
+789:_christalized:285:2.768421052631579
+58:_ckye_:67:0.8656716417910447
+281:_cloudstagram__:451:0.623059866962306
+2012:_converse2013_:7307:0.27535240180648696
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/22558580.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+4679:_eecards:5490:0.8522768670309654
+883:_fxg_:754:1.1710875331564987
+369:_gaia:679:0.5434462444771723
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/269838784.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1460:_glittercore_:6046:0.24148197155143897
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/229752500.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+333:_h_i_b_o_u_:165:2.018181818181818
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1504699.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+777:_how_many_followers_can_i_get_:2019:0.3848439821693908
+392:_inspirationconspiracy:199:1.9698492462311559
+498:_insta5am:825:0.6036363636363636
+13:_j0hny_:59:0.22033898305084745
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1393165.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2170:_jenbeezy_:909:2.3872387238723873
+255:_jessica_e:178:1.4325842696629214
+626:_jmax:695:0.9007194244604316
+448:_jsinstagram:506:0.8853754940711462
+1371:_leoalg_:4102:0.3342272062408581
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/39352557.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3100418.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/15598420.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+243:_marianamr:318:0.7641509433962265
+58:_mattropolis_:195:0.29743589743589743
+2195:_megan_smith_524:5183:0.42349990353077366
+985:_melissuhh:285:3.456140350877193
+3907:_melsworld:7339:0.5323613571331244
+570:_missee_:596:0.9563758389261745
+392:_mommysaurus_:228:1.719298245614035
+48:_mrlavelle:111:0.43243243243243246
+233:_mybelle_:216:1.0787037037037037
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/190575775.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/28173566.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2650:_nycalling_:1895:1.3984168865435356
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6346439.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/259473301.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/385814312.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2702:_pavilion_:7077:0.3818001978239367
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/19276276.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+467:_raggedy_anne_:475:0.9831578947368421
+10:_real:8:1.25
+343:_reckoner:3378:0.1015393724097099
+504:_rem:482:1.045643153526971
+345:_ryooster:181:1.9060773480662982
+478:_sarahviva_:1276:0.37460815047021945
+90:_sarawaters:94:0.9574468085106383
+771:_sassyassy:387:1.9922480620155039
+561:_suz4nne_:270:2.077777777777778
+287:_tb1_:469:0.6119402985074627
+223:_terminallychill:198:1.1262626262626263
+900756:_the_shining_:3924043:0.2295479432819671
+219:_translation_clothing:1032:0.21220930232558138
+992:_vince_larson_:525:1.8895238095238096
+256:_ycats:449:0.5701559020044543
+142:_zach_:162:0.8765432098765432
+48:a______mac:477:0.10062893081761007
+1972:a_curry:367:5.3732970027247955
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/11936857.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+4836:a_new_follower_just:14092:0.34317343173431736
+79:a_world_of_origami:265:0.2981132075471698
+712:aaarecruiternet:1838:0.38737758433079433
+260:aaelmaghraby:273:0.9523809523809523
+1901:aag1980:261:7.283524904214559
+274:aalexrg:711:0.3853727144866385
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1682522.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+145:aaronlapierre:102:1.4215686274509804
+53:abandon_downtown:62:0.8548387096774194
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1170609.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1167:abbyleaprice:3037:0.3842607836680935
+49649:abdel2mars:211459:0.23479256025990855
+1896:abdul102:6998:0.27093455272935124
+377:abelyakin:124:3.0403225806451615
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/143920132.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5006662.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2255975.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+6153:abresler:19864:0.30975634313330647
+546:abriilnrvz:3617:0.1509538291401714
+97651:abstractioninaction:278120:0.35111103120954984
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/569470582.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+60:abulyk:174:0.3448275862068966
+805:abvista:252:3.1944444444444446
+203:acaciawould:504:0.4027777777777778
+2466:acalde:2360:1.0449152542372881
+899:acebunz:2577:0.34885525805199846
+708:aceymac:1915:0.3697127937336815
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/31155412.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+231:achinsf:132:1.75
+1092:acquire_aesthetics_:272:4.014705882352941
+554:actandreact:312:1.7756410256410255
+1941:actividadesig:4042:0.4802078179119248
+118988:adambouska:97603:1.2191018718686926
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/31315708.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+371:addamalaide:1044:0.3553639846743295
+250:addendum24:1000:0.25
+475:additivela:1016:0.4675196850393701
+960:adellerussell_:1996:0.48096192384769537
+165:adelynsf:59:2.7966101694915255
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/75185.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3546591.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+66:aditikar:32:2.0625
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/101059.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+402:admarca:617:0.6515397082658023
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1240789.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+161:adnanyoga:31:5.193548387096774
+766:adobebookshop:1917:0.3995826812728221
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/13554398.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2441:adrienney:436:5.598623853211009
+1326:adry_sc:1411:0.9397590361445783
+93:adrycreazioni:314:0.2961783439490446
+730:adventure_refugee:386:1.8911917098445596
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/113017.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+257:advertisingpeace:168:1.5297619047619047
+3534:ady_rian:1465:2.4122866894197954
+394:aecutting:312:1.2628205128205128
+581:aenimated:898:0.6469933184855234
+163:aesthetiikx:649:0.25115562403698
+40:agatarco:98:0.40816326530612246
+84:agirlandherhill:67:1.2537313432835822
+527:agnivaroy:7500:0.07026666666666667
+472:aguseji:582:0.8109965635738832
+854:agwilsonphotos:574:1.4878048780487805
+124:ahmedvip101:896:0.13839285714285715
+84:aidahmj:171:0.49122807017543857
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5065483.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+190:aikodesigns:146:1.3013698630136987
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/291365620.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+4463:ailoves:334:13.362275449101796
+535:aim2run:355:1.5070422535211268
+250:aimeesf:256:0.9765625
+154:aimupsiewuddly:149:1.0335570469798658
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/41319627.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+502:airikabadu:459:1.093681917211329
+332:airunart:134:2.4776119402985075
+513:ajapopfilms:486:1.0555555555555556
+18465:ajd01:46908:0.39364287541570736
+1989:ajgalvan408:832:2.390625
+198:ajmpharma:640:0.309375
+393:ajsilva33:581:0.6764199655765921
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/9074224.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+242:akaroteuthis:666:0.3633633633633634
+264:akates:223:1.1838565022421526
+86:akayna:42:2.0476190476190474
+172:akifmalik:526:0.3269961977186312
+61:akingkiwi:72:0.8472222222222222
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5246952.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+20:akr1028:44:0.45454545454545453
+113:akshetty27:1817:0.06219042377545404
+440:akudhani:522:0.842911877394636
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2454068.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+4838:alabamasboy:4372:1.106587374199451
+631:alainabubayna:500:1.262
+313:alanap13:425:0.7364705882352941
+361:alanmpenner:492:0.733739837398374
+1830:alanxalves:5385:0.3398328690807799
+1923:alastormspotter:2969:0.6476928258672954
+495:alba_roig:202:2.4504950495049505
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10809834.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+261:alcox:48:5.4375
+228:aldemono:141:1.6170212765957446
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/7739641.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+154:alearaujor:540:0.2851851851851852
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/375878464.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+51:aleeshloo:203:0.2512315270935961
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/7972789.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/37365156.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1328392.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+225:aleksandrholm:340:0.6617647058823529
+639:alessandrp:1178:0.5424448217317487
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1608046.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4813076.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+286:alexanderbosika:1631:0.1753525444512569
+127:alexandereley:74:1.7162162162162162
+718:alexanderfb:619:1.1599353796445881
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/180899864.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+182:alexandracefalu:518:0.35135135135135137
+371:alexandradlcc:394:0.9416243654822335
+567:alexandrareina:848:0.6686320754716981
+285:alexballard:183:1.5573770491803278
+254:alexbambery:202:1.2574257425742574
+390:alexcabansagan:213:1.8309859154929577
+473:alexhophoto:326:1.450920245398773
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/27289417.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+233:alexisjs:199:1.170854271356784
+20:alexjabber:105:0.19047619047619047
+627:alexlazarus:462:1.3571428571428572
+763:alexlexson:417:1.829736211031175
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1011966.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+244:alexmax21:207:1.178743961352657
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/189033097.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+24:alfruiveloso:27:0.8888888888888888
+846:ali_harry:226:3.743362831858407
+6516:aliathingy:619:10.526655896607432
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/24235192.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+296779:aliceandolivia:456:650.8311403508771
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/185467331.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/9759000.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+461:alicesf:254:1.81496062992126
+862:alicesfc:660:1.3060606060606061
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/177645454.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/258247067.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/394318.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+437:alienbaby:171:2.5555555555555554
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5798307.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/24174979.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+4996:aljotambourine:2590:1.928957528957529
+6:all_for_youu:93:0.06451612903225806
+683:allanbascara:488:1.3995901639344261
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/22861990.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2105:allaroundus:5409:0.3891662044740248
+1305:allbingeandnopurge:452:2.8871681415929205
+2367:allenc0:272:8.702205882352942
+216:allenfdavis:1027:0.2103213242453749
+544:allformzzz:662:0.8217522658610272
+320:allgolderrythaang:563:0.5683836589698046
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3677387.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+602:allis0nshine:398:1.5125628140703518
+10830:allisniw:38013:0.28490253334385607
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/52696461.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+147:ally8_8:117:1.2564102564102564
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/178294607.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2053:almrar99:4380:0.46872146118721464
+661:alohadev:1007:0.6564051638530288
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1416876.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1205:alxur_:210:5.738095238095238
+3952:alyfromuk2us:1147:3.4455100261551874
+248:alyssacourtneygruhn:121:2.049586776859504
+757:alyssajenkins:483:1.5672877846790891
+56:alyssajmontie:197:0.28426395939086296
+1680:alyssakiefer:741:2.2672064777327936
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/221497.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+272:amalinarox:201:1.3532338308457712
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/30881197.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+345:amandob:213:1.619718309859155
+962:amanik:1507:0.6383543463835435
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/196296264.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+421:amart650:284:1.482394366197183
+1526:amazing_embb:3387:0.4505462060820785
+12:amazing_photos24:42:0.2857142857142857
+260:ambriiiia:242:1.0743801652892562
+1734:ameliavazquezm:3321:0.5221318879855466
+2864:americanvictory:2954:0.969532836831415
+15781:americascup:42:375.73809523809524
+853:amg_82:3474:0.245538284398388
+324:amgoodw74:1016:0.3188976377952756
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3094662.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+122:aminafo:306:0.39869281045751637
+5:amiraww8:39:0.1282051282051282
+919:amitsingh5:319:2.8808777429467085
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4098816.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/223323161.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/7287395.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+149:amphibrus:97:1.5360824742268042
+763:amsterdaminstagram:488:1.5635245901639345
+87:amy_maimee:224:0.38839285714285715
+3:amyshmitca:86:0.03488372093023256
+640:amywhiggins:397:1.6120906801007557
+1819:anaaa_resende:3099:0.5869635366247177
+88:anabelle_m_:301:0.292358803986711
+396:anaca24:847:0.4675324675324675
+2453:anahenriquetavillela:7029:0.3489827856025039
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/19933974.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+3271:anastasiaolivia:398:8.21859296482412
+45251:anatoliimaf:201002:0.22512711316305312
+251:anavega05:197:1.2741116751269035
+149:ancaulea:122:1.221311475409836
+1455:anchari:501:2.904191616766467
+532:andilanggeng:1376:0.3866279069767442
+1281:andipandicandy:112:11.4375
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/34002043.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2240:andradexcobain:681:3.28928046989721
+172:andre_pinne:1381:0.12454742939898625
+605:andreamc:224:2.700892857142857
+4193:andreasleah:14170:0.29590684544812984
+427:andrebeh:1075:0.3972093023255814
+2418:andreialta:893:2.707726763717805
+1072:andressaprizmic:592:1.8108108108108107
+137:andressspp:268:0.5111940298507462
+21141:andrew5050:34505:0.6126938124909433
+1054:andrew_kung:373:2.8257372654155497
+921:andrew_shah:603:1.527363184079602
+542:andrew_skis:886:0.6117381489841986
+4820:andreweek:5775:0.8346320346320346
+816:andreweggers:661:1.2344931921331317
+3991:andrography:10515:0.37955301949595815
+1088:andrybrew:647:1.6816074188562598
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/49782813.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+110:andtoeknee:177:0.6214689265536724
+1499:andy_californiablue:1355:1.1062730627306272
+461:andydu123:2910:0.1584192439862543
+234:andygyo:268:0.8731343283582089
+1496:andyinfran:1725:0.8672463768115942
+112:andyleone225:84:1.3333333333333333
+575:andymoog137:733:0.7844474761255116
+905:andys857:4303:0.2103183825238206
+27:anekgrg:83:0.3253012048192771
+175:anestazz:303:0.5775577557755776
+266:angcolette:228:1.1666666666666667
+688:angelo_phoenix:2349:0.29289059174116644
+3997:angelocoffy:10968:0.3644237782640408
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10693785.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+13:ani_ani12345:101:0.12871287128712872
+69:aniafo:108:0.6388888888888888
+442:animelstore:865:0.5109826589595375
+502:anishbhasin:357:1.4061624649859943
+583:anitachu:134:4.350746268656716
+1974:anitanicoleestrada:5655:0.34907161803713527
+64:anitanita67:112:0.5714285714285714
+13:anjameni:59:0.22033898305084745
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10790055.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+416:annaalf:483:0.8612836438923396
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2760316.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1042:annaritaclick:184:5.663043478260869
+53339:annasparklesuk:154132:0.34606051955466743
+89:annatvitti:67:1.328358208955224
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1307698.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+233:anners2000:155:1.5032258064516129
+164:anneschultz128:144:1.1388888888888888
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/200162813.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1476744.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+169:anniecat:141:1.198581560283688
+173:anniehepburn:278:0.6223021582733813
+2486:anniejohnson14:4062:0.6120137863121615
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1642739.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+707:annimated:261:2.7088122605363987
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2619416.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+191:anotherhat:128:1.4921875
+173:antheabucon:742:0.23315363881401618
+12801:anthonyaye:976:13.11577868852459
+596:anthonycontroversy:426:1.3990610328638498
+7175:anthonyquintano:3054:2.3493778650949575
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1629842.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1072:antik5:1002:1.0698602794411178
+270:antipasfoto:182:1.4835164835164836
+253:antitdope:244:1.0368852459016393
+1105:antny:2373:0.46565528866413824
+588:antocadei:584:1.0068493150684932
+105:antoniobaez:94:1.1170212765957446
+468:antoniogarcia:398:1.1758793969849246
+693:antony12:366:1.8934426229508197
+304:antpant:280:1.0857142857142856
+192:anyacleopatra:252:0.7619047619047619
+1209:aohan44:2628:0.4600456621004566
+290:aoingoboingo:211:1.3744075829383886
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8479946.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+543:apeigz:343:1.5830903790087463
+298:apet1234:255:1.1686274509803922
+50:apichai_ket:452:0.11061946902654868
+55:applebutterhq:182:0.3021978021978022
+2653:appleman007:6605:0.401665404996215
+39:applepihopes:22:1.7727272727272727
+114:aprilhe:52:2.1923076923076925
+1263:aprilventures:969:1.303405572755418
+1947:aprilwitch:967:2.013443640124095
+410:aquamarine36:370:1.1081081081081081
+338:arafter:247:1.368421052631579
+227:arapeta_graham:316:0.7183544303797469
+2555:arashizzy:6543:0.3904936573437261
+214:archisara:195:1.0974358974358975
+89:arcie10co:132:0.6742424242424242
+953:areohbeezy:986:0.9665314401622718
+190:ariana_therealdeal:815:0.2331288343558282
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6129191.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1009:arielvillasenor:519:1.9441233140655105
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/188215664.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+8420:aristocrazy:72:116.94444444444444
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1760594.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+450:arkintan:972:0.46296296296296297
+302:arleneh1231:3703:0.0815554955441534
+1185:armandolopes:2609:0.4541970103487926
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5792051.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+494:aroseo:321:1.5389408099688473
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/219783040.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+635:arthlete:1192:0.5327181208053692
+479:artnok_a:948:0.5052742616033755
+2147:artpassword:6653:0.3227115586953254
+4774:artsykevin:18479:0.2583473131662969
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/16493087.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+336:artthroughmylens:734:0.45776566757493187
+896:ashbovay:1495:0.5993311036789297
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/28600572.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+69:asherbakehouse:28:2.4642857142857144
+39:ashernahmani:191:0.20418848167539266
+612:ashkan_j:393:1.5572519083969465
+363:ashleygardini:236:1.5381355932203389
+268:ashleyvf:309:0.8673139158576052
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6929347.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1892201.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/41073100.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3702169.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6717596.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+622:asianthehun:449:1.3853006681514477
+579:askdzign:617:0.9384116693679092
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/208360274.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+829:aslihansolo:408:2.031862745098039
+1265:asmblyhall:417:3.0335731414868103
+85:asod6:258:0.32945736434108525
+323:asqew_1:200:1.615
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4211293.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1492:assrule:3817:0.3908828923238145
+8556:astroknotcloth:41283:0.2072523799142504
+83:asylumhk:72:1.1527777777777777
+252:atang312:179:1.4078212290502794
+491:ataylor32:450:1.0911111111111111
+180:atecupcakes:115:1.565217391304348
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5467297.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+323:athousandstars:243:1.3292181069958848
+378:atishp:366:1.0327868852459017
+309:atjustinsf:129:2.395348837209302
+520:atomiccimota:583:0.8919382504288165
+104:aturdido:89:1.1685393258426966
+341:au_courant:333:1.024024024024024
+1657:audibletreats:500:3.314
+51:audio_escapades:74:0.6891891891891891
+265:audioslave_:219:1.2100456621004567
+501:audisanave:2295:0.21830065359477124
+2512:audreygizmo:2812:0.8933143669985776
+1465:audreyspix:385:3.8051948051948052
+4897:auramavega:4585:1.0680479825517994
+397:austinmckeon:180:2.2055555555555557
+402:autumnbbg:339:1.1858407079646018
+76:autumner:80:0.95
+972:avajuson:193:5.036269430051814
+717:avasradiance:720:0.9958333333333333
+37:avcr8teur:61:0.6065573770491803
+1147:avecluc:6578:0.17436910915171785
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/202492899.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+308:avossestrada:484:0.6363636363636364
+41:avramc:69:0.5942028985507246
+1487:avriyu:1498:0.992656875834446
+1018:awesome7789:1903:0.534944823962165
+9:awewonder:4:2.25
+724:awkwardeleni:1465:0.49419795221843005
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/195459001.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+63:axisworks:99:0.6363636363636364
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/46077238.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+393:ayahthetiger:313:1.255591054313099
+871:aye_p:522:1.6685823754789273
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/899856.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+89:ayitsthatoneguy:115:0.7739130434782608
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/14950896.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2142282.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+941:aylishelectron:2668:0.35269865067466266
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1895424.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+24:ayoo_asian:195:0.12307692307692308
+474:aysemsahika:346:1.369942196531792
+1524:ayuuzein:578:2.6366782006920415
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/277657.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2842018.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2072514.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+3315:b_planetearth:6755:0.49074759437453735
+210:ba17anna:292:0.7191780821917808
+92:babygirlsoturf:92:1.0
+492:babypics:603:0.8159203980099502
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/13825354.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+76:backup111111111:209:0.36363636363636365
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10928438.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+188:bak_lava:951:0.19768664563617244
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/11968035.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1627:baldguy_jayr:4593:0.354234704985848
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10831976.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+74:bam618:200:0.37
+1011:bananaboy111:3398:0.2975279576221307
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/50799107.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+7:barbiegirl7777:56:0.125
+125:barbirite:189:0.6613756613756614
+1036:barce:700:1.48
+215:barez84:1004:0.21414342629482072
+4601:barney____:6640:0.692921686746988
+502:barry_buck:187:2.6844919786096257
+455:barry_sandwich:316:1.4398734177215189
+1964:barusht98:4061:0.48362472297463677
+557:basilandtime:567:0.982363315696649
+1605:basshop:4516:0.35540301151461473
+2234:bathroomfinds:4045:0.5522867737948084
+2584:bauingenieur_m:6561:0.39384240207285476
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/279503679.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+13558:bayarea_bullies:1294:10.47758887171561
+85:bayarea_collective:39:2.1794871794871793
+804:bayareawagn:1297:0.6198920585967618
+219:baymeadows:516:0.42441860465116277
+1163:bazkazoo:2090:0.5564593301435407
+189:bbamok:173:1.092485549132948
+227:bbdodd:361:0.628808864265928
+16530:bbenlv:82484:0.20040250230347703
+250:bbleu:385:0.6493506493506493
+377:bbvittoria:610:0.6180327868852459
+358:bcoffman:173:2.069364161849711
+630:bcorpuz:708:0.8898305084745762
+4782:bdarcy:259:18.463320463320464
+286:bdon101:273:1.0476190476190477
+1653:beachbungalow8:801:2.0636704119850187
+715:beachlovinyogi:259:2.7606177606177607
+398:beanieboy:228:1.7456140350877194
+3274:beardedwolf:1001:3.2707292707292708
+342:beautifulme101luv:849:0.4028268551236749
+100:beautybalisilverjewelry:207:0.4830917874396135
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3653310.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+648:beccyeve:1050:0.6171428571428571
+1416:beckczar:1376:1.0290697674418605
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/21845387.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/56182411.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+701:beetlejuicer:6065:0.11558120362737016
+1344:beetulip:495:2.7151515151515153
+1319:behindbarsinc:365:3.6136986301369864
+522:bein_fresh12:403:1.2952853598014888
+2117:bekimdemo:566:3.7402826855123674
+443:bel_skee:273:1.6227106227106227
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1559854.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+98:believeinu:392:0.25
+61:bella15999:249:0.24497991967871485
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/213700.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/19840305.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+585:belllaaboo:207:2.8260869565217392
+159:benbuch:112:1.4196428571428572
+686:benisdname:117:5.863247863247863
+3538:benitez__shots:232:15.25
+734:benkeogh:326:2.2515337423312882
+59:benkrompak:120:0.49166666666666664
+131:bennzy:99:1.3232323232323233
+462:bentrerestaurant:4182:0.11047345767575323
+615:benvenadi:806:0.7630272952853598
+1429:ber_to:1211:1.1800165152766309
+350:berniagacom:157:2.229299363057325
+387:bernie1993:440:0.8795454545454545
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/788456.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+25:bertosuaves:238:0.10504201680672269
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1445058.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+95:bespokemurphy:152:0.625
+431:best_username_ever:1126:0.3827708703374778
+1177:bestthings4free:3712:0.31707974137931033
+2944:bethanyewens:6926:0.4250649725671383
+628:bethanythephotographer:472:1.3305084745762712
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/16052691.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/14759588.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+4211:beto_rea:9314:0.4521150955550784
+447:betseywalnutcreek:80:5.5875
+136:bev_sf:267:0.5093632958801498
+411:bexaoanan:488:0.8422131147540983
+564:beyondarchitect:521:1.0825335892514396
+553:beyoutifulinspirtation:2626:0.2105864432597106
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/14507850.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1331403.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+216:bheybeluv:348:0.6206896551724138
+1702:bianca_gege:1426:1.1935483870967742
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/304054191.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+663:bieberloviee:1381:0.48008689355539463
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/14315190.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+156:big_olred:121:1.2892561983471074
+46201:bigfoot227:139319:0.33162023844558175
+4:bigkevsnapz:28:0.14285714285714285
+2275:bigloubruno:1529:1.4879005886200132
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1868922.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1365484.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1615:bigrich1118:4095:0.39438339438339437
+418:bigshop:162:2.580246913580247
+532:bigwinter:199:2.6733668341708543
+797:bilal:229:3.480349344978166
+2803:bilbaoarchitecture:618:4.535598705501618
+105030:bill:817:128.55569155446756
+40:billdraw:206:0.1941747572815534
+2199:biller3c:4691:0.4687699850778086
+9:billiebonga:11:0.8181818181818182
+608:billmorris3343:629:0.9666136724960255
+878:billsophoto:1124:0.7811387900355872
+1371:billurkazaz:604:2.269867549668874
+433:billycraig:628:0.6894904458598726
+2024:binbaa:946:2.13953488372093
+710:birdlopezs:997:0.7121364092276831
+866:bit8dos:1257:0.6889419252187748
+117:bitlikedi:25:4.68
+574:bitzybetsy:295:1.9457627118644067
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/20763807.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1851:bklynsteve67:7445:0.24862323707186032
+364:bkriegerm:349:1.0429799426934097
+57:blackeyetheblog:84:0.6785714285714286
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/7096941.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+6387:blaineorific:351:18.196581196581196
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/16136620.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+257:blakerh:373:0.6890080428954424
+328:blanca396:565:0.5805309734513274
+645:blassalle:749:0.8611481975967957
+229:blatantgizmo:196:1.1683673469387754
+635:blaze4daze420:888:0.7150900900900901
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/17958368.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+83:blazeremy:73:1.1369863013698631
+563:blazingbeauty420:695:0.8100719424460432
+30038:blipoint:120052:0.250208243094659
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/14726051.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+204:blor1:210:0.9714285714285714
+64:blow_my_whistle333:81:0.7901234567901234
+18:bluebottleoctopus:223:0.08071748878923767
+569:bluedreaam:288:1.9756944444444444
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4182903.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+20:blvckskorpio:78:0.2564102564102564
+1595:blylan:412:3.871359223300971
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5486631.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+738:bndida:709:1.0409026798307475
+417:bntra:282:1.4787234042553192
+983:bob_dunk:3159:0.3111744222855334
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1573992.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+101651:bobbyfresh:445394:0.22822714270960093
+483:bobferes:524:0.9217557251908397
+449:bobno:2312:0.19420415224913495
+1566:bobolol17:3350:0.46746268656716417
+172:bobsayshi:568:0.3028169014084507
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/652444.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+103:bomstudios:72:1.4305555555555556
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/36344.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+381:bongarang:230:1.6565217391304348
+125:boniedente:319:0.39184952978056425
+109:bontastica:145:0.7517241379310344
+109:bonzai_23:713:0.15287517531556802
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/17312862.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+27:bootsandcatss:185:0.14594594594594595
+140:bored_3_6_9_7_55557473:241:0.5809128630705395
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/18641303.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2215579.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+217:bos2sfo:287:0.7560975609756098
+343:boscohotstep:351:0.9772079772079773
+66:bossandnova:54:1.2222222222222223
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/481612352.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+7077:bostonmixdrink:1368:5.173245614035087
+2560:bowielectric:991:2.5832492431886984
+679:boxorain:562:1.208185053380783
+1103:boythe:6850:0.16102189781021897
+125:brad_ley808:64:1.953125
+870:bradley177:151:5.76158940397351
+820:bradromano:233:3.51931330472103
+73:bradvertising:33:2.212121212121212
+258:brainchow:1076:0.23977695167286245
+1676:brainstorms:1114:1.5044883303411132
+1977:brakethrough_jf:993:1.9909365558912386
+415:brandondeno:213:1.948356807511737
+1130:brandonscales:206:5.485436893203883
+1768:brat0528:3653:0.48398576512455516
+27:braxtol:20:1.35
+392:brazilmaravilha:686:0.5714285714285714
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/190550978.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+499:breeaea:387:1.2894056847545219
+81:brendcurran:81:1.0
+493:brenomelo91:489:1.0081799591002045
+3131:brettkb:246:12.727642276422765
+213:brettyborch:288:0.7395833333333334
+1559:brhau:179:8.70949720670391
+517:brianholliday:521:0.9923224568138196
+81:brianshall:158:0.5126582278481012
+1282:bribruce:3637:0.3524883145449546
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/14329773.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/177587695.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5860010.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1856:brieformaggio:1611:1.1520794537554313
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1666731.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+89:brijeshkothary:85:1.0470588235294118
+271:brillmatic:996:0.2720883534136546
+3435:britique:6277:0.5472359407360204
+482:britneyk:191:2.5235602094240837
+1573:britneyleigh_xo:3186:0.49372253609541744
+236:britnicole4:230:1.0260869565217392
+65:britnirauch:133:0.48872180451127817
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/12228936.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+756:brmamew:1543:0.4899546338302009
+134:brockarazzi92:236:0.5677966101694916
+271:bromosexual:243:1.1152263374485596
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/221226616.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/20723557.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+111:brooked92:138:0.8043478260869565
+1:brookehicksbn15:10:0.1
+1153:brooklynnoelle55:5635:0.20461401952085181
+547:brownie_treats:267:2.048689138576779
+36:brrdybrain:43:0.8372093023255814
+39:brtome:319:0.12225705329153605
+255:brucedorman:359:0.7103064066852368
+606:brunch_life:1012:0.5988142292490118
+284:bruneicam:212:1.3396226415094339
+4754:brunika:2022:2.351137487636004
+69:brunoribeiro0705:571:0.12084063047285463
+46:bryannale26:88:0.5227272727272727
+741:bryanw62:701:1.0570613409415122
+2913:brycechristianking:8908:0.32700942972608893
+260:brynndenyse12:435:0.5977011494252874
+476:bryrocks:691:0.6888567293777135
+214:btummy82:225:0.9511111111111111
+232:bubblechick2012:847:0.27390791027154665
+9:bubbly_silly_spiller:139:0.06474820143884892
+46612:bubblydeadpan:1283:36.33047544816836
+1412:budgetplaces:382:3.696335078534031
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8386791.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1848479.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+198:builttoride:412:0.48058252427184467
+95:bullylady:156:0.6089743589743589
+1002:bun_mano:288:3.4791666666666665
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/30703299.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+229:burdi:210:1.0904761904761904
+391:burgerjawn:358:1.0921787709497206
+97:burnforce:24:4.041666666666667
+133:burning_panda_:228:0.5833333333333334
+691:burstburst:2215:0.31196388261851016
+4794:buythefashion:6732:0.7121212121212122
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10550256.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+226:byebyebirdy:210:1.0761904761904761
+96:byrne29:675:0.14222222222222222
+393:byronatl:357:1.1008403361344539
+719:bytheby:1692:0.42494089834515364
+41:c0lor14:127:0.3228346456692913
+191:c3d33:364:0.5247252747252747
+148:c4rrie:143:1.034965034965035
+20:c8lin225:16:1.25
+114:c_lantro:88:1.2954545454545454
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1912382.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+783:caaardo:668:1.1721556886227544
+143:caelum_00:106:1.349056603773585
+3907:cafeaulei:312:12.522435897435898
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/7080498.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+661:caitlinkerrigan:421:1.5700712589073633
+99:caitlnh:89:1.1123595505617978
+254:caitregan:1112:0.22841726618705036
+179:caleb_n_g:147:1.217687074829932
+13175:calendagram:1281:10.284933645589383
+346:cali323sunshine:168:2.0595238095238093
+5902:calibis:5149:1.1462419887356767
+558:caliboy9256:1761:0.31686541737649065
+194:california_chi:373:0.5201072386058981
+2935:california_igers:306:9.591503267973856
+441:californialg:277:1.592057761732852
+1085:californialover:683:1.588579795021962
+2361:calistoga:682:3.461876832844575
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10581129.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/43377493.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+671:camerajeanne:340:1.973529411764706
+39:camerlengo76:102:0.38235294117647056
+1485:camillaspacechicken:1148:1.293554006968641
+580:camillertime:480:1.2083333333333333
+6628:camstigram:272:24.36764705882353
+210:camtinere97:299:0.7023411371237458
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/9077726.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3974124.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1017:candicelaureen:5975:0.1702092050209205
+651:candy_bagel:483:1.3478260869565217
+191:candyandchaos:131:1.4580152671755726
+81:candyhead:84:0.9642857142857143
+2037:cannabusinessnews:3838:0.530745179781136
+913:cannette22:364:2.508241758241758
+286:canurse07:92:3.108695652173913
+529:canyousaycheesy:393:1.3460559796437659
+169:cappybenton:157:1.0764331210191083
+725:captcruz:4160:0.17427884615384615
+411:caption_contest2013:800:0.51375
+2534:car_masters:7160:0.35391061452513967
+45:cara1345:324:0.1388888888888889
+179:caramia38:601:0.2978369384359401
+2953:cardiffcrew:21359:0.1382555363078796
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10879962.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+214:carinisms:382:0.5602094240837696
+709:carlo_lillo:726:0.9765840220385675
+1994:carlo_naz:1877:1.0623335109216836
+156:carlos1138:600:0.26
+354:carlos_c_lopes:514:0.688715953307393
+472:carlosalpa:148:3.189189189189189
+373:carlosdiaz:49:7.612244897959184
+11:carlosflorez28:153:0.0718954248366013
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/55321061.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+174:carlyalyssa:131:1.3282442748091603
+628:carma30:1282:0.48985959438377535
+415:carmenmarin111:434:0.956221198156682
+550:carmenruiz431:338:1.6272189349112427
+2744:carminatorres:1242:2.209339774557166
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/755990.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+299:carodebartolo:122:2.4508196721311477
+57:carojorquera:153:0.37254901960784315
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/262189633.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+142:carola315:274:0.5182481751824818
+38:carolberryartdesign:79:0.4810126582278481
+176:caroleen:108:1.6296296296296295
+1004:carolinaciappa:610:1.6459016393442623
+6808:carolinafabrega:651:10.457757296466974
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8711253.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+103:carolyne:97:1.0618556701030928
+548:carrieelysia:395:1.3873417721518988
+13228:cars_ig:28928:0.4572732300884956
+1609:cartogirl1:7015:0.22936564504632928
+16:cartoonalyssa:14:1.1428571428571428
+416:casapuerta:729:0.5706447187928669
+81986:casetagram:381:215.18635170603673
+338:caseycapachi:633:0.5339652448657188
+49:casf10:151:0.32450331125827814
+164:cassclark:103:1.5922330097087378
+424:castellano9:958:0.44258872651356995
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/9060812.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1266:catherineshyu:353:3.586402266288952
+1088:cathleenmaclearie:384:2.8333333333333335
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/232248109.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+370:cbeedee:266:1.3909774436090225
+357:cc_75:266:1.3421052631578947
+408:cceres:767:0.5319426336375489
+192:ccmariee:165:1.1636363636363636
+0:cctakespictures:4:0.0
+68:ccwandlouise:114:0.5964912280701754
+412:cdipoi:353:1.1671388101983002
+3770:cdx:6518:0.5783982816814974
+316:cece_safari:443:0.7133182844243793
+2382:ceegee:692:3.4421965317919074
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/33685289.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+184:cekodokmangga:377:0.4880636604774536
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/33177325.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1243:celebates:573:2.169284467713787
+869:celeste514:454:1.9140969162995596
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/7753935.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+94:celosah:129:0.7286821705426356
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/43693387.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/179717832.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+14162:ceomedellin:80546:0.17582499441313038
+169:cepillin:181:0.9337016574585635
+77:cerarelentless87:105:0.7333333333333333
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/19940831.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2517:cescamag:130:19.361538461538462
+476:cetticassil7:1023:0.46529814271749753
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8865257.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1815:chadsf:663:2.737556561085973
+500:chaley_m:762:0.6561679790026247
+109:chammer36:490:0.22244897959183674
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/22907904.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/46645655.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+116:chappleshouse:71:1.6338028169014085
+176:charbar022:181:0.9723756906077348
+601:charcharmcgnar:246:2.4430894308943087
+313:charisew:265:1.181132075471698
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3193790.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1625:charleywright:3405:0.47723935389133626
+166:charlottego:82:2.024390243902439
+138:charrismo:75:1.84
+23:charvid:113:0.20353982300884957
+13974:chase_coe:6693:2.0878529807261317
+524:chaserpv:468:1.1196581196581197
+1338:chasesgap:2183:0.6129180027485113
+60:chayseanthony:278:0.2158273381294964
+34:chazman990:42:0.8095238095238095
+150327:cheapmash_fashion_tees:300926:0.4995480616497079
+727:cheelam1220:2943:0.24702684335711858
+470:chef_mylo:385:1.2207792207792207
+803:chefyo:1007:0.7974180734856008
+119:cheraemichele:490:0.24285714285714285
+1072:chereecelove:1997:0.5368052078117176
+202:cherryweed:374:0.5401069518716578
+1746:cherrywellness:7484:0.2332977017637627
+17:chersme:18:0.9444444444444444
+186:cherylcheryllady:92:2.0217391304347827
+6673:chewbaccasf:625:10.6768
+458:chezredwood:582:0.7869415807560137
+669:chiaranico1986:1235:0.5417004048582996
+339:chica_swagger:748:0.4532085561497326
+16:chickybum:25:0.64
+20:chiik0:20:1.0
+211:chikles:601:0.35108153078202997
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/27667066.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3012596.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+262:chinchan94:331:0.7915407854984894
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1849161.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+649:chitzy:1043:0.6222435282837967
+23179:chloe_kiser:568:40.808098591549296
+1410:chloepark:182:7.747252747252747
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/232352147.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+3006:choof111:7856:0.3826374745417515
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/961549.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+79:choppu2151:89:0.8876404494382022
+921:chose1prod:582:1.5824742268041236
+131118:chris:545:240.58348623853212
+169:chris_desn:169:1.0
+82:chris_maxwell:197:0.41624365482233505
+182:chrisagustin:477:0.38155136268343814
+763:chrisarsonphotography:924:0.8257575757575758
+261:chrischaya:275:0.9490909090909091
+9:chrischrischrischrisbrownnn:63:0.14285714285714285
+997:chrisfuqua:587:1.698466780238501
+687:chrislah:526:1.306083650190114
+2127:chrismacg:506:4.203557312252965
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/9819526.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1766484.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/379481284.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+893:christeeney:294:3.0374149659863945
+329:christerjason:658:0.5
+10:christian_f_lewis:3:3.3333333333333335
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/11891962.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/476783001.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+145:christinay1415:191:0.7591623036649214
+382:christinealward:288:1.3263888888888888
+410:christinecassis:449:0.9131403118040089
+378:christineheyri:258:1.4651162790697674
+387:christinemfoote:821:0.4713763702801462
+341:christintisha:407:0.8378378378378378
+#<NoMethodError: undefined method `id' for nil:NilClass>
+122:christykc:135:0.9037037037037037
+600:chrisxena:392:1.530612244897959
+1339:chrizar:1410:0.949645390070922
+460:chuck415:123:3.7398373983739837
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1464722.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+12:chucknorris899:59:0.2033898305084746
+748:chuckoliva:493:1.5172413793103448
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2099522.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+410:cideone:640:0.640625
+132:cin1018:320:0.4125
+398:cin707:963:0.4132917964693666
+120:cindyefu:82:1.4634146341463414
+75177:cindyloughridge:384:195.7734375
+831:cinemamaker:1154:0.720103986135182
+762:cinemaone:378:2.015873015873016
+370:cinemaxim:185:2.0
+119:cinscorpse:53:2.2452830188679247
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/44318746.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+84:ciro_hardstyle:128:0.65625
+340:cisforcristal:413:0.8232445520581114
+602:citadel_ice:394:1.5279187817258884
+26:citizen_0:6:4.333333333333333
+223:city_girls:45:4.955555555555556
+129:city_of_f:183:0.7049180327868853
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2909286.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1624:cityofgentlemen:116:14.0
+1461:cjjulian:1289:1.1334367726920094
+118:cjmindc:150:0.7866666666666666
+169:cjveneman:188:0.898936170212766
+1192:ckanani:588:2.0272108843537415
+401:ckueda:673:0.5958395245170877
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/40482222.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+80:clara0valin:578:0.1384083044982699
+1834:clareec:986:1.8600405679513186
+872:clarenzpsds:1565:0.5571884984025559
+103:claretyselzer:124:0.8306451612903226
+850:clarvr:6088:0.13961892247043364
+824:claucorrea:441:1.8684807256235827
+2258:claud_oval:1467:1.5391956373551465
+749:claudiaperdomo:554:1.351985559566787
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/184258292.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1098:claylo:173:6.3468208092485545
+716:clean_cut_:976:0.7336065573770492
+23:cleanupstockton:84:0.27380952380952384
+266:cleverwhatever:157:1.694267515923567
+123:climbsf:70:1.7571428571428571
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6357934.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+138:clo011:526:0.2623574144486692
+524:clo_giolitti:261:2.007662835249042
+313:clos82:265:1.181132075471698
+326:cloud_catcher415:331:0.9848942598187311
+131:cloudyskyes:58:2.2586206896551726
+56:clsong:194:0.28865979381443296
+718:clubdinein:157:4.573248407643312
+2520:clubguillotine:4775:0.5277486910994764
+146088:clubsocial:355977:0.4103860642681971
+1773:clynton:1014:1.7485207100591715
+89:cmb3333:225:0.39555555555555555
+260:cmelsphotos:267:0.9737827715355806
+810:cmey:789:1.026615969581749
+1080:cmitchell1138:3784:0.2854122621564482
+1461:cmmuff:726:2.012396694214876
+213:cmsg:126:1.6904761904761905
+224919:cnnireport:5661:39.731319554848966
+30:cockpommeogi03:1:30.0
+383:cocoacentric:367:1.0435967302452316
+760:cocodelapalma:461:1.648590021691974
+43034:cocogreenqueen:78022:0.5515623798415832
+307:cocojensen:244:1.2581967213114753
+225:cocopunch:486:0.46296296296296297
+126:codmac:296:0.42567567567567566
+686:codylovesus:422:1.6255924170616114
+117:codyt:155:0.7548387096774194
+101:cofin:92:1.0978260869565217
+12288:cohen:860:14.288372093023256
+28:collective_unconscious:115:0.24347826086956523
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/13639654.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+178:colors_stylish:466:0.38197424892703863
+2960:comin2anend:432:6.851851851851852
+15:compactjunkie:29:0.5172413793103449
+282:company_man:527:0.5351043643263758
+4138:comycomo:768:5.388020833333333
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3936122.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5933211.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+47720:conkretemediagroup:135144:0.3531048363227372
+16872:conservatoryofflowers:173:97.52601156069365
+115:constellationns:212:0.5424528301886793
+77615:contestgramoftheday:159472:0.4866998595364703
+147711:convergence:431989:0.3419323177210531
+4801:cookie67:15560:0.308547557840617
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/291131.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2484:copperforksphotography:1865:1.3319034852546916
+13841:copygram:277:49.96750902527076
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/9189563.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+969:corinneirizarry:996:0.9728915662650602
+108:corjoy:117:0.9230769230769231
+600:corndogs:571:1.0507880910683012
+139:corpora:134:1.037313432835821
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1156122.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/17524017.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+266:cosmojewelry:892:0.2982062780269058
+625:cosmos_worldview:1524:0.41010498687664043
+433:costabonnis:448:0.9665178571428571
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/231624.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+510:cottoncandy_gem:718:0.7103064066852368
+303:cottoncandy_phil:499:0.6072144288577155
+3229:country_boy332:912:3.5405701754385963
+1331:courtenay:425:3.131764705882353
+360:courtney_denise:266:1.3533834586466165
+1152:courtneydepalma:868:1.327188940092166
+22:courtneylouisevincent:122:0.18032786885245902
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1926117.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+373:courtside:373:1.0
+130:cozysf:38:3.4210526315789473
+363:cpt_13:486:0.7469135802469136
+1952:cr1st14n0r0n4ld0:3934:0.4961870869344179
+18077:craftysince90:7500:2.410266666666667
+1869:craighillikerphoto:3166:0.5903348073278585
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1366827.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+256:crazyalisa83:232:1.103448275862069
+732:crazyfroglegz:351:2.0854700854700856
+59:crazypics1212:291:0.2027491408934708
+25294:cre8tiveclass:90009:0.2810163428101634
+768:creativeholly:68:11.294117647058824
+148662:creativeish:302983:0.4906611922121043
+369:creatureofhabit:1395:0.2645161290322581
+176:cribasteba:180:0.9777777777777777
+879:cricket4:686:1.28134110787172
+1314:crillmatic:485:2.709278350515464
+18:crimetodark:201:0.08955223880597014
+142:cris_green:156:0.9102564102564102
+391:crismemdes:1544:0.25323834196891193
+386:crisruizm91:946:0.4080338266384778
+569:cristina1018:1500:0.37933333333333336
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2768553.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1151:criticalcondition:411:2.800486618004866
+205:crizie:152:1.3486842105263157
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/28254979.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+187:crobin:253:0.7391304347826086
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/9198848.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+4053:crocodiletour:7500:0.5404
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/12719983.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3078257.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1482:crv716:2210:0.6705882352941176
+209:cryst_aaaal:273:0.7655677655677655
+434:crystalballlll:470:0.9234042553191489
+2522:csalha:4142:0.6088845968131338
+751:cub95:398:1.8869346733668342
+303:cuevasito:256:1.18359375
+1141:cupcakepeonie:346:3.2976878612716765
+2:cupcakeventures:14:0.14285714285714285
+344:curlysticks:595:0.5781512605042017
+628:customteesclothing:269:2.3345724907063197
+530:cvf0512:805:0.6583850931677019
+445:cvrlpvtrick:508:0.8759842519685039
+176:cwba2:682:0.25806451612903225
+82:cyndiecottrell:111:0.7387387387387387
+536:cyrenakh:516:1.0387596899224807
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1352757.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+258:czonafoto:349:0.7392550143266475
+278:d7incognito:816:0.34068627450980393
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/186806584.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8002580.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+43:da_niii:207:0.20772946859903382
+419:daboomboom:1569:0.26704907584448695
+889:dabull:1189:0.7476871320437343
+117:daceainak:276:0.42391304347826086
+116:dacrazyhippy:142:0.8169014084507042
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/180094568.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1727102.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+320:dafunkystar:346:0.9248554913294798
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3379145.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10664328.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6926545.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+455:dalilapaola:495:0.9191919191919192
+7229:dallassf:461:15.681127982646421
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5961112.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+550:danawaldie:341:1.6129032258064515
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/191601758.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+613:dancewearfashion:432:1.4189814814814814
+1124:dancorson3:3081:0.36481661798117493
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/19680735.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+4368:dandygtr:7533:0.5798486658701713
+321:danfarca:332:0.9668674698795181
+1734:dangraham:1002:1.7305389221556886
+539:dani_rosario:2138:0.2521047708138447
+172:danicaplum:33:5.212121212121212
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/180282463.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1054:danidc100:978:1.0777096114519427
+257:daniel_crna:220:1.1681818181818182
+2400:danielaamomuito:7476:0.32102728731942215
+225:danieljmansfield:408:0.5514705882352942
+214:danielkinsella:180:1.1888888888888889
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/253286394.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+52398:daniellarosario:168426:0.3111039863204018
+474:daniellemcg:257:1.8443579766536966
+546:danielnavarrooo:507:1.0769230769230769
+85:danielweltz:59:1.4406779661016949
+1015:danjackson415:448:2.265625
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/212793320.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1693:dannyboysmith_dpw:1013:1.6712734452122409
+240:dano_da_mano:441:0.54421768707483
+438:danrol:371:1.1805929919137466
+393:dantilia:1269:0.30969267139479906
+19263:dantom:287:67.11846689895471
+227:danvanmoll:305:0.7442622950819672
+248:danwade:273:0.9084249084249084
+752:danyboyxd:357:2.1064425770308124
+819:danyiamarie:1139:0.7190517998244074
+327:daphnee_beliebers:1326:0.24660633484162897
+2717:daphnepi:2172:1.2509208103130756
+795:darealj_money:1816:0.43777533039647576
+211:dariussoriano:181:1.1657458563535912
+816:darling_niki77:797:1.0238393977415308
+338:darmagenie:939:0.3599574014909478
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3039999.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+4:darrenlyy_:42:0.09523809523809523
+413:darrenmason:977:0.4227226202661208
+593:darthmanivxx:1642:0.36114494518879414
+312:darwin_j:230:1.3565217391304347
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3615894.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+41:datacenter_hvac:34:1.2058823529411764
+875:dathanholloway:265:3.30188679245283
+563:datura_datura:279:2.017921146953405
+732:daud:209:3.5023923444976077
+343:davebryan:87:3.942528735632184
+181:davegolden:117:1.547008547008547
+568:davehandler:369:1.5392953929539295
+794:davekeane:481:1.6507276507276507
+19590:davesurber:56808:0.3448457963667089
+21071:david____smith:52218:0.40351985905243404
+1122:david_baer:319:3.5172413793103448
+1052:david_lew:439:2.3963553530751707
+5896:davidag:717:8.223152022315203
+372:daviddo_:431:0.8631090487238979
+1238:davidgerhard:883:1.4020385050962627
+198:davidlevitt1:72:2.75
+328:davidlincoln:584:0.5616438356164384
+741:davidmc:433:1.7113163972286374
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/227291715.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2933:davids_art_d_l_r:4708:0.622982158028887
+73157:davidsanger:27209:2.688705942886545
+40:davidsurvilo:100:0.4
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/269753364.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+39731:daviesjesse:126253:0.31469351223337266
+202:day_in_paradise:1795:0.11253481894150417
+1215:daydayhurls:2534:0.47947908445146015
+586:daydreaamer:533:1.099437148217636
+1898:dayesleeper:402:4.721393034825871
+1308:dayjames:1503:0.8702594810379242
+5500:daylachris:301:18.272425249169434
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/224074907.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+76693:db:150481:0.5096523813637602
+153:dbates0623:88:1.7386363636363635
+72:dbigue:102:0.7058823529411765
+309:dbv99:331:0.9335347432024169
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/691538.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+689:dcricket929:384:1.7942708333333333
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/275490706.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+743:ddukes:433:1.7159353348729791
+855:deanmaria:987:0.8662613981762918
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/187642267.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+134:dearkatje:224:0.5982142857142857
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4408912.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1939:dearproductions:1022:1.8972602739726028
+13682:death_nyc:28818:0.4747727114997571
+1467:deathvalleyman:511:2.8708414872798436
+600:decapikated87:420:1.4285714285714286
+255:decomposeur:201:1.2686567164179106
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1458001.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+735:deeedsxo:324:2.2685185185185186
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/40154549.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+687:deeezyeah:1541:0.44581440622972096
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8070411.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+17:deepanshu081289:19:0.8947368421052632
+205:deer_supparerk:117:1.7521367521367521
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/948306.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+330:definedavidjames:440:0.75
+368:definewines:585:0.629059829059829
+169:dehfne:77:2.1948051948051948
+1737:deirdre_ning:1016:1.7096456692913387
+228:delaphoto415:356:0.6404494382022472
+290:delectabledoyle:202:1.4356435643564356
+151:delete_sauce:205:0.7365853658536585
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/225269813.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+342:deliafrrll:434:0.7880184331797235
+138:demartini88:108:1.2777777777777777
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4151480.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+451:denimdan:435:1.0367816091954023
+40:denis_sf:31:1.2903225806451613
+1485:denise_woodward:439:3.3826879271070616
+587:deniseeec:620:0.9467741935483871
+314:denisetakespics:325:0.9661538461538461
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1792493.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+139:dennnnyyyy:110:1.2636363636363637
+24605:densf:212:116.06132075471699
+73:derekguerra:68:1.0735294117647058
+5869:desdelabutaca:5656:1.0376591230551626
+3219:desert_oasis:327:9.844036697247706
+70:designtonic:44:1.5909090909090908
+80486:desigual:92:874.8478260869565
+1032:deuce_stagram:1404:0.7350427350427351
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/26927446.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+209:devin9:336:0.6220238095238095
+79:devinleedrew:15:5.266666666666667
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/39101.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+602:devonmaureen:239:2.518828451882845
+2088:deweythomas_sf:247:8.45344129554656
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2468566.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+5903:dewifaeni:13903:0.4245846220240236
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/175608309.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+646:dezdeegee:1074:0.6014897579143389
+128:dface86:122:1.0491803278688525
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5010304.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+308:dhamse:228:1.3508771929824561
+362:diamond_sea_:650:0.556923076923077
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/35956999.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+449:dianajeong:570:0.787719298245614
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/216037856.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+640:dianom:669:0.9566517189835575
+358:diarrhea_of_the_camera:744:0.48118279569892475
+13648:diazbermejo:52170:0.26160628713820205
+346:diciorleans:292:1.1849315068493151
+139:dickachino:184:0.7554347826086957
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/219295552.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+398:dicktong:425:0.9364705882352942
+2195:dieandjerry:7492:0.2929791777896423
+774:differentviews:1454:0.53232462173315
+254:dingoagogo:465:0.546236559139785
+858:dinofoxx:1285:0.667704280155642
+59:dinomiike:69:0.855072463768116
+124:diogomp:171:0.7251461988304093
+441:diorela:495:0.8909090909090909
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/51279282.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1082:directorklove:586:1.8464163822525597
+483:dirtyshanchez:519:0.930635838150289
+6310:dirtytuesday:11270:0.5598935226264419
+268:discopaco:270:0.9925925925925926
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/39859712.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+17636:disp123:46208:0.38166551246537395
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5570794.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+283:dito_13:254:1.1141732283464567
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4675274.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+876:dixy_20:2437:0.3594583504308576
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/33541470.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+330:djablonski:1083:0.3047091412742382
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/31598381.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+384:djbeato:643:0.5972006220839814
+1106:djbigrichsf:865:1.2786127167630057
+7683:djdstyles:1107:6.940379403794038
+77:djgarcia2265:114:0.6754385964912281
+3622:djlando1:3746:0.9668980245595301
+1285:djmere:1046:1.22848948374761
+4839:djphatty100:14905:0.32465615565246564
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/42436776.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+737:djstaticsf:383:1.9242819843342036
+1343:djtonedef:991:1.355196770938446
+62:dkreiter:74:0.8378378378378378
+145:dkspecial:432:0.33564814814814814
+165:dlaranyc:197:0.8375634517766497
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5408965.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+734:dm_007:245:2.9959183673469387
+187:dmcelmuryphoto:206:0.9077669902912622
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/27098874.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/19375873.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+19868:dmstagram:110008:0.18060504690567958
+1170:dnaebeats:721:1.622746185852982
+1064:dober_max:3796:0.2802950474183351
+2046:dolcevespa:1543:1.3259883344134802
+288:dollhousesf:793:0.36317780580075665
+1352:dolo2def:3220:0.41987577639751555
+376:dolphinagoddesslife:187:2.0106951871657754
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4623970.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+240:domba:780:0.3076923076923077
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/211070194.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+146:dominic_1:154:0.948051948051948
+1132:dominiquerose_:570:1.9859649122807017
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2201198.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1235:donkeyfarmerswife:2803:0.4405993578308955
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/23477358.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+7:donthate_2525:152:0.046052631578947366
+325:doodlingdreamer:441:0.7369614512471655
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/9358369.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/28356802.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/26852916.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+10195:doublecap:272:37.481617647058826
+37:dougcyrus:95:0.3894736842105263
+8678:doughardy:1498:5.7930574098798395
+85:downhill3000mph:358:0.23743016759776536
+628:downtowndonna:1316:0.47720364741641336
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10961195.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/265809570.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/9020616.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/36732266.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+118:drae_nmhar:56:2.107142857142857
+1731:dragunskis:4604:0.3759774109470026
+7121:drawyourweapons:359:19.83565459610028
+2907:dream_company:6918:0.4202081526452732
+1687:dreamadream_:1185:1.4236286919831223
+693:dreamfashionlivelife:2707:0.2560029553010713
+550:dreamingofforever_:1473:0.37338764426340804
+202:dreisl:113:1.7876106194690264
+613:dreski:551:1.1125226860254083
+917:drew_103:3407:0.2691517464044614
+83196:drewbeck:655:127.01679389312977
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3202377.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+263:drewneill:343:0.7667638483965015
+943:drewnm:368:2.5625
+295:drewsquared2:376:0.7845744680851063
+1461:drewster95:214:6.827102803738318
+152:drewtrees:151:1.0066225165562914
+1069:drezzzzzzy:3654:0.2925561029009305
+1034:drikka25:2990:0.345819397993311
+787:driniii:642:1.2258566978193146
+244:driven2travel:111:2.1981981981981984
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/31829758.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5140145.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+341:drrrew:331:1.0302114803625377
+17682:drumlinelive:74632:0.23692249973201843
+4241:druthersband:11473:0.3696504837444435
+281:ds_77:107:2.6261682242990654
+155:dsaarman:1176:0.13180272108843538
+3988:dsmith201:7499:0.5318042405654088
+427:dsylvester:819:0.5213675213675214
+101:dtdetayl:177:0.5706214689265536
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/639727534.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/184114170.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1206:dubaiuae:1774:0.6798196166854565
+244:dubsfo:490:0.49795918367346936
+530:dudetterap:661:0.8018154311649016
+9369:dudettewalnuts:601:15.589018302828618
+716:dudo231:1855:0.38598382749326143
+284:duduus:691:0.4109985528219971
+350:duhhniece:278:1.2589928057553956
+196:duhsilly143:269:0.7286245353159851
+698:dul_zs:1153:0.6053772766695577
+408:dulong82:563:0.7246891651865008
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/14132935.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+117:duraiprabu80:270:0.43333333333333335
+18:dustaemmphotography:137:0.13138686131386862
+321:dustclouded:355:0.9042253521126761
+72:dustycollyer:555:0.12972972972972974
+334:dustypants007:506:0.6600790513833992
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/141331.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/292127599.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+121:dyjungle:62:1.9516129032258065
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/16709054.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1607:dylandovefans:2595:0.6192678227360309
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1117308.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+306:eafeaf:775:0.39483870967741935
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4296009.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+541:earthtone78:594:0.9107744107744108
+233:easyacavemancandoit:271:0.8597785977859779
+1000:eatabeat54:1520:0.6578947368421053
+517:eatveitmoe:1070:0.48317757009345796
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10856823.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+226:eceakts:211:1.0710900473933649
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/14494674.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+306:echughes:344:0.8895348837209303
+757:edawekim:673:1.12481426448737
+7143:eddiek3:2442:2.925061425061425
+1332:eddieuuu071:2011:0.662357036300348
+1205:eddybee:300:4.016666666666667
+218:eddysih:301:0.7242524916943521
+96:ederfughajaguar:175:0.5485714285714286
+562:edit_masters:1362:0.41262848751835535
+86:editcatsf:91:0.945054945054945
+20:edmcculloch:37:0.5405405405405406
+558:edmond_yap:1675:0.33313432835820894
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6086454.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1101:edub_:148:7.4391891891891895
+165:edwinvillafane:1887:0.08744038155802862
+209:eeats:629:0.3322734499205087
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2637711.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+302:eecastro:280:1.0785714285714285
+22:eexample:144:0.1527777777777778
+333:effncrispy:534:0.6235955056179775
+423:ehaapalaphotography:1426:0.2966339410939691
+351:ehmbee:191:1.837696335078534
+3924:ehsanhanafi:4460:0.8798206278026905
+124:ehubb20:260:0.47692307692307695
+17:eila7aries:59:0.288135593220339
+563:ej_laxamana:563:1.0
+1342:ekai:1081:1.2414431082331174
+262:ekallday:286:0.916083916083916
+737:ekhan:1514:0.4867899603698811
+385:ekimtiki:314:1.2261146496815287
+1511:ekobintang:787:1.9199491740787802
+428:el_elle:182:2.3516483516483517
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/52152829.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+177:el_jaybee:181:0.9779005524861878
+613:el_kazii:1027:0.5968841285296982
+30:el_q:84:0.35714285714285715
+318:elbeatz:257:1.2373540856031129
+493:elduke:251:1.9641434262948207
+209:eleanormiwako:123:1.6991869918699187
+2329:eleanorrigby121:5313:0.43835874270656877
+217:elebuns:264:0.821969696969697
+222:electr0spud:255:0.8705882352941177
+399:elenaohh:379:1.0527704485488127
+258:eleni6324:283:0.911660777385159
+459:elevin:231:1.9870129870129871
+301:elgcreative:294:1.0238095238095237
+626:elias_v:1000:0.626
+2647:elielgraciano:9152:0.2892263986013986
+713:eligusto:5788:0.12318590186592951
+243:elirius:262:0.9274809160305344
+231:elisa_kirk_photography:446:0.5179372197309418
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10073785.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+437:elisforlove:490:0.8918367346938776
+57:elisiaj2003:286:0.1993006993006993
+25:elitemodelschile:113:0.22123893805309736
+271:elizabethchughes:209:1.2966507177033493
+922:elizabethengle:478:1.9288702928870294
+482:elizabethlass_:173:2.786127167630058
+72:elizabethm721:213:0.3380281690140845
+319:elizabethmeehan01:239:1.3347280334728033
+153:elizabethorcon:219:0.6986301369863014
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1920966.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1225:elizenem_abud:777:1.5765765765765767
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6306570.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+231:elizzysully:166:1.391566265060241
+145:ellalice:369:0.39295392953929537
+1617:elle_emm:958:1.687891440501044
+312:elle_rizzle:343:0.9096209912536443
+2684:ellegardgirl:6563:0.4089593173853421
+10:ellephantshoes:14:0.7142857142857143
+1578:ellie2322:3342:0.47217235188509876
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/183999336.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+582:ellieincali:589:0.9881154499151104
+313:ellipsisboo:303:1.033003300330033
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/119725.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/356132.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1888:ellozuby:628:3.0063694267515926
+708:elly_bell2:558:1.2688172043010753
+2183:elmagahan:6805:0.3207935341660544
+753:elmooose:770:0.977922077922078
+13614:elo80:67816:0.2007490857614722
+944:elohvee143:1756:0.5375854214123007
+359:elphant_:254:1.4133858267716535
+83:elyproduct:70:1.1857142857142857
+583:elzara:939:0.6208732694355698
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3559224.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+308:emcedolan:534:0.5767790262172284
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2434763.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+255:emdleo:277:0.9205776173285198
+1856:emily_13:469:3.9573560767590616
+50:emilygomezphotography:124:0.4032258064516129
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/19747125.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5087753.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+453:emma_av:227:1.9955947136563876
+616:emmabandicoot:810:0.7604938271604939
+604:emmahahaa:1224:0.4934640522875817
+2357:emmanuelesquer:944:2.496822033898305
+323:emmastarks:335:0.9641791044776119
+243:emmazz:392:0.6198979591836735
+3170:emmylin:4897:0.6473351031243618
+12:emnet:9:1.3333333333333333
+260:emoneysf:415:0.6265060240963856
+712:empress1:1253:0.5682362330407024
+20:emtin1108:31:0.6451612903225806
+847:encyclopediabotanica:3714:0.2280560043080237
+954:endless_romance:298:3.2013422818791946
+376:enkapek_5:191:1.968586387434555
+429:enriqueaguelo:405:1.0592592592592593
+401:ensoofficial:370:1.0837837837837838
+251:entravision:600:0.41833333333333333
+214:epettler:293:0.7303754266211604
+297:epg_810:282:1.053191489361702
+313:epicdinolovee:1315:0.23802281368821293
+1173:epicwin66:3279:0.35773101555352244
+10:epixure:51:0.19607843137254902
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/15169744.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/174934950.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+399:erastsf:250:1.596
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/360877113.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+153:erelara:198:0.7727272727272727
+959:eric_lampe:545:1.7596330275229357
+2147:ericajay:1014:2.1173570019723864
+36:ericamimora:222:0.16216216216216217
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8118395.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1310:erichalili:1676:0.7816229116945107
+7:erickw_10:39:0.1794871794871795
+124:ericlui:230:0.5391304347826087
+204:ericmcnolasco:194:1.0515463917525774
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2949646.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+343:erikaamazing:326:1.0521472392638036
+632:erikgavrilov:208:3.0384615384615383
+150:erikrhoffman:301:0.4983388704318937
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/452646.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+180:erinpy:474:0.379746835443038
+460:erinroselarsen:948:0.48523206751054854
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8598450.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2394418.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+30538:eruchd:7052:4.330402722631877
+708:esavestheworld:503:1.4075546719681908
+337:escaper:744:0.4529569892473118
+155:escarpace:209:0.7416267942583732
+293:esmehowl:214:1.3691588785046729
+1742:esquejon:599:2.9081803005008346
+346:essco:368:0.9402173913043478
+3580:estet:635:5.637795275590551
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/21202521.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+514:et_fonehome:153:3.3594771241830066
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2688240.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1152:etepetete_123:202:5.702970297029703
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/710130.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/192521694.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+738:eugene_g:383:1.926892950391645
+275:eugeneme:497:0.5533199195171026
+1079:euro1945:7346:0.14688265722842364
+59:evanscher:132:0.44696969696969696
+23:eventedge:361:0.06371191135734072
+1382:eversonmarsh:2771:0.4987369180801155
+5063:every1_on_ig:11391:0.4444737073127908
+518:everydayidyll:778:0.6658097686375322
+1474:everyoneifollowu:3370:0.4373887240356083
+485:evosd:283:1.7137809187279152
+20:evow05:197:0.10152284263959391
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/13606372.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2940156.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+392:exstuntman:943:0.41569459172852596
+579:extra_crispy:806:0.7183622828784119
+188:extragram:35:5.371428571428571
+605:eyad_altoree:1294:0.46754250386398766
+648:eye_leen:482:1.3443983402489628
+374:eye_of_kathi:231:1.619047619047619
+6223:eyeandpen:15887:0.3917039088562976
+5090:eyeonthebay:322:15.807453416149068
+693:ezcarpenter:1153:0.601040763226366
+12:ezerr:70:0.17142857142857143
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/200784290.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+274:f007icious:228:1.2017543859649122
+1032:f15hz:3300:0.31272727272727274
+319:f3ndy15:319:1.0
+330:f6x:661:0.49924357034795763
+716:f_pique:920:0.7782608695652173
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2173304.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+163:fabiobarroz:567:0.2874779541446208
+3701:fabiotorrescl:10198:0.3629142969209649
+1297:fabomania:497:2.6096579476861166
+700:fabriberg:575:1.2173913043478262
+680:fabscycle:1036:0.6563706563706564
+1143:fabulousmoments:196:5.831632653061225
+13142:face_darc:45711:0.28750191420008314
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3323008.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+442:facettes_ephemeres:618:0.7152103559870551
+1197:factsaboutlife:1898:0.6306638566912539
+383:fadedsentiments:373:1.0268096514745308
+499:faern:207:2.4106280193236715
+1069:fahad_7m:2000:0.5345
+398:faith0307:1055:0.37725118483412323
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/24590043.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+323:falling4irplanes:943:0.3425238600212089
+2488:fallouttorri:6215:0.4003218020917136
+510:family_lover_101:1122:0.45454545454545453
+16:famousphoto:53:0.3018867924528302
+1201:fancybreed:3599:0.333703806612948
+576:fania_f:950:0.6063157894736843
+200:farbod_d:288:0.6944444444444444
+28127:farewellfighter:102816:0.2735663709928416
+2543:fashhforfashionn:3918:0.649055640632976
+4384:fashion_hair_freak:5296:0.8277945619335347
+1803:fashion_on:2922:0.6170431211498973
+8:fashionaddict023:157:0.050955414012738856
+1088:fashionista_10121:2516:0.43243243243243246
+86:fashionistahowdoyoulook:404:0.21287128712871287
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/192971164.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+246:fatcat415:213:1.1549295774647887
+2304:fatguy101:7429:0.31013595369497915
+19665:fatnative:49761:0.3951890034364261
+113:fayvanessa:188:0.601063829787234
+43390:fazaaal:103090:0.420894364147832
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/16554205.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+448:feefiefoefemme:888:0.5045045045045045
+998:fefu200:5594:0.17840543439399356
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/35132378.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+822:feliciaisart:873:0.9415807560137457
+386:feliciouslee:251:1.5378486055776892
+710:felipefontouraa:583:1.2178387650085762
+162:felipemartinn:190:0.8526315789473684
+870:feliyo:7491:0.11613936724068882
+1997:femmephotale:765:2.6104575163398693
+363:feralboi:589:0.6162988115449916
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8405305.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+122:fernandorunsthisaccount:152:0.8026315789473685
+193:fernsf:192:1.0052083333333333
+36:ferris72:28:1.2857142857142858
+489:fetching:550:0.889090909090909
+163:ffreeyourmindd:269:0.6059479553903345
+41:ffsjstockton__:147:0.2789115646258503
+61:fiddler_lake:351:0.1737891737891738
+6:fiedvigo:7:0.8571428571428571
+777:fiercetroy:1677:0.46332737030411447
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1275830.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/49122.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+204:findingjudi:194:1.0515463917525774
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8450547.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+414:findumami:961:0.4308012486992716
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/16069987.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+243:first_exposures:207:1.173913043478261
+1200:first_name_greatest:2287:0.524704853519895
+396:firstw0rldpr0blems:310:1.2774193548387096
+1210:fishthecookie:438:2.7625570776255706
+16438:fishyfish99:46931:0.3502588907118962
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/14775375.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+257:fitmoderndayhippie:325:0.7907692307692308
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4142591.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+303:fivehundredtoms:240:1.2625
+7711:fixelzero:219:35.210045662100455
+6518:fixxy:17643:0.36943830414328627
+255:fizlaquay:239:1.0669456066945606
+224:flangeles:309:0.7249190938511327
+1292:flapjackxx719:3844:0.33610822060353795
+489:flashdidfire:480:1.01875
+654:flaviaduzo:1481:0.4415935178933153
+4136:fliptheu:774:5.343669250645995
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/571012.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+259:flohya:264:0.9810606060606061
+663:flojiah:320:2.071875
+821:florasprings:619:1.3263327948303716
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/18298764.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+13:flychic214:60:0.21666666666666667
+244:flyover33:668:0.3652694610778443
+207:fogcitybean:232:0.8922413793103449
+3:foggydaze:6:0.5
+393:fojazz:307:1.280130293159609
+4148:follow_all:13298:0.3119266055045872
+124:followeverybody14:1012:0.1225296442687747
+7:followeveryone333:94:0.07446808510638298
+350:followeveryuserifitkillsme:924:0.3787878787878788
+1560:followmeeveryone:7276:0.21440351841671249
+85:follows_everyone413:348:0.2442528735632184
+2903:followw_everyonee:194:14.963917525773196
+99:fonkawaii:269:0.3680297397769517
+48144:foodcomaking:333:144.57657657657657
+5334:foodforfoodies:2179:2.447911886186324
+341:fool4surf:234:1.4572649572649572
+1365:fooski:297:4.595959595959596
+575:fordapeepole:599:0.9599332220367279
+870:forddeutschland:1164:0.7474226804123711
+1721:forever_loving_quotes:2140:0.8042056074766355
+2319:foreverisalongtime:7014:0.3306244653550043
+437:fori415:809:0.5401730531520396
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5375064.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+22:fortunmi:34:0.6470588235294118
+339:fotiphoto:626:0.5415335463258786
+536269:fotogasm:3642758:0.14721510459931733
+2731:fotosensible:2018:1.3533201189296333
+413:foundfreesf:90:4.588888888888889
+1048:fourist:941:1.1137088204038257
+1032:fox_zilla:601:1.7171381031613977
+380:foxhound84:212:1.7924528301886793
+188:foxvanard:159:1.1823899371069182
+45:fran_kii:205:0.21951219512195122
+3246:fran_sol_:657:4.940639269406392
+172:francescobai:251:0.6852589641434262
+209:francimarti:572:0.36538461538461536
+325:frankearly:423:0.7683215130023641
+1098:frankholm:223:4.923766816143497
+396:frankie_franko:229:1.7292576419213974
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/19974858.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+417:franpesca19:317:1.3154574132492114
+118377:frasesdodia:7499:15.78570476063475
+152:freakinapes:135:1.125925925925926
+501:fredranger:591:0.8477157360406091
+1301:free_ass_shoutout:2313:0.5624729788153913
+545:free_beats_give_away345:842:0.6472684085510689
+14207:free_shoutout_4every1:38294:0.3709980675823889
+2107:freepeoplelasvegas:405:5.2024691358024695
+1291:frenchkiss888:3904:0.3306864754098361
+1077:freshouttasf:5733:0.1878597592883307
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/17488878.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1859483.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/500834119.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+249:fstop3000:411:0.6058394160583942
+565:fting311:617:0.9157212317666127
+138:ftissandier:397:0.34760705289672544
+20:ftjesus:25:0.8
+115:fun_moments_tin:110:1.0454545454545454
+541:funimax:1624:0.333128078817734
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5382895.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+337:funkyfrijoles:311:1.0836012861736335
+33:funny_memes_lol:110:0.3
+467:funnygoy007:1680:0.2779761904761905
+35386:funrecord:141413:0.2502315911549858
+1426:funy7:7398:0.19275479859421465
+748:furka:105:7.123809523809523
+2739:furniturelenny:5978:0.45817999330879894
+376:furnitureordering:754:0.4986737400530504
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/189737455.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1043:furtadomf:828:1.2596618357487923
+1499:fussboss:262:5.721374045801527
+200:fustermarcos:233:0.8583690987124464
+213:futurelucille:524:0.4064885496183206
+888:fyums:1546:0.574385510996119
+999:g0dfath3r71:5577:0.17912856374394837
+1734:g0tjoj0:819:2.1172161172161172
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8516586.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+89:gabbism:213:0.41784037558685444
+866:gabriellemob:703:1.231863442389758
+32:gabrielocyen:177:0.1807909604519774
+1175:gabrielort:4279:0.2745968684272026
+521:gabysill89:622:0.837620578778135
+845:gachuz:610:1.3852459016393444
+20310:gadgetsguru:53052:0.38283193847545804
+140:gaelwonder:216:0.6481481481481481
+56:gaffa:76:0.7368421052631579
+483:gallardo415:383:1.2610966057441253
+199:gamerbabesf:331:0.6012084592145015
+652:ganato_shoutins:1548:0.42118863049095606
+401:garnet27:457:0.8774617067833698
+1120:garrett:175:6.4
+276:gary_aa:1214:0.2273476112026359
+10:garyracerrr:106:0.09433962264150944
+319:gautierdu68:1457:0.2189430336307481
+20127:gbnsco:71482:0.2815673875940796
+3086:gcufcfifxufvlhci:7451:0.41417259428264663
+629:gechatagnier:607:1.0362438220757826
+285:gee_tography:258:1.1046511627906976
+213:geenaleesa:423:0.5035460992907801
+746:geezlouize:419:1.7804295942720765
+451:gemini606:296:1.5236486486486487
+605:geminifiend:1033:0.5856727976766699
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5127569.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1323:gemsntreasures:7527:0.17576723794340374
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/696014.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+762:genkipanda:173:4.404624277456647
+89:geoffhallmark_inc:343:0.2594752186588921
+166:geophsmith:126:1.3174603174603174
+141:georgelarocque:200:0.705
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/211781032.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1361:geradamoe:3421:0.3978368897983046
+159:geraldine_jessica23:146:1.0890410958904109
+635:geraldinep13:693:0.9163059163059163
+486:gerenphoto:527:0.9222011385199241
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/15761651.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+627:gessieboy:493:1.2718052738336714
+160:getsquirrel:102:1.5686274509803921
+55359:geworkian:111583:0.4961239615353593
+522:gex4301:2235:0.23355704697986576
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2691135.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+226:gheeyonce:252:0.8968253968253969
+5055:ghostwitness:392:12.895408163265307
+4005:gianca54:14105:0.28394186458702586
+8:gianpietrofax:28:0.2857142857142857
+852:giant487:1415:0.6021201413427562
+438:giants_fan55:1271:0.34461054287962234
+147:giben:320:0.459375
+1145:gibotex:918:1.247276688453159
+152:gibrambilaa:123:1.2357723577235773
+288:giffoni16:354:0.8135593220338984
+342:gigglegiver:670:0.5104477611940299
+94012:gigglife:619716:0.15170174725196703
+2942:giggsjeweler:7572:0.38853671421024827
+308:gigikathryn:261:1.1800766283524904
+3668:gill_shoutouts:13776:0.266260162601626
+929:gilphotography:864:1.0752314814814814
+542:gingerkidette:740:0.7324324324324324
+1282:gini_pig:1469:0.8727025187202179
+1410:gioalexander:841:1.676575505350773
+7568:gioja:609:12.426929392446635
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/43633749.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+867:girlsloveit:2206:0.3930190389845875
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/12665772.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1961:giulianavincenti:2609:0.7516289766193944
+117:giusbe75:191:0.612565445026178
+82:gkkd:142:0.5774647887323944
+3973:glamlaurous:4548:0.873570800351803
+1691:glamorista:5176:0.3267001545595054
+30063:globalgood:18821:1.597311513734658
+72:globetrotter5:180:0.4
+385:globo13:383:1.0052219321148825
+194:gmcdermott:151:1.2847682119205297
+399:gmfusco:653:0.6110260336906586
+293653:go:1207609:0.24316893961538877
+1664:goblinmag:3518:0.47299602046617395
+160:gocelebrategiftbaskets:517:0.30947775628626695
+102:gofindhappiness:27:3.7777777777777777
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/326734943.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+242:gogounou:187:1.2941176470588236
+193:goksel:111:1.7387387387387387
+1127:goksun:360:3.1305555555555555
+2814:golden_gate_bridge:67:42.0
+3087:goldenhour:11140:0.2771095152603232
+582:goldenstateofmind:325:1.7907692307692307
+3410:goldeyes:464:7.349137931034483
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/7209750.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8543704.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/33804735.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3551844.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+126:gonzacasquet:151:0.8344370860927153
+315:goodgrammar:246:1.2804878048780488
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/255312884.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+36070:goodlife2775:126535:0.2850594697119374
+102:goodshitdaily:569:0.17926186291739896
+236:goodvibestoys:89:2.651685393258427
+658:gordongrams:1428:0.46078431372549017
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6560223.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/9286894.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+383:graham_ryan:732:0.523224043715847
+1092:gramcrackers:328:3.3292682926829267
+585:grandcoffee:366:1.598360655737705
+3978:grandsymphony:2800:1.4207142857142858
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8974357.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+118:grantbonham:126:0.9365079365079365
+1265:grantfitz:4432:0.2854241877256318
+111:grantvwebster:213:0.5211267605633803
+639:gravity7:322:1.984472049689441
+677:grayp:918:0.7374727668845316
+4462:graysonporier:12066:0.3697994364329521
+1238:greenkozi:256:4.8359375
+10360:greenlife_clothing:42879:0.24161011217612352
+32747:greensboro_nc:47253:0.6930142001566039
+211:gretchh:306:0.6895424836601307
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1394715.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+595:grgry:396:1.5025252525252526
+418:griddriven:5642:0.07408720311946118
+18:griffinwittenberg:131:0.13740458015267176
+233:gromitgirl:103:2.262135922330097
+172:gsatris:117:1.4700854700854702
+5978:gtavicecity:16937:0.35295506878431837
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/354485475.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+24:gu_ga_love:288:0.08333333333333333
+1017:guadzilla25:311:3.270096463022508
+5552:guesstination:2194:2.5305378304466726
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5508329.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+141:guimelato:326:0.4325153374233129
+188:guinness94:382:0.49214659685863876
+216:guy_zoaretz147:936:0.23076923076923078
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/18505634.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+656:gvergemi:1166:0.5626072041166381
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/35576496.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+586:gypsystreasures:1286:0.4556765163297045
+902:h_u_e:870:1.0367816091954023
+207:haannngggg:328:0.6310975609756098
+50119:haatichai:189487:0.26449835608775274
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10967095.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+587:hailhydra:248:2.3669354838709675
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/53483194.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1107:haleybutcherorg:2752:0.4022529069767442
+727:hamdermarc:1986:0.36606243705941593
+523:hanachung:528:0.990530303030303
+1955:haneyb_0309:300:6.516666666666667
+392:hanna_tequilera:569:0.6889279437609842
+340:hannahbudgex:812:0.4187192118226601
+195:hannahespirado:1299:0.15011547344110854
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/22194786.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+367:hansensmash:1109:0.3309287646528404
+556:hansomejake:286:1.944055944055944
+581:happi_havii:354:1.6412429378531073
+201:happyhypo:358:0.5614525139664804
+325:happystina:361:0.9002770083102493
+333:haromonica:258:1.2906976744186047
+979:harrisburgtony:714:1.3711484593837535
+47:harrr25:83:0.5662650602409639
+134:harry_pics:136:0.9852941176470589
+10:harrystylesonedirection1:15:0.6666666666666666
+15:harshitsjain:198:0.07575757575757576
+3124:hassan_sh:7361:0.4243988588506996
+406:hassellhoff:326:1.2453987730061349
+218:hausfraufotografie:218:1.0
+823:hawaiianboyinsf:315:2.6126984126984127
+300:hawaiipineapple:636:0.4716981132075472
+1967:haydenrossssss:5406:0.3638549759526452
+7528:haygurlhaygabby:15504:0.4855521155830753
+324:haywire_hzel:124:2.6129032258064515
+510:hayz808:446:1.1434977578475336
+195:hazee1912:286:0.6818181818181818
+458:hbkustommachine:629:0.7281399046104928
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/30813732.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+335:heatheretty:396:0.8459595959595959
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/35613384.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+667:heathersfeathers:359:1.8579387186629526
+1083:heathrahigh5:2169:0.49930843706777317
+517:heazzza:306:1.6895424836601307
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/263203965.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/174221492.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+126:heffnation:187:0.6737967914438503
+255:hekela_m:275:0.9272727272727272
+802:helenaohman:460:1.7434782608695651
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/31779419.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+5:helennn5:90:0.05555555555555555
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4251189.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6628163.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+218:hellachris:156:1.3974358974358974
+700:hellarob:347:2.0172910662824206
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/11491625.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1226:hellocanuto:478:2.564853556485356
+454:hellokittyforpresident:373:1.2171581769436997
+1294:hellotyo:268:4.8283582089552235
+365:hemlockpete:245:1.489795918367347
+8404:hemmatee:40712:0.20642562389467478
+135:henreykritchlow:302:0.4470198675496689
+1442:henriquecruz:734:1.9645776566757494
+413:henry_j_parsons:406:1.0172413793103448
+964:her_bliss:336:2.869047619047619
+2587:heritage:7462:0.34668989547038326
+270:hersyeaz:370:0.7297297297297297
+64:hes2210:88:0.7272727272727273
+109:hevlloyd:85:1.2823529411764707
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1791256.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+509:hey_lo21:1065:0.4779342723004695
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/376093.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+277:heybooboo:341:0.8123167155425219
+47:heychef:32:1.46875
+296:heycorey:331:0.8942598187311178
+603:heyyitsgen:937:0.6435432230522946
+1366:hibrie:752:1.8164893617021276
+4356:hiirose:783:5.563218390804598
+560:hikbjork:1523:0.36769533814839134
+203:hildacloss:313:0.6485623003194888
+425:hilltree:322:1.3198757763975155
+33:hilowalohabuddy:577:0.05719237435008666
+68:hinzed1127:12:5.666666666666667
+4008:hippster_comics:7407:0.541109761036857
+510:hipstradamus:342:1.4912280701754386
+200:hirasupsup:373:0.5361930294906166
+12224:hisayoshi_o:36342:0.3363601342798965
+2943:historyofart:8119:0.3624830644168001
+172:hiy0_0:291:0.5910652920962199
+1688:hkkfethv46884:6945:0.24305255579553636
+10499:hkskatecity:95787:0.10960777558541347
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/13400684.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+5:hockey1234567890_love:42:0.11904761904761904
+63:hockeygod1414:240:0.2625
+1823:hoeypants:387:4.710594315245478
+103:hoffrash:93:1.10752688172043
+7:hohifotballsko:55:0.12727272727272726
+10309:holdyourowncc:18450:0.5587533875338754
+69:holepunchconfetti:233:0.296137339055794
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/191200084.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+465:hollaatmitch:289:1.6089965397923875
+923:holograhamz:1699:0.5432607416127133
+780:homaside:2533:0.30793525463876825
+1520:homefavorit:4797:0.31686470710860953
+400:homelessedmund:339:1.1799410029498525
+3107:homertakesapicture:20906:0.14861762173538698
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2549584.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+555:honeyilove:327:1.6972477064220184
+1064:hoodkitty:505:2.106930693069307
+66:hop_prophet:83:0.7951807228915663
+3035:hope_photography123:7491:0.40515285008677077
+237:hopewaggoner:211:1.1232227488151658
+424:horaciogmiranda:365:1.1616438356164382
+644:horsenaround12:1333:0.4831207801950488
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/196881691.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+811:hotchocolate_:1207:0.671913835956918
+#<NoMethodError: undefined method `id' for nil:NilClass>
+#<NoMethodError: undefined method `id' for nil:NilClass>
+32138:hotlogic:164378:0.19551278151577461
+69103:hotstylesapparel:33987:2.033218583576073
+103:houseofmao:70:1.4714285714285715
+325:hrothgar71:1099:0.29572338489535943
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/32381276.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+521:htan13:143:3.6433566433566433
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6032978.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+439:humzilla:367:1.1961852861035422
+652:hunckler:398:1.6381909547738693
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/181566924.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+348:huntermulich:185:1.8810810810810812
+243:hyper21:569:0.4270650263620387
+1952:hypvcrisy:7913:0.24668267408062683
+115:i3boo_d:281:0.4092526690391459
+858:i88buybuy:3149:0.2724674499841219
+46:i__love__youhh:78:0.5897435897435898
+30:i_am_jack_thompson:164:0.18292682926829268
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/31074646.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10590341.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+30:i_follow_3veryone:147:0.20408163265306123
+4259:i_follow_everyone:9480:0.44926160337552745
+769:i_hate_grams:1778:0.43250843644544434
+603:i_k_k_i:227:2.656387665198238
+1436:i_kiks:243:5.909465020576132
+195:i_left_my_heart_in_sf:198:0.9848484848484849
+368:iainlowis:409:0.8997555012224939
+4043:iam_instaduco:11201:0.3609499151861441
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1352249.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+303:iamchrisyerro:498:0.608433734939759
+432:iamcraftea:328:1.3170731707317074
+8716:iaminlovewithhim:19680:0.4428861788617886
+326:iamjcalvarez:427:0.7634660421545667
+288:iamjonjackson:223:1.2914798206278026
+149:iantuttle:64:2.328125
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1610447.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+39:iavrillavigne:170:0.22941176470588234
+105:ibejan:107:0.9813084112149533
+560:ibmdajerk:486:1.1522633744855968
+644:icecoldsierra:3218:0.20012430080795526
+17:icehockeylik:147:0.11564625850340136
+202:iceinkcrescentdots:726:0.27823691460055094
+973:iconic_lab:542:1.7952029520295203
+315:icourt:258:1.2209302325581395
+775:ideal_trends:2301:0.33681008257279443
+109:idego2010:72:1.5138888888888888
+81:identityconcept:69:1.173913043478261
+110:idna1891:256:0.4296875
+23:ifame1223:18:1.2777777777777777
+137:ifiwasalondoner:105:1.3047619047619048
+592:ifollow_backig:2822:0.20978029766123316
+817:ifolloweveryone11:821:0.9951278928136419
+3604:ig_artistry:2868:1.2566248256624826
+11867:ig_highlights:27898:0.4253709943365116
+6112:ig_promoter:15607:0.39161914525533414
+38887:igers:39063:0.9954944576709418
+566:igers_pittsburgh:70:8.085714285714285
+3862:igers_seattle:939:4.112886048988285
+632:igers_stg:629:1.0047694753577106
+1410:igersalicante:537:2.625698324022346
+264:igersalmeria:119:2.2184873949579833
+2327:igersalphaville:5931:0.3923453043331647
+1554:igersaltosmirandinos:1074:1.446927374301676
+205:igersamericana:129:1.5891472868217054
+3160:igersams:169:18.698224852071007
+717:igersandorra:428:1.675233644859813
+280:igersaosta:66:4.242424242424242
+4270:igersarkansas:1622:2.632552404438964
+868:igersatlanta:36:24.11111111111111
+2382:igersbahia:1065:2.2366197183098593
+4612:igersbayarea:3874:1.1905007743933917
+7729:igersbcn:2652:2.9144042232277525
+2483:igersbeirut:1799:1.3802112284602557
+3732:igersbelem:6011:0.6208617534520047
+400:igersbermuda:317:1.2618296529968454
+436:igersbkk:390:1.117948717948718
+204:igersblr:69:2.9565217391304346
+3729:igersbologna:1763:2.115144639818491
+3971:igersbrisbane:4176:0.9509099616858238
+2563:igersbsb:632:4.055379746835443
+413:igerscalifornia:303:1.363036303630363
+779:igerscampinas:776:1.0038659793814433
+1419:igerscanada:590:2.405084745762712
+1749:igerscanarias:1305:1.3402298850574712
+1036:igerscanberra:223:4.645739910313901
+2381:igerscapetown:970:2.454639175257732
+8988:igerscaracas:1283:7.0054559625876855
+6504:igerscatalonia:5184:1.2546296296296295
+2417:igerscatania:581:4.160068846815835
+1378:igerscentralcoastnsw:1483:0.9291975724881996
+693:igerscentraloregon:372:1.8629032258064515
+133:igersceuta:73:1.821917808219178
+2912:igerschattanooga:3035:0.9594728171334431
+5456:igerschicago:768:7.104166666666667
+7726:igerschile:6208:1.2445231958762886
+404:igerschs:97:4.164948453608248
+5203:igerscolombia:3569:1.4578313253012047
+214:igerscolumbusga:188:1.1382978723404256
+151:igerscordoba:72:2.0972222222222223
+205:igerscorpuschristi:180:1.1388888888888888
+386:igerscuritiba:232:1.6637931034482758
+5:igerscv:6:0.8333333333333334
+229:igerscyprus:452:0.5066371681415929
+223:igersczechrepublic:79:2.8227848101265822
+753:igersdc:1619:0.46510191476219886
+390:igersdelaware:181:2.154696132596685
+791:igersdelft:1490:0.5308724832214765
+324:igersdenver:297:1.0909090909090908
+3176:igersdetroit:3078:1.0318388564002599
+1141:igersdivers:47:24.27659574468085
+5470:igersdizquefuiporai:7544:0.7250795334040296
+1479:igersdoha:1361:1.0867009551800146
+1244:igerseastbay:218:5.706422018348624
+702:igersecuador:315:2.2285714285714286
+525:igersextremadura:464:1.1314655172413792
+6352:igersfrance:2579:2.46297014346646
+2601:igersgdansk:1648:1.5782766990291262
+556:igersgeneva:196:2.836734693877551
+56:igersgibraltar:38:1.4736842105263157
+2399:igersgirona:749:3.202937249666222
+1086:igersgranada:1397:0.7773801002147459
+1422:igershamburg:450:3.16
+4455:igersholland:1447:3.0787836903939185
+11982:igersibiza:537:22.312849162011172
+12652:igersitalia:1056:11.981060606060606
+5240:igersjax:3202:1.6364772017489069
+7254:igersjp:71:102.16901408450704
+298:igerskansas:139:2.143884892086331
+631:igerskl:827:0.7629987908101572
+1001:igerskorea:1940:0.515979381443299
+2824:igersla:1680:1.680952380952381
+335:igerslausanne:137:2.4452554744525545
+317:igerslebanon:45:7.044444444444444
+10948:igerslondon:4693:2.332836138930322
+1071:igerslucca:1349:0.7939214232765011
+1381:igerslyon:650:2.124615384615385
+846:igersmacau:970:0.8721649484536083
+738:igersmalaga:571:1.2924693520140105
+3127:igersmalaysia:542:5.769372693726937
+762:igersmalmoe:404:1.886138613861386
+1864:igersmaracaibo:357:5.221288515406163
+1076:igersmcr:698:1.5415472779369628
+4859:igersmelbourne:1480:3.283108108108108
+2043:igersmenorca:1347:1.5167037861915367
+1942:igersmiami:627:3.0972886762360448
+1534:igersminnesota:442:3.4705882352941178
+1815:igersmodena:925:1.962162162162162
+232:igersmoscow:331:0.7009063444108762
+827:igersmty:235:3.519148936170213
+1614:igersmunich:1348:1.1973293768545994
+778:igersmurcia:421:1.847980997624703
+1163:igersmx:681:1.7077826725403817
+2064:igersmyanmar:3680:0.5608695652173913
+3562:igersneworleans:2717:1.3110047846889952
+546:igersnewport:117:4.666666666666667
+734:igersnorcal:2083:0.35237638022083534
+3518:igersoman:1055:3.3345971563981043
+292:igersorangecounty:94:3.106382978723404
+1311:igersoslo:587:2.233390119250426
+4585:igersparis:791:5.79646017699115
+72:igerspfalz:33:2.1818181818181817
+181:igersphoenix:71:2.5492957746478875
+169:igerspirineus:120:1.4083333333333334
+7460:igerspoa:7299:1.022057816139197
+1280:igerspoland:235:5.446808510638298
+6133:igerspr:5492:1.1167152221412964
+596:igerspty:135:4.4148148148148145
+742:igerspu:563:1.3179396092362345
+127:igerspvd:79:1.6075949367088607
+342:igersrabat:194:1.7628865979381443
+1295:igersredlands:179:7.23463687150838
+567:igersribeiraopreto:529:1.0718336483931947
+2599:igersrimini:911:2.8529088913282106
+10842:igersrio:989:10.962588473205258
+3618:igersroma:1531:2.3631613324624428
+1549:igersromania:466:3.3240343347639487
+1111:igerssac:193:5.756476683937824
+3627:igerssandiego:533:6.804878048780488
+1280:igerssantacatarina:805:1.5900621118012421
+562:igerssantander:103:5.456310679611651
+4170:igerssaopaulo:1293:3.2250580046403714
+784:igersseoul:734:1.0681198910081744
+709:igerssevilla:506:1.401185770750988
+287:igersshanghai:215:1.3348837209302327
+450:igerssjc:483:0.9316770186335404
+245:igersstateline:208:1.1778846153846154
+308:igersstetienne:255:1.2078431372549019
+1483:igersstg:1907:0.7776612480335605
+18:igersstockton:6:3.0
+805:igersstrasbourg:633:1.2717219589257505
+4339:igerssuisse:2678:1.6202389843166543
+1021:igerssv:349:2.9255014326647566
+1524:igerstenerife:932:1.6351931330472103
+3646:igerstgn:3456:1.0549768518518519
+2943:igerstorino:1717:1.7140361094933023
+1657:igerstoronto:130:12.746153846153845
+1540:igerstoulouse:481:3.2016632016632016
+349:igerstrieste:139:2.5107913669064748
+903:igerstucson:450:2.006666666666667
+538:igerstunisia:1188:0.45286195286195285
+4047:igersturkey:4573:0.8849770391427947
+5829:igersusa:67:87.0
+7431:igersval3ncia:7500:0.9908
+1610:igersvalencia:1429:1.12666200139958
+664:igersvancouver:199:3.336683417085427
+36235:igersvenezuela:3369:10.755417037696645
+5:igersventuracounty:14:0.35714285714285715
+418:igersvigo:213:1.9624413145539905
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5945157.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+417:igerswarsaw:264:1.5795454545454546
+32:igersyyc:76:0.42105263157894735
+2053:igerszgz:1506:1.3632138114209826
+5879:igla:2217:2.6517816869643664
+728:igonnafollowyou:1688:0.4312796208530806
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1136940.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+248186:igsg:1123239:0.2209556470172421
+2713:igsinga:6655:0.4076634109691961
+502:ihate1d2:1379:0.3640319071791153
+396:ihateferriswheels:351:1.1282051282051282
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/472119.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+29:iheartrowan:41:0.7073170731707317
+277:ihnstagram:227:1.2202643171806167
+154:ihomrone:176:0.875
+101:iilikeeverythinginstagram:826:0.12227602905569007
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/622598897.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2310986.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+102:ilghemon:539:0.18923933209647495
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4463864.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1696:ill_follow_youandeveryone:4646:0.3650452001721911
+836:ill_never_forget_when_i:670:1.2477611940298508
+1588:illdezigns:726:2.18732782369146
+356:illson03:1211:0.2939719240297275
+1302:illzpics:4815:0.270404984423676
+528:ilov3starz:501:1.0538922155688624
+2476:ilove_ig:922:2.685466377440347
+148:ilovefartsatnight:635:0.23307086614173228
+1459:ilovemysmartphone:4123:0.3538685423235508
+979:ilovepix:712:1.375
+3212:ilovetakingphotos:8586:0.37409736780805963
+17:ilovetolovefsshion:33:0.5151515151515151
+1449:ilpozz:5211:0.27806563039723664
+2867:iluvpepero:261:10.984674329501916
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4937076.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+30:ilvicothestrange:69:0.43478260869565216
+825:imageofmylife:683:1.2079062957540263
+9652:imagraphicartist:397:24.31234256926952
+289:iman_nurdin_wira:257:1.1245136186770428
+467:imbyktor29:2112:0.22111742424242425
+35:imeoin:21:1.6666666666666667
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/21763681.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1164869.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+8:impeter_garcia:64:0.125
+3694:imprimeae:5666:0.6519590540063537
+80:imran_shaari:131:0.6106870229007634
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5630376.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+4849:imsotall:13745:0.35278283012004363
+166:imustfolloweverybody:583:0.2847341337907376
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5045320.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/28322721.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+9476:incan:1370:6.916788321167883
+380:incloco:68:5.588235294117647
+11:indatrees:35:0.3142857142857143
+335:indeed_its_lalo:360:0.9305555555555556
+459:indi3:210:2.1857142857142855
+882:indigoflow:2166:0.407202216066482
+663:infin8photo:296:2.239864864864865
+146:infinitytimestwo:398:0.36683417085427134
+178:inforumsf:61:2.918032786885246
+153:inger:184:0.8315217391304348
+402:inhabitant08:1042:0.3857965451055662
+97:inmyluv21:144:0.6736111111111112
+183:inongwoohoo:242:0.756198347107438
+3671:inscountries:5704:0.6435834502103787
+172:insidebeauty714:918:0.18736383442265794
+3077:inspirationisyou:7487:0.41097903031922
+52:insta_city_pics:130:0.4
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10963688.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1489:insta_dailydevotionwords:6629:0.22461909790315282
+133:insta_destaque:159:0.8364779874213837
+91:insta_franky:166:0.5481927710843374
+142:insta_lenster:140:1.0142857142857142
+3799:insta_yolo_kraudi:10884:0.3490444689452407
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/31130135.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+724:instacrazyy:4044:0.17903066271018794
+62:instaearth:38:1.631578947368421
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/12302077.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1149:instafun:1643:0.6993304930006087
+25:instagirl_posts:198:0.12626262626262627
+2337:instagoodies:834:2.802158273381295
+1271:instagram_shoutouts_for_all:2319:0.5480810694264769
+588:instagramable:543:1.0828729281767955
+14401:instagramnyc:525:27.430476190476192
+63:instahungryman:232:0.27155172413793105
+172:instahunt:311:0.5530546623794212
+82:instalive:244:0.3360655737704918
+238:instameetlondon:5:47.6
+67:instamodart:170:0.3941176470588235
+140:instamoku:274:0.5109489051094891
+342:instantgramit:1256:0.27229299363057324
+3694:instaozzie:7352:0.5024483133841132
+11754:instapicturing:35244:0.33350357507660877
+140:instapoets:320:0.4375
+3:instasf01:8:0.375
+4:instasf02:3:1.3333333333333333
+3:instasf03:11:0.2727272727272727
+9:instasf04:14:0.6428571428571429
+3:instasf05:9:0.3333333333333333
+9:instasf06:3:3.0
+6:instasf07:5:1.2
+3:instasf08:2:1.5
+3:instasf09:2:1.5
+4951:instasg:3746:1.321676454885211
+689:instasia:1264:0.5450949367088608
+10032:instathings:25195:0.3981742409208176
+4442:instathisprint:1040:4.2711538461538465
+109:instawho:62:1.7580645161290323
+1434:instuhham:6529:0.21963547250727522
+326:interactive_dan:428:0.7616822429906542
+134:internationalorange:99:1.3535353535353536
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2407018.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1177:intheworldseye:3969:0.2965482489292013
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/447797.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+26:inventory415:514:0.05058365758754864
+329:invisiblecirkus:530:0.620754716981132
+18082:inx974:53679:0.3368542633059483
+13312:inyourcorners:45995:0.2894227633438417
+518:ionah1c:3022:0.171409662475182
+39284:ipopyou:104876:0.3745756893855601
+4471:iprolens:7075:0.6319434628975265
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/33234476.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1237194.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1337:iriedole:517:2.586073500967118
+523:irishcalifornian:299:1.7491638795986622
+5281:irishvision:504:10.478174603174603
+936:ironlung23:212:4.415094339622642
+367:ironmike_sf:797:0.4604767879548306
+376:isaac_ho_hk:747:0.5033467202141901
+68:isaacthered:547:0.12431444241316271
+18:isabelagarcia99:26:0.6923076923076923
+261:isabelleengler:124:2.1048387096774195
+618:isbutteracarb_:655:0.9435114503816794
+137:isgersjoliet:65:2.1076923076923078
+705:ishabal:506:1.3932806324110671
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/31004181.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/54540045.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+710:isolife:111:6.396396396396397
+753:its_chanel_:1126:0.6687388987566607
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/28164199.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+689:itsacheung:662:1.040785498489426
+231:itsbchan:377:0.6127320954907162
+444:itsmattwallace:198:2.242424242424242
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3496979.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+355:itsnenabch:693:0.5122655122655123
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2353974.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1195:itsweirdinhere:3748:0.3188367129135539
+77:iturinally_brunette:204:0.37745098039215685
+360:itybitylena:175:2.057142857142857
+304:ivoisolther:342:0.8888888888888888
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6337913.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1949:iwasframed:7496:0.2600053361792956
+50705:iwatchstore:232357:0.21822023868443818
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/30131744.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2469:iwillfollowu2:6125:0.40310204081632656
+5319:iwillmakeyoufamous:25157:0.21143220574790317
+1021383:izdato_eng:5311305:0.19230358640673054
+1343:j08nn3:1176:1.1420068027210883
+199:j_a_s_a_n:326:0.6104294478527608
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/38172578.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+120:j_lantz:119:1.0084033613445378
+443:j_ma:248:1.7862903225806452
+279:j_riggs:554:0.5036101083032491
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/25429055.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+432:jack_lamarre:310:1.3935483870967742
+175:jackhutton:204:0.8578431372549019
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3551617.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+199:jackivy:97:2.051546391752577
+1245:jackkimpton:2249:0.5535793686082704
+668:jackota:666:1.003003003003003
+306:jackson_goad:290:1.0551724137931036
+147:jackthe5nack:141:1.0425531914893618
+770:jackybarbosa:1671:0.46080191502094553
+458:jacobf2013:449:1.0200445434298442
+374:jadajenkins88:1167:0.32047986289631536
+272:jadscottsmith:346:0.7861271676300579
+895:jaes_shoutout:1765:0.5070821529745042
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/242992242.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+421:jajouka:127:3.3149606299212597
+469:jakelandon:287:1.6341463414634145
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/606436.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+309:jakilevy:367:0.8419618528610354
+536:jakl5:182:2.9450549450549453
+910:jaldabaoth:764:1.1910994764397906
+1623:jaleana:4542:0.357331571994716
+372:jamaicanflwrs:390:0.9538461538461539
+10:jamaisnonplus:15:0.6666666666666666
+129:jamal_rasik:438:0.2945205479452055
+113:jambe:326:0.34662576687116564
+188:jameelah_brand:417:0.45083932853717024
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1418604.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+89:james_raftery:276:0.322463768115942
+395:jamesanok:473:0.8350951374207188
+1641:jamesesposito:4364:0.37603116406966086
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/26680793.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+625:jamesyu:1408:0.44389204545454547
+465:jamiejaw:325:1.4307692307692308
+331:jaminbarnes:382:0.8664921465968587
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2699996.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+573:jams35:445:1.2876404494382023
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/186551342.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+251:janan_r:176:1.4261363636363635
+102:janellohh:57:1.7894736842105263
+26816:jang_seungyul:106918:0.25080903122018744
+186:janisbobanis:256:0.7265625
+479:jankynola:1084:0.4418819188191882
+1021:jannica_marie:2056:0.4965953307392996
+138763:japanese_street_artist:548628:0.25292730228861815
+549:jaredmechaber:388:1.4149484536082475
+11:jarfelt:21:0.5238095238095238
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/23349803.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+626:jas:283:2.2120141342756185
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/175043372.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+586:jasmin_rd:330:1.7757575757575759
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/53205218.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1971:jasper:178:11.073033707865168
+52:jasper0076:230:0.22608695652173913
+413:jatinc:162:2.549382716049383
+115:javi_:332:0.3463855421686747
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/53582742.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+223:jaxyr:546:0.4084249084249084
+354:jay_steigleder:1695:0.2088495575221239
+179:jaycen10:98:1.8265306122448979
+60:jaydenharlow44:251:0.23904382470119523
+592:jaygem:775:0.7638709677419355
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/59164.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/174335540.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+474:jaymiheimbuch:152:3.1184210526315788
+840:jayneappel:445:1.8876404494382022
+248:jaypizel:992:0.25
+71:jayprasad45:64:1.109375
+94:jaywaay:41:2.292682926829268
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/6924253.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5725338.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/10830666.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+984:jc77:1388:0.7089337175792507
+273:jcascon:226:1.2079646017699115
+1157:jcbasa29:6921:0.16717237393440254
+175:jcdsf:157:1.1146496815286624
+906:jchn1:3852:0.235202492211838
+1493:jcmochnick:554:2.6949458483754514
+973:jcstrokesfan:501:1.9421157684630739
+515:jd_bourne:392:1.3137755102040816
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3968177.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+3812:jdotcolombofoto:18335:0.2079083719661849
+357:jdubsington:505:0.7069306930693069
+125:jdvogt:67:1.8656716417910448
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/5297484.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+407:jdxd:782:0.520460358056266
+702:je55ikacleeton:474:1.481012658227848
+758:je9design:1003:0.7557328015952144
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/189754660.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+167:jeancarlo91:161:1.0372670807453417
+497:jeanlemay:3370:0.14747774480712167
+63422:jeanlouispatel:221229:0.2866803176798702
+206:jeannebee:164:1.2560975609756098
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8104847.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2659:jebenair:3411:0.7795367927294049
+428:jec311:591:0.7241962774957699
+464:jecameron00:1059:0.4381491973559962
+668:jeckaaa:215:3.1069767441860465
+411:jecky_la:359:1.1448467966573816
+23115:jeddjedd:404:57.21534653465346
+712:jedianlim:872:0.8165137614678899
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/22513479.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+25:jeefunked:28:0.8928571428571429
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3914139.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+146:jefersonph:291:0.5017182130584192
+328:jeffnorona:188:1.7446808510638299
+8015:jeffreydgerson:1062:7.547080979284369
+559:jefftroiano:425:1.3152941176470587
+25156:jelloet:329:76.46200607902736
+9:jelloshotshop:7:1.2857142857142858
+533:jen_themexipina:640:0.8328125
+269:jen_wheaton:339:0.7935103244837758
+20:jena0rose:79:0.25316455696202533
+390:jenavee:303:1.2871287128712872
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8527527.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+131:jenesizzle:85:1.5411764705882354
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/9812341.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+70:jenfir3000:99:0.7070707070707071
+79:jenfursauce:160:0.49375
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/558041.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/271560534.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1095549.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+697:jenjude1:419:1.6634844868735084
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1612080.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+1426:jennahollywood:7383:0.19314641744548286
+221:jennaslev:31:7.129032258064516
+332:jennhazeyhood:191:1.7382198952879582
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4854171.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+5:jennhillton:77:0.06493506493506493
+4709:jenniann14:1376:3.422238372093023
+286:jennie867_5309:177:1.615819209039548
+418:jennifersoaress:970:0.4309278350515464
+255:jenniolsonsf:151:1.6887417218543046
+507:jennnnnny:917:0.5528898582333697
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/16414728.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2544733.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+11:jenny3393:14:0.7857142857142857
+687:jennycaaakes:657:1.0456621004566211
+794:jennyhelicopter:209:3.799043062200957
+297:jennylovestheas:605:0.4909090909090909
+164:jennyluisa:196:0.8367346938775511
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/8245495.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/19698758.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+417:jennythurston:438:0.952054794520548
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/4772904.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3249248.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+171:jeonmiiteddy:371:0.4609164420485175
+84:jephs_ahoy:88:0.9545454545454546
+166:jepihumet:70:2.3714285714285714
+287:jeremeylavoi:203:1.4137931034482758
+223:jeremiahr:240:0.9291666666666667
+552:jeremy_thefugue:670:0.8238805970149253
+1594:jeremybrooks:349:4.567335243553009
+326:jeremyjingraham:216:1.5092592592592593
+778:jeremykossen:581:1.3390705679862307
+686:jerichoxrose:718:0.9554317548746518
+415:jernnie:249:1.6666666666666667
+410:jerofukk:1861:0.22031166039763567
+42:jerperez082:110:0.38181818181818183
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/3341109.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+319:jescoda:501:0.6367265469061876
+670:jesjesjesjesjes:222:3.018018018018018
+342:jesmcdowell:431:0.7935034802784223
+1851:jespermain:4123:0.44894494300266796
+1275:jesree:680:1.875
+154:jess0303:230:0.6695652173913044
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/46596330.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+260:jessd412:372:0.6989247311827957
+143:jessecoleman2k:138:1.036231884057971
+468:jessereyes:819:0.5714285714285714
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2295935.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+351:jesshijuelos:549:0.639344262295082
+307:jesshobbs:203:1.5123152709359606
+526:jessica_allen:482:1.0912863070539418
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/951127.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+557:jessicaperidot:2476:0.22495961227786754
+499:jessidebergerac:295:1.6915254237288135
+2046:jessie_girl:1303:1.5702225633154259
+836:jessiej717:763:1.0956749672346002
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2645829.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+140:jesskchang:185:0.7567567567567568
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1706161.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+951:jestjewels:3299:0.288269172476508
+2374:jesusmazon:7404:0.32063749324689356
+337:jetpacapp:619:0.5444264943457189
+923:jetsetterjay8:1054:0.8757115749525617
+33:jewels_1015:51:0.6470588235294118
+14272:jewelsobsession:39979:0.3569874183946572
+886:jewelzinthesky:4518:0.1961044710048694
+14990:jewseum:191:78.48167539267016
+57:jezefi:598:0.09531772575250837
+2858:jezibell:1427:2.002803083391731
+116:jfebvre:180:0.6444444444444445
+52:jfjfn:443:0.11738148984198646
+235:jfowithahalo:228:1.030701754385965
+215:jfparks:578:0.3719723183391003
+761:jgleit:469:1.6226012793176972
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/1662392.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+441:jguzmanphotog:397:1.1108312342569269
+230:jhar82:320:0.71875
+97:jhartnetthender:62:1.564516129032258
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2599145.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+722:jhoanabanana:285:2.533333333333333
+389:jhonjon0627:460:0.8456521739130435
+113:jifon:594:0.19023569023569023
+10:jillrymyers:3:3.3333333333333335
+1379:jim_detroit:554:2.4891696750902526
+1517:jimbodeeni:5211:0.29111494914603725
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/2786603.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/19962833.json?access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400: you cannot view this resource>
+2174:jimgoldstein:650:3.3446153846153845
+388:jimliv:817:0.4749082007343941
+135:jimr_drumr:281:0.4804270462633452
+208:jingle_bell16:82:2.5365853658536586
+759:jinkyjanky:365:2.0794520547945203
+1331:jizzfactor18:3550:0.3749295774647887
+1520:jj__hirameki:2113:0.7193563653573118
+668:jj_california:326:2.049079754601227
+678:jj_hones:248:2.7338709677419355
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jjase12&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jjoules&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jkn13&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jkyau&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jlbryantjo&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jldstudio&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jmac45&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jmbianchi&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jmclaud&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jmwispers&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jnetto&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jnita&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jnviet&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=joannmcnally&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=joanrbada&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=joaoeduardocaf&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=joaomgaia&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=joaovitortagor&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jobyinc&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jocayanan&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jodidit&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=jodiescloset&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=joegaribaldi&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=joelboy&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=joeleor&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=joelnance&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=joeocz&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+#<Instagram::BadRequest: GET https://api.instagram.com/v1/users/search.json?q=joeyhatesbirds&access_token=109578.1fb234f.420ab70ca9114438ac61f90af2da6422: 400>
+^C/Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/protocol.rb:143:in `select': Interrupt
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/protocol.rb:143:in `rescue in rbuf_fill'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/protocol.rb:122:in `readuntil'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/protocol.rb:132:in `readline'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/http.rb:2562:in `read_status_line'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/http.rb:2551:in `read_new'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/http.rb:1319:in `block in transport_request'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/http.rb:1316:in `catch'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/http.rb:1316:in `transport_request'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/http.rb:1293:in `request'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/http.rb:1286:in `block in request'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/http.rb:745:in `start'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/http.rb:1284:in `request'
+	from /Users/newuser/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/net/http.rb:1026:in `get'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/faraday-0.8.7/lib/faraday/adapter/net_http.rb:73:in `perform_request'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/faraday-0.8.7/lib/faraday/adapter/net_http.rb:38:in `call'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/instagram-0.10.0/lib/faraday/raise_http_exception.rb:8:in `call'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/faraday_middleware-0.8.8/lib/faraday_middleware/response_middleware.rb:30:in `call'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/faraday-0.8.7/lib/faraday/response.rb:8:in `call'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/faraday-0.8.7/lib/faraday/request/url_encoded.rb:14:in `call'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/instagram-0.10.0/lib/faraday/oauth2.rb:33:in `call'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/faraday-0.8.7/lib/faraday/connection.rb:247:in `run_request'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/faraday-0.8.7/lib/faraday/connection.rb:100:in `get'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/instagram-0.10.0/lib/instagram/request.rb:28:in `request'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/instagram-0.10.0/lib/instagram/request.rb:6:in `get'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/instagram-0.10.0/lib/instagram/client/users.rb:37:in `user_search'
+	from /Users/newuser/.rvm/gems/ruby-1.9.3-p125/gems/instagram-0.10.0/lib/instagram.rb:20:in `method_missing'
+	from bigdata_igerssf.rb:35:in `study_follows'
+	from bigdata_igerssf.rb:56:in `block in <main>'
+	from bigdata_igerssf.rb:55:in `each'
+	from bigdata_igerssf.rb:55:in `<main>'
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    ]2;newuser@r1barce: ~/repos/rubyplay/ig]1;..s/rubyplay/ig[0m[27m[24m[J[36m┌[[01;37mnewuser[00m[36m☮[01;37mr1barce.local[00m[36m][37m-[36m([01;37m~/repos/rubyplay/ig[00m[36m)-[[00m[37mgit://[01;37mmaster [31m✗[00m[00m[36m]-
+└> [00m[K
+
+Script done on Fri Nov  1 19:27:17 2013
