@@ -59,7 +59,7 @@ class Cityyelp < Yelp
     puts
     result = JSON.parse(json_data)
     result.each { |key, value| 
-      puts key
+      # puts key
       # puts value.inspect
       if key == 'businesses'
         value.each { |business|
@@ -69,9 +69,18 @@ class Cityyelp < Yelp
             # puts business["address1"]
             # puts business["address2"] if business["address2"].length > 0
             # puts "#{business["city"]}, #{@state} #{business["zip"]}"
+            s_address = business["address1"]
+            if business["address2"].length > 0
+              s_address = s_address + ", " + business["address2"]
+            end 
+            s_address = s_address + ", #{business["city"]}, #{@state} #{business["zip"]}"
+            puts "Address: #{s_address}"
+            res = %x[./geo_listing.rb "#{s_address}"]
+            puts res
+
             # puts business["mobile_url"]
             # puts business["url"]
-            puts "#{business["latitude"]},#{business["longitude"]}"
+            # puts "#{business["latitude"]},#{business["longitude"]}"
             # puts business.inspect
           end
         }
