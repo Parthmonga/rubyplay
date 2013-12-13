@@ -1,0 +1,1107 @@
+Script started on Wed 11 Dec 2013 03:16:22 PM PST
+]0;ubuntu@r1mysql01: ~ubuntu@r1mysql01:~$ sudo bash
+]0;root@r1mysql01: ~root@r1mysql01:~# sudo su
+]0;root@r1mysql01: /home/ubunturoot@r1mysql01:/home/ubuntu# /bin/bash -l -c './cali_cities.bash' 
+{:query=>"7-Eleven", :city=>"Visalia", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Visalia%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 1201 S Mooney Blvd, Visalia, CA 93277
+36.319977,-119.3143369
+Address: 111 W Walnut Ave, Visalia, CA 93277
+36.3124613,-119.2923388
+Address: 2630 Tulare St, Fresno, CA 93721
+36.7385382,-119.7834904
+Address: 904 E Cleveland Ave, Madera, CA 93638
+36.974085,-120.05589
+Address: 395 N 11th Ave, Hanford, CA 93230
+36.3279288,-119.6550275
+Address: 1170 Clovis Ave, Clovis, CA 93612
+36.8159853,-119.7002719
+Address: 1903 Jensen Ave, Sanger, CA 93657
+36.706654,-119.564727
+Address: 2397 S Chestnut Ave, Fresno, CA 93725
+36.714459,-119.736144
+Address: 420 E Bullard Ave, Fresno, CA 93710
+36.8234768,-119.7808781
+Address: 6875 N Milburn Ave, Fresno, CA 93722
+36.8365902,-119.8798439
+Address: 6015 E Kings Canyon Rd, Fresno, CA 93727
+36.7364279,-119.6817888
+Address: 1784 W Shaw Ave, Fresno, CA 93711
+36.8086787,-119.8259378
+Address: 7314 N Blackstone Ave, Fresno, CA 93650
+36.842927,-119.790111
+Address: 4246 W Ashlan Ave, Fresno, CA 93722
+36.7940133,-119.8675067
+Address: 1596 N Palm Ave, Fresno, CA 93728
+36.7645795,-119.8081592
+Address: 2515 E McKinley Ave, Fresno, CA 93703
+36.7650837,-119.7810158
+Address: 3005 W Ashlan Ave, Fresno, CA 93722
+36.7936497,-119.8444155
+Address: 4909 N Cedar Ave, Fresno, CA 93726
+36.806967,-119.754713
+Address: 1629 E Ashlan Ave, Fresno, CA 93704
+36.7940985,-119.7919184
+{:query=>"7-Eleven", :city=>"Vista", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Vista%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 298 Sycamore Ave, Vista, CA 92083
+33.170005,-117.211904
+Address: 13835 Mango Dr, Del Mar, CA 92014
+32.949451,-117.247042
+Address: 8261 Gold Coast Dr, San Diego, CA 92126
+32.9048563,-117.1454034
+Address: 3251 Business Park Dr, Vista, CA 92081
+33.132661,-117.228851
+Address: 901 Palomar Airport Rd, Carlsbad, CA 92009
+33.121631,-117.318757
+Address: 7801 Clairemont Mesa Blvd, San Diego, CA 92111
+32.832362,-117.152855
+Address: 4625 Frazee Rd, Oceanside, CA 92057
+33.2376334,-117.2979262
+Address: 1610 S Melrose Dr, Vista, CA 92081
+33.167253,-117.2467293
+Address: 417 9th Ave, San Diego, CA 92101
+32.7096424,-117.1564501
+Address: 102 Leucadia Blvd, Encinitas, CA 92024
+33.0649946,-117.3016042
+Address: 1501 N Santa Fe Ave, Vista, CA 92084
+33.2215065,-117.2446391
+Address: 4527 Mission Bay Dr, San Diego, CA 92109
+32.803012,-117.216298
+Address: 1469 State St, San Diego, CA 92101
+32.7206934,-117.1664822
+Address: 1693 Melrose Dr, Ste 100, San Marcos, CA 92078
+33.1069587,-117.2217923
+Address: 10777 Jamacha Blvd, Spring Valley, CA 91978
+32.729537,-116.961382
+Address: 201 Oak Ave, Carlsbad, CA 92008
+33.1566912,-117.3502563
+Address: 1826 Rosecrans St, San Diego, CA 92106
+32.7304179,-117.2247888
+Address: 17937 MacArthur Blvd, Irvine, CA 92614
+33.6870618,-117.8552061
+Address: 8747 La Mesa Blvd., La Mesa, CA 91942
+32.7706306,-117.0082162
+{:query=>"7-Eleven", :city=>"Walnut", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Walnut%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 31186 Hawthorne Blvd, Rancho Palos Verdes, CA 90275
+33.7491379,-118.40723
+Address: 17937 MacArthur Blvd, Irvine, CA 92614
+33.6870618,-117.8552061
+Address: 15991 Magnolia St, Westminster, CA 92683
+33.7309281,-117.9726298
+Address: 235 N Azusa Ave, West Covina, CA 91791
+34.07485,-117.9081885
+Address: 12170 Ramona Blvd, El Monte, CA 91732
+34.075573,-118.008123
+Address: 3201 N Broadway, Los Angeles, CA 90031
+34.0737723,-118.2077664
+Address: 2222 W Commonwealth Ave, Fullerton, CA 92833
+33.8700498,-117.9673462
+Address: 18532 Yorba Linda Blvd, Yorba Linda, CA 92886
+33.8884999,-117.8108395
+Address: 3259 Associated Rd, Fullerton, CA 92832
+33.9100977,-117.8807741
+Address: 1200 S. Garfield Ave., Alhambra, CA 91801
+34.080498,-118.122697
+Address: 4200 Long Beach Blvd, Long Beach, CA 90807
+33.8350173,-118.1889413
+Address: 1000 W Orangethorpe Ave, Fullerton, CA 92832
+33.85981,-117.9250115
+Address: 1701 N Kraemer Blvd, Anaheim, CA 92806
+33.8651924,-117.8630427
+Address: 1441 W MacArthur Blvd, Santa Ana, CA 92704
+33.7004874,-117.8879276
+Address: 5138 N Figueroa St, Los Angeles, CA 90042
+34.1058069,-118.1994905
+Address: 8500 W Olympic Blvd, Los Angeles, CA 90035
+34.0590842,-118.3766319
+Address: 1347 S Azusa Ave, West Covina, CA 91791
+34.050466,-117.908465
+Address: 1910 Colorado Blvd, Los Angeles, CA 90041
+34.1390349,-118.2089479
+Address: 400 W Foothill Blvd, Monrovia, CA 91016
+34.1508649,-118.0078563
+{:query=>"7-Eleven", :city=>"Walnut Creek", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Walnut+Creek%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 1248 Boulevard Way, Walnut Creek, CA 94595
+37.8936875,-122.0758614
+Address: 1305 S Main St, Walnut Creek, CA 94596
+37.8941837,-122.0591828
+Address: 5100 Geary Blvd, San Francisco, CA 94118
+37.780882,-122.474169
+Address: 401 El Camino Real, Millbrae, CA 94030
+37.6020855,-122.3923757
+Address: 1240 Manor Blvd, San Leandro, CA 94579
+37.6910189,-122.152891
+Address: 2906 1st St, Napa, CA 94558
+38.301256,-122.310814
+Address: 7022 Stockton Ave, El Cerrito, CA 94530
+37.9102604,-122.299498
+Address: 1497 Danville Blvd, Alamo, CA 94507
+37.8474001,-122.0308397
+Address: 301 N Civic Dr, Walnut Creek, CA 94596
+37.91085450000001,-122.0598219
+Address: 2525 N Main St, Walnut Creek, CA 94597
+37.9179862,-122.0658109
+Address: 2222 Taraval St, San Francisco, CA 94116
+37.742666,-122.490045
+Address: 349 Miller Ave, Mill Valley, CA 94941
+37.8985431,-122.5376224
+Address: 217 Sutter St, San Francisco, CA 94108
+37.7895975,-122.4042789
+Address: 25460 S Schulte Rd, Tracy, CA 95377
+37.723082,-121.532254
+Address: 5741 Thornhill Dr, Oakland, CA 94611
+37.8346719,-122.2121825
+Address: 525 Oak Grove Ave, Menlo Park, CA 94025
+37.4557474,-122.1829261
+Address: 293 87th St, Daly City, CA 94015
+37.6929808,-122.4742165
+Address: 1136 Imola Ave, Napa, CA 94559
+38.2803153,-122.2653379
+Address: 7120 Dublin Blvd, Dublin, CA 94568
+37.70581689999999,-121.9222574
+Address: 3961 Callan Blvd, South San Francisco, CA 94080
+37.6496627,-122.4689549
+{:query=>"7-Eleven", :city=>"Wasco", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Wasco%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 1124 6th St, Taft, CA 93268
+35.1502842,-119.4558146
+Address: 5203 Olive Dr, Bakersfield, CA 93308
+35.411857,-119.058448
+Address: 4101 Calloway Dr, Bakersfield, CA 93312
+35.3974666,-119.1106988
+Address: 1540 Bear Mountain Blvd, Arvin, CA 93203
+35.209404,-118.841704
+Address: 300 N Chester Ave, Bakersfield, CA 93308
+35.4090348,-119.0207158
+Address: 9600 Brimhall Rd, Bakersfield, CA 93312
+35.3693304,-119.1095509
+Address: 3601 Stockdale Hwy, Bakersfield, CA 93309
+35.3537135,-119.0437106
+Address: 6529 E Brundage Ln, Bakersfield, CA 93307
+35.3538867,-118.9315099
+Address: 525 W Columbus St, Bakersfield, CA 93301
+35.3972064,-119.0077812
+{:query=>"7-Eleven", :city=>"Waterford", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Waterford%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 455 W Grant Line Rd, Tracy, CA 95376
+37.754196,-121.4325446
+Address: 25460 S Schulte Rd, Tracy, CA 95377
+37.723082,-121.532254
+Address: 22950 Joaquin Gully Rd, Twain Harte, CA 95383
+38.03836099999999,-120.230081
+Address: 2360 W Grant Line Rd, Tracy, CA 95377
+37.7536366,-121.4599398
+Address: 77 E Olive Dr., Merced, CA 95340
+37.3188042,-120.4683734
+Address: 7947 Pacific Ave, Stockton, CA 95207
+38.0194758,-121.3239861
+Address: 711 E F St, Oakdale, CA 95361
+37.7681262,-120.8433699
+Address: 4501 N Pershing Ave, Stockton, CA 95207
+37.9867984,-121.3212953
+Address: 2725 Country Club Blvd, Stockton, CA 95204
+37.9643519,-121.336973
+Address: 1045 Oakdale Rd, Modesto, CA 95355
+37.6578126,-120.9579118
+Address: 3040 W Benjamin Holt Dr, Stockton, CA 95219
+38.0042352,-121.352417
+Address: 2500 Geer Rd, Turlock, CA 95382
+37.5158059,-120.8484125
+Address: 1399 N Main St, Manteca, CA 95336
+37.81801919999999,-121.2178355
+Address: 4943 S State Route 99 Frontage Rd E, Stockton, CA 95202
+38.0299349,-121.293957
+Address: 9110 Thornton Rd, Stockton, CA 95209
+38.033285,-121.336295
+{:query=>"7-Eleven", :city=>"Watsonville", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Watsonville%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 295 W Main Ave, Morgan Hill, CA 95037
+37.1277084,-121.6600861
+Address: 367 Ocean St, Santa Cruz, CA 95060
+36.9730459,-122.018422
+Address: 320 Reservation Rd, Marina, CA 93933
+36.6834221,-121.7916417
+Address: 525 Oak Grove Ave, Menlo Park, CA 94025
+37.4557474,-122.1829261
+Address: 1461 Main St, Watsonville, CA 95076
+36.9166004,-121.776627
+Address: 1380 Pear Ave, Mountain View, CA 94041
+37.4158448,-122.07729
+Address: 915 San Benito St, Hollister, CA 95023
+36.8466288,-121.4022151
+Address: 2223 S Bascom Ave, Campbell, CA 95008
+37.2829534,-121.9323496
+Address: 381 David Ave, Monterey, CA 93940
+36.6161956,-121.9048317
+Address: 1838 Milmont Dr, Milpitas, CA 95035
+37.4549436,-121.9164086
+Address: 708 Colorado Avenue, Palo Alto, CA 94306
+37.4331546,-122.1278103
+Address: 3110 Senter Rd, San Jose, CA 95111
+37.294716,-121.834075
+Address: 287 S 11th St, San Jose, CA 95112
+37.3368305,-121.8767964
+Address: 1040 Piedmont Rd, San Jose, CA 95132
+37.3924074,-121.8433434
+Address: 1002 W Evelyn Ave, Sunnyvale, CA 94086
+37.3828156,-122.0454382
+Address: 21490 McClellan Rd, Cupertino, CA 95014
+37.3152203,-122.050072
+Address: 602 Laurel St, Santa Cruz, CA 95060
+36.96894899999999,-122.029703
+Address: 1201 Wildwood Ave, Sunnyvale, CA 94089
+37.3922432,-121.9942522
+Address: 657 N Santa Cruz Ave, Los Gatos, CA 95030
+37.2355948,-121.9781926
+Address: 400 El Camino Real, Belmont, CA 94002
+37.5263915,-122.2835379
+{:query=>"7-Eleven", :city=>"Weed", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Weed%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+{:query=>"7-Eleven", :city=>"West Covina", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=West+Covina%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 235 N Azusa Ave, West Covina, CA 91791
+34.07485,-117.9081885
+Address: 1347 S Azusa Ave, West Covina, CA 91791
+34.050466,-117.908465
+Address: 2887 E Valley Blvd, West Covina, CA 91792
+34.0022378,-117.8817727
+Address: 1319 W Merced Ave, West Covina, CA 91790
+34.0611136,-117.9453459
+Address: 31186 Hawthorne Blvd, Rancho Palos Verdes, CA 90275
+33.7491379,-118.40723
+Address: 15991 Magnolia St, Westminster, CA 92683
+33.7309281,-117.9726298
+Address: 12170 Ramona Blvd, El Monte, CA 91732
+34.075573,-118.008123
+Address: 3201 N Broadway, Los Angeles, CA 90031
+34.0737723,-118.2077664
+Address: 1785 Palo Verde Ave, Suite A, Long Beach, CA 90815
+33.7883943,-118.1080725
+Address: 6262 Rosemead Blvd, Temple City, CA 91780
+34.1132845,-118.0733839
+Address: 2222 W Commonwealth Ave, Fullerton, CA 92833
+33.8700498,-117.9673462
+Address: 1200 S. Garfield Ave., Alhambra, CA 91801
+34.080498,-118.122697
+Address: 4200 Long Beach Blvd, Long Beach, CA 90807
+33.8350173,-118.1889413
+Address: 3259 Associated Rd, Fullerton, CA 92832
+33.9100977,-117.8807741
+Address: 5138 N Figueroa St, Los Angeles, CA 90042
+34.1058069,-118.1994905
+Address: 8500 W Olympic Blvd, Los Angeles, CA 90035
+34.0590842,-118.3766319
+Address: 1910 Colorado Blvd, Los Angeles, CA 90041
+34.1390349,-118.2089479
+Address: 1000 W Orangethorpe Ave, Fullerton, CA 92832
+33.85981,-117.9250115
+Address: 1701 N Kraemer Blvd, Anaheim, CA 92806
+33.8651924,-117.8630427
+{:query=>"7-Eleven", :city=>"West Hollywood", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=West+Hollywood%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 1100 N La Cienega Blvd, West Hollywood, CA 90069
+34.0908236,-118.3758519
+Address: 7609 Santa Monica Blvd, West Hollywood, CA 90046
+34.0911126,-118.3553352
+Address: 8500 W Olympic Blvd, Los Angeles, CA 90035
+34.0590842,-118.3766319
+Address: 1611 W Olive Ave, Burbank, CA 91506
+34.167715,-118.322948
+Address: 11285 Santa Monica Blvd, Los Angeles, CA 90025
+34.046744,-118.4483181
+Address: 12170 Ramona Blvd, El Monte, CA 91732
+34.075573,-118.008123
+Address: 5763 Hollywood Blvd, Los Angeles, CA 90028
+34.102056,-118.314989
+Address: 630 Wilshire Blvd, Santa Monica, CA 90401
+34.0210438,-118.4959022
+Address: 4200 Long Beach Blvd, Long Beach, CA 90807
+33.8350173,-118.1889413
+Address: 2200 W Sunset Blvd, Los Angeles, CA 90026
+34.0778675,-118.2660213
+Address: 10834 Santa Monica Blvd, Los Angeles, CA 90025
+34.0499909,-118.4354707
+Address: 11075 W Olympic Blvd, Los Angeles, CA 90064
+34.040663,-118.437858
+Address: 1400 Westwood Blvd, Los Angeles, CA 90024
+34.055283,-118.44132
+Address: 1451 S La Cienega Blvd, Los Angeles, CA 90035
+34.0518732,-118.3765534
+Address: 3311 W Century Blvd, Inglewood, CA 90303
+33.9461184,-118.3296408
+Address: 1519 S Bundy Dr, West Los Angeles, CA 90025
+34.0398329,-118.4629766
+Address: 1101 S Glendale Ave, Glendale, CA 91205
+34.1332359,-118.2522066
+Address: 6660 W Sunset Blvd, Los Angeles, CA 90028
+34.097565,-118.335702
+{:query=>"7-Eleven", :city=>"West Sacramento", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=West+Sacramento%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 525 L Street, Davis, CA 95616
+38.54921,-121.735087
+Address: 4010 Lake Road, West Sacramento, CA 95691
+38.572851,-121.579025
+Address: 1325 J St, Sacramento, CA 95814
+38.5795572,-121.4882219
+Address: 2906 1st St, Napa, CA 94558
+38.301256,-122.310814
+Address: 14501 San Pablo Ave, San Pablo, CA 94806
+37.9679834,-122.3442743
+Address: 1199 3rd Ave, Ste 4, Sacramento, CA 95818
+38.5557659,-121.5011622
+Address: 1136 Imola Ave, Napa, CA 94559
+38.2803153,-122.2653379
+Address: 1199 43rd Ave., Sacramento, CA 95822
+38.5168068,-121.5171695
+Address: 4449 Central Pl, Fairfield, CA 94534
+38.2205054,-122.1265134
+Address: 115 Sunset Ave, Suisun City, CA 94585
+38.24411,-122.017226
+Address: 4101 Concord Blvd, Concord, CA 94519
+37.9782646,-121.9939511
+Address: 9210 Kiefer Blvd, Sacramento, CA 95826
+38.5472954,-121.3574203
+Address: 2010 Redwood Rd, Napa, CA 94558
+38.3212,-122.311297
+Address: 6681 Blue Oaks Blvd, Rocklin, CA 95765
+38.79597,-121.2893884
+Address: 2869 Pinole Valley Rd, Pinole, CA 94564
+37.9936703,-122.2850718
+Address: 2437 Main St, Oakley, CA 94561
+37.9982356,-121.7321377
+Address: 4901 Lone Tree Way, Antioch, CA 94531
+37.962452,-121.760492
+Address: 7700 La Riviera Dr, Sacramento, CA 95826
+38.55722859999999,-121.4105173
+Address: 17 Golf Club Rd, Pleasant Hill, CA 94523
+37.971302,-122.064713
+Address: 6591 Wyndham Drive, Sacramento, CA 95823
+38.4688324,-121.4261914
+{:query=>"7-Eleven", :city=>"Westlake Village", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Westlake+Village%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 255 Carmen Dr, Camarillo, CA 93010
+34.2188483,-119.0513301
+Address: 26815 Seco Canyon Rd, Santa Clarita, CA 91350
+34.433876,-118.531972
+Address: 31186 Hawthorne Blvd, Rancho Palos Verdes, CA 90275
+33.7491379,-118.40723
+Address: 3201 N Broadway, Los Angeles, CA 90031
+34.0737723,-118.2077664
+Address: 8500 W Olympic Blvd, Los Angeles, CA 90035
+34.0590842,-118.3766319
+Address: 1001 Foothill Blvd, La Cañada Flintridge, CA 91011
+34.204859,-118.200456
+Address: 630 Wilshire Blvd, Santa Monica, CA 90401
+34.0210438,-118.4959022
+Address: 1785 Palo Verde Ave, Suite A, Long Beach, CA 90815
+33.7883943,-118.1080725
+Address: 4919 Las Virgenes Rd, Calabasas, CA 91302
+34.1465517,-118.6984279
+Address: 23406 Lyons Ave, Santa Clarita, CA 91321
+34.3795752,-118.5427022
+Address: 1611 W Olive Ave, Burbank, CA 91506
+34.167715,-118.322948
+Address: 11285 Santa Monica Blvd, Los Angeles, CA 90025
+34.046744,-118.4483181
+Address: 13919 Hubbard Street, Sylmar, CA 91342
+34.3025483,-118.4364543
+Address: 22020 Calvert St, Woodland Hills, CA 91367
+34.18084,-118.606682
+Address: 10834 Santa Monica Blvd, Los Angeles, CA 90025
+34.0499909,-118.4354707
+Address: 11075 W Olympic Blvd, Los Angeles, CA 90064
+34.040663,-118.437858
+Address: 6595 Collins Dr, Moorpark, CA 93021
+34.2957286,-118.8439514
+Address: 1200 S. Garfield Ave., Alhambra, CA 91801
+34.080498,-118.122697
+Address: 4200 Long Beach Blvd, Long Beach, CA 90807
+33.8350173,-118.1889413
+{:query=>"7-Eleven", :city=>"Westminster", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Westminster%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 15991 Magnolia St, Westminster, CA 92683
+33.7309281,-117.9726298
+Address: 14502 Goldenwest St., Westminster, CA 92683
+33.7516279,-118.006652
+Address: 5511 Westminster Boulevard, Westminster, CA 92683
+33.759681,-118.033625
+Address: 17937 MacArthur Blvd, Irvine, CA 92614
+33.6870618,-117.8552061
+Address: 1785 Palo Verde Ave, Suite A, Long Beach, CA 90815
+33.7883943,-118.1080725
+Address: 2222 W Commonwealth Ave, Fullerton, CA 92833
+33.8700498,-117.9673462
+Address: 4200 Long Beach Blvd, Long Beach, CA 90807
+33.8350173,-118.1889413
+Address: 1441 W MacArthur Blvd, Santa Ana, CA 92704
+33.7004874,-117.8879276
+Address: 1000 W Orangethorpe Ave, Fullerton, CA 92832
+33.85981,-117.9250115
+Address: 9475 Warner Ave, Unit D, Fountain Valley, CA 92708
+33.7164646,-117.9637038
+Address: 3259 Associated Rd, Fullerton, CA 92832
+33.9100977,-117.8807741
+Address: 1701 N Kraemer Blvd, Anaheim, CA 92806
+33.8651924,-117.8630427
+Address: 19731 Beach Blvd, Huntington Beach, CA 92648
+33.67615000000001,-117.989053
+Address: 1700 E Dyer Rd, Santa Ana, CA 92705
+33.7079436,-117.8501841
+Address: 11140 Del Amo Blvd, Lakewood, CA 90715
+33.8458303,-118.0956937
+Address: 10950 Warner Ave, Fountain Valley, CA 92708
+33.7158232,-117.9378755
+Address: 2683 Harbor Blvd, Costa Mesa, CA 92626
+33.6701775,-117.9197506
+Address: 5432 Orangethorpe Ave, La Palma, CA 90623
+33.8582336,-118.0387771
+Address: 2910 S Main St, Santa Ana, CA 92707
+33.7081091,-117.8682895
+{:query=>"7-Eleven", :city=>"Westmorland", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Westmorland%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 184 W Main St, Brawley, CA 92227
+32.9781751,-115.5433042
+Address: 1485 Ocotillo Dr, El Centro, CA 92243
+32.776803,-115.569122
+Address: 2420 S 4th St, El Centro, CA 92243
+32.7707529,-115.5526921
+Address: 2050 S 4th St, El Centro, CA 92243
+32.7756186,-115.5528289
+Address: 815 Adams Ave, El Centro, CA 92243
+32.7964013,-115.5616892
+Address: 113 Rockwood Ave, Calexico, CA 92231
+32.665934,-115.496645
+Address: 211 W 5th St, Holtville, CA 92250
+32.8111736,-115.3818644
+Address: 73800 Highway 111, Palm Desert, CA 92260
+33.7218102,-116.376787
+Address: 81500 US Highway 111, Indio, CA 92201
+33.7088573,-116.2408115
+{:query=>"7-Eleven", :city=>"Wheatland", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Wheatland%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 525 L Street, Davis, CA 95616
+38.54921,-121.735087
+Address: 1325 J St, Sacramento, CA 95814
+38.5795572,-121.4882219
+Address: 1199 3rd Ave, Ste 4, Sacramento, CA 95818
+38.5557659,-121.5011622
+Address: 1199 43rd Ave., Sacramento, CA 95822
+38.5168068,-121.5171695
+Address: 6681 Blue Oaks Blvd, Rocklin, CA 95765
+38.79597,-121.2893884
+Address: 2101 Sunset Blvd, Rocklin, CA 95765
+38.810834,-121.2827168
+Address: 9210 Kiefer Blvd, Sacramento, CA 95826
+38.5472954,-121.3574203
+Address: 6591 Wyndham Drive, Sacramento, CA 95823
+38.4688324,-121.4261914
+Address: 1229 E Main St, Woodland, CA 95776
+38.67744,-121.7643692
+Address: 8500 Madison Ave, Fair Oaks, CA 95628
+38.663914,-121.243808
+Address: 2544 Arden Way, Sacramento, CA 95825
+38.5956307,-121.4020559
+Address: 7700 La Riviera Dr, Sacramento, CA 95826
+38.55722859999999,-121.4105173
+Address: 5080 Auburn Blvd, Sacramento, CA 95841
+38.6612288,-121.3464225
+Address: 4010 Lake Road, West Sacramento, CA 95691
+38.572851,-121.579025
+Address: Hillsdale Boulevard, Sacramento, CA 95814
+38.6734426,-121.3550203
+Address: 6401 Antelope Rd Ste B, Citrus Heights, CA 95621
+38.707735,-121.314982
+Address: 2000 S Cirby Way, Roseville, CA 95661
+38.726945,-121.250967
+Address: 3448 Watt Avenue, Sacramento, CA 95821
+38.6283839,-121.382594
+Address: 7700 Folsom Auburn Rd, Folsom, CA 95630
+38.70668149999999,-121.1702724
+{:query=>"7-Eleven", :city=>"Whittier", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Whittier%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 10437 Whittier Blvd, Whittier, CA 90606
+33.9921466,-118.0671636
+Address: 11807 Valley View Ave, Whittier, CA 90604
+33.9223098,-118.0296088
+Address: 13019 Imperial Hwy, Whittier, CA 90605
+33.9174104,-118.0544329
+Address: 12170 Ramona Blvd, El Monte, CA 91732
+34.075573,-118.008123
+Address: 6262 Rosemead Blvd, Temple City, CA 91780
+34.1132845,-118.0733839
+Address: 235 N Azusa Ave, West Covina, CA 91791
+34.07485,-117.9081885
+Address: 3366 San Gabriel Blvd, Rosemead, CA 91770
+34.069459,-118.090162
+Address: 2222 W Commonwealth Ave, Fullerton, CA 92833
+33.8700498,-117.9673462
+Address: 1200 S. Garfield Ave., Alhambra, CA 91801
+34.080498,-118.122697
+Address: 1000 W Orangethorpe Ave, Fullerton, CA 92832
+33.85981,-117.9250115
+Address: 2410 Fullerton Rd, Rowland Heights, CA 91748
+33.976148,-117.909411
+Address: 12361 Imperial Hwy, Norwalk, CA 90650
+33.917305,-118.0693506
+Address: 12954 Bess Ave, Baldwin Park, CA 91706
+34.0673154,-117.9920759
+Address: 1347 S Azusa Ave, West Covina, CA 91791
+34.050466,-117.908465
+Address: 8543 Rosemead Blvd, Pico Rivera, CA 90660
+33.9615288,-118.1101346
+Address: 8147 Arroyo Dr, Rosemead, CA 91770
+34.0425952,-118.0924835
+Address: 4800 Temple City Blvd, Temple City, CA 91780
+34.0895269,-118.057304
+Address: 8807 Mission Dr, Rosemead, CA 91770
+34.0863846,-118.07755
+{:query=>"7-Eleven", :city=>"Wildomar", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Wildomar%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 13835 Mango Dr, Del Mar, CA 92014
+32.949451,-117.247042
+Address: 4625 Frazee Rd, Oceanside, CA 92057
+33.2376334,-117.2979262
+Address: 901 Palomar Airport Rd, Carlsbad, CA 92009
+33.121631,-117.318757
+Address: 3740 Iowa Ave, Ste 11, Riverside, CA 92507
+33.977114,-117.339503
+Address: 41440 Big Bear Blvd, Ste A, Big Bear Lake, CA 92315
+34.2439029,-116.8979265
+Address: 17937 MacArthur Blvd, Irvine, CA 92614
+33.6870618,-117.8552061
+Address: 102 Leucadia Blvd, Encinitas, CA 92024
+33.0649946,-117.3016042
+Address: 15991 Magnolia St, Westminster, CA 92683
+33.7309281,-117.9726298
+Address: 32060 Clinton Keith Rd, Wildomar, CA 92595
+33.5942557,-117.2470188
+Address: 1693 Melrose Dr, Ste 100, San Marcos, CA 92078
+33.1069587,-117.2217923
+Address: 40210 Murrieta Hot Springs Rd, Murrieta, CA 92563
+33.5556067,-117.1735596
+Address: 201 Oak Ave, Carlsbad, CA 92008
+33.1566912,-117.3502563
+Address: 6602 Irvine Center Dr, Irvine, CA 92618
+33.66917520000001,-117.7654926
+Address: 41260 Murrieta Hot Spgs Rd, Murrieta, CA 92562
+33.5522114,-117.195649
+Address: 28015 Scott Rd, Murrieta, CA 92563
+33.6410867,-117.1688458
+Address: 235 N Azusa Ave, West Covina, CA 91791
+34.07485,-117.9081885
+Address: 14391 Penasquitos Dr, San Diego, CA 92129
+32.9775612,-117.0896337
+Address: 1441 W MacArthur Blvd, Santa Ana, CA 92704
+33.7004874,-117.8879276
+Address: 2222 W Commonwealth Ave, Fullerton, CA 92833
+33.8700498,-117.9673462
+{:query=>"7-Eleven", :city=>"Williams", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Williams%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 525 L Street, Davis, CA 95616
+38.54921,-121.735087
+Address: 1325 J St, Sacramento, CA 95814
+38.5795572,-121.4882219
+Address: 1199 43rd Ave., Sacramento, CA 95822
+38.5168068,-121.5171695
+Address: 1199 3rd Ave, Ste 4, Sacramento, CA 95818
+38.5557659,-121.5011622
+Address: 1229 E Main St, Woodland, CA 95776
+38.67744,-121.7643692
+Address: 9210 Kiefer Blvd, Sacramento, CA 95826
+38.5472954,-121.3574203
+Address: 2544 Arden Way, Sacramento, CA 95825
+38.5956307,-121.4020559
+Address: 4010 Lake Road, West Sacramento, CA 95691
+38.572851,-121.579025
+Address: 7700 La Riviera Dr, Sacramento, CA 95826
+38.55722859999999,-121.4105173
+Address: 5080 Auburn Blvd, Sacramento, CA 95841
+38.6612288,-121.3464225
+Address: Hillsdale Boulevard, Sacramento, CA 95814
+38.6734426,-121.3550203
+Address: 3448 Watt Avenue, Sacramento, CA 95821
+38.6283839,-121.382594
+Address: 2450 Northgate Blvd, Sacramento, CA 95833
+38.610955,-121.4750945
+Address: 1096 East Ave, Chico, CA 95926
+39.761253,-121.834311
+Address: 3601 Elkhorn Blvd, North Highlands, CA 95660
+38.6904116,-121.3829823
+Address: 301 Cottonwood St, Woodland, CA 95695
+38.6786839,-121.79293
+Address: 2125 Monte Vista Ave, Oroville, CA 95966
+39.476956,-121.547544
+Address: 1111 Forest Ave, Chico, CA 95928
+39.73922270000001,-121.8039842
+Address: 1552 Jefferson Blvd, West Sacramento, CA 95691
+38.5682777,-121.525049
+{:query=>"7-Eleven", :city=>"Willits", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Willits%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 1194 S Cloverdale Blvd, Cloverdale, CA 95425
+38.7838629,-123.011472
+{:query=>"7-Eleven", :city=>"Willows", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Willows%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 1096 East Ave, Chico, CA 95926
+39.761253,-121.834311
+Address: 1111 Forest Ave, Chico, CA 95928
+39.73922270000001,-121.8039842
+Address: 2125 Monte Vista Ave, Oroville, CA 95966
+39.476956,-121.547544
+Address: 1020 Lincoln Rd, Yuba City, CA 95991
+39.1123457,-121.6278121
+Address: 689 Queens Ave, Yuba City, CA 95991
+39.152118,-121.625431
+{:query=>"7-Eleven", :city=>"Windsor", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Windsor%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 2906 1st St, Napa, CA 94558
+38.301256,-122.310814
+Address: 14501 San Pablo Ave, San Pablo, CA 94806
+37.9679834,-122.3442743
+Address: 1136 Imola Ave, Napa, CA 94559
+38.2803153,-122.2653379
+Address: 1704 E Cotati Ave, Rohnert Park, CA 94928
+38.335621,-122.676326
+Address: 800 Diablo Ave, Novato, CA 94947
+38.100459,-122.5750003
+Address: 7022 Stockton Ave, El Cerrito, CA 94530
+37.9102604,-122.299498
+Address: 700 Redwood Blvd, Novato, CA 94947
+38.077755,-122.551608
+Address: 4449 Central Pl, Fairfield, CA 94534
+38.2205054,-122.1265134
+Address: 2010 Redwood Rd, Napa, CA 94558
+38.3212,-122.311297
+Address: 115 Sunset Ave, Suisun City, CA 94585
+38.24411,-122.017226
+Address: 2000 Lakeville Hwy, # G, Petaluma, CA 94954
+38.2328953,-122.6114499
+Address: 292 N San Pedro Rd, San Rafael, CA 94903
+38.005775,-122.518582
+Address: 1925 Sierra Ave, Napa, CA 94558
+38.327101,-122.312908
+Address: 2869 Pinole Valley Rd, Pinole, CA 94564
+37.9936703,-122.2850718
+Address: 194 W Napa St, Sonoma, CA 95476
+38.2924859,-122.460952
+Address: 2500 MacDonald Ave, Richmond, CA 94804
+37.935145,-122.345189
+Address: 17 Golf Club Rd, Pleasant Hill, CA 94523
+37.971302,-122.064713
+{:query=>"7-Eleven", :city=>"Winters", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Winters%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 2906 1st St, Napa, CA 94558
+38.301256,-122.310814
+Address: 1325 J St, Sacramento, CA 95814
+38.5795572,-121.4882219
+Address: 14501 San Pablo Ave, San Pablo, CA 94806
+37.9679834,-122.3442743
+Address: 1136 Imola Ave, Napa, CA 94559
+38.2803153,-122.2653379
+Address: 7022 Stockton Ave, El Cerrito, CA 94530
+37.9102604,-122.299498
+Address: 349 Miller Ave, Mill Valley, CA 94941
+37.8985431,-122.5376224
+Address: 4449 Central Pl, Fairfield, CA 94534
+38.2205054,-122.1265134
+Address: 800 Diablo Ave, Novato, CA 94947
+38.100459,-122.5750003
+Address: 700 Redwood Blvd, Novato, CA 94947
+38.077755,-122.551608
+Address: 115 Sunset Ave, Suisun City, CA 94585
+38.24411,-122.017226
+Address: 2010 Redwood Rd, Napa, CA 94558
+38.3212,-122.311297
+Address: 1704 E Cotati Ave, Rohnert Park, CA 94928
+38.335621,-122.676326
+Address: 4101 Concord Blvd, Concord, CA 94519
+37.9782646,-121.9939511
+Address: 1199 3rd Ave, Ste 4, Sacramento, CA 95818
+38.5557659,-121.5011622
+Address: 1199 43rd Ave., Sacramento, CA 95822
+38.5168068,-121.5171695
+Address: 1925 Sierra Ave, Napa, CA 94558
+38.327101,-122.312908
+Address: 292 N San Pedro Rd, San Rafael, CA 94903
+38.005775,-122.518582
+Address: 17 Golf Club Rd, Pleasant Hill, CA 94523
+37.971302,-122.064713
+Address: 2869 Pinole Valley Rd, Pinole, CA 94564
+37.9936703,-122.2850718
+{:query=>"7-Eleven", :city=>"Woodlake", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Woodlake%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 1201 S Mooney Blvd, Visalia, CA 93277
+36.319977,-119.3143369
+Address: 2630 Tulare St, Fresno, CA 93721
+36.7385382,-119.7834904
+Address: 111 W Walnut Ave, Visalia, CA 93277
+36.3124613,-119.2923388
+Address: 395 N 11th Ave, Hanford, CA 93230
+36.3279288,-119.6550275
+Address: 1170 Clovis Ave, Clovis, CA 93612
+36.8159853,-119.7002719
+Address: 1903 Jensen Ave, Sanger, CA 93657
+36.706654,-119.564727
+Address: 2397 S Chestnut Ave, Fresno, CA 93725
+36.714459,-119.736144
+Address: 420 E Bullard Ave, Fresno, CA 93710
+36.8234768,-119.7808781
+Address: 6875 N Milburn Ave, Fresno, CA 93722
+36.8365902,-119.8798439
+Address: 6015 E Kings Canyon Rd, Fresno, CA 93727
+36.7364279,-119.6817888
+Address: 1784 W Shaw Ave, Fresno, CA 93711
+36.8086787,-119.8259378
+Address: 7314 N Blackstone Ave, Fresno, CA 93650
+36.842927,-119.790111
+Address: 4246 W Ashlan Ave, Fresno, CA 93722
+36.7940133,-119.8675067
+Address: 1596 N Palm Ave, Fresno, CA 93728
+36.7645795,-119.8081592
+Address: 2515 E McKinley Ave, Fresno, CA 93703
+36.7650837,-119.7810158
+Address: 3005 W Ashlan Ave, Fresno, CA 93722
+36.7936497,-119.8444155
+Address: 4909 N Cedar Ave, Fresno, CA 93726
+36.806967,-119.754713
+Address: 1629 E Ashlan Ave, Fresno, CA 93704
+36.7940985,-119.7919184
+{:query=>"7-Eleven", :city=>"Woodland", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Woodland%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 525 L Street, Davis, CA 95616
+38.54921,-121.735087
+Address: 2906 1st St, Napa, CA 94558
+38.301256,-122.310814
+Address: 1325 J St, Sacramento, CA 95814
+38.5795572,-121.4882219
+Address: 1136 Imola Ave, Napa, CA 94559
+38.2803153,-122.2653379
+Address: 1229 E Main St, Woodland, CA 95776
+38.67744,-121.7643692
+Address: 1199 3rd Ave, Ste 4, Sacramento, CA 95818
+38.5557659,-121.5011622
+Address: 4449 Central Pl, Fairfield, CA 94534
+38.2205054,-122.1265134
+Address: 700 Redwood Blvd, Novato, CA 94947
+38.077755,-122.551608
+Address: 1199 43rd Ave., Sacramento, CA 95822
+38.5168068,-121.5171695
+Address: 800 Diablo Ave, Novato, CA 94947
+38.100459,-122.5750003
+Address: 115 Sunset Ave, Suisun City, CA 94585
+38.24411,-122.017226
+Address: 2010 Redwood Rd, Napa, CA 94558
+38.3212,-122.311297
+Address: 6681 Blue Oaks Blvd, Rocklin, CA 95765
+38.79597,-121.2893884
+Address: 9210 Kiefer Blvd, Sacramento, CA 95826
+38.5472954,-121.3574203
+Address: 1925 Sierra Ave, Napa, CA 94558
+38.327101,-122.312908
+Address: 2101 Sunset Blvd, Rocklin, CA 95765
+38.810834,-121.2827168
+Address: 194 W Napa St, Sonoma, CA 95476
+38.2924859,-122.460952
+Address: 6591 Wyndham Drive, Sacramento, CA 95823
+38.4688324,-121.4261914
+Address: 2544 Arden Way, Sacramento, CA 95825
+38.5956307,-121.4020559
+Address: 7700 La Riviera Dr, Sacramento, CA 95826
+38.55722859999999,-121.4105173
+{:query=>"7-Eleven", :city=>"Woodside", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Woodside%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 401 El Camino Real, Millbrae, CA 94030
+37.6020855,-122.3923757
+Address: 295 W Main Ave, Morgan Hill, CA 95037
+37.1277084,-121.6600861
+Address: 5100 Geary Blvd, San Francisco, CA 94118
+37.780882,-122.474169
+Address: 1240 Manor Blvd, San Leandro, CA 94579
+37.6910189,-122.152891
+Address: 525 Oak Grove Ave, Menlo Park, CA 94025
+./geo_listing.rb:33:in `initialize': No such file or directory - _json/error.txt (Errno::ENOENT)
+	from ./geo_listing.rb:33:in `open'
+	from ./geo_listing.rb:33:in `do_geo'
+	from ./geo_listing.rb:41:in `<main>'
+,
+cannot geolocate: 525 Oak Grove Ave, Menlo Park, CA 94025
+Address: 2222 Taraval St, San Francisco, CA 94116
+37.742666,-122.490045
+Address: 1380 Pear Ave, Mountain View, CA 94041
+37.4158448,-122.07729
+Address: 293 87th St, Daly City, CA 94015
+37.6929808,-122.4742165
+Address: 3961 Callan Blvd, South San Francisco, CA 94080
+37.6496627,-122.4689549
+Address: 349 Miller Ave, Mill Valley, CA 94941
+37.8985431,-122.5376224
+Address: 217 Sutter St, San Francisco, CA 94108
+37.7895975,-122.4042789
+Address: 501 N San Mateo Dr, San Mateo, CA 94401
+37.573534,-122.334446
+Address: 1497 Danville Blvd, Alamo, CA 94507
+37.8474001,-122.0308397
+Address: 678 Concar Dr, San Mateo, CA 94402
+37.55478799999999,-122.303095
+Address: 2200 Bay Shore Blvd, San Francisco, CA 94134
+37.7123128,-122.4030922
+Address: 7120 Dublin Blvd, Dublin, CA 94568
+37.70581689999999,-121.9222574
+Address: 401 Waverly St, Palo Alto, CA 94301
+37.447958,-122.161254
+Address: 5741 Thornhill Dr, Oakland, CA 94611
+37.8346719,-122.2121825
+Address: 644 Mission St, San Francisco, CA 94105
+37.7872086,-122.4008958
+Address: 975 Rollins Rd, Burlingame, CA 94010
+37.5870727,-122.3559214
+{:query=>"7-Eleven", :city=>"Yorba Linda", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Yorba+Linda%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 18532 Yorba Linda Blvd, Yorba Linda, CA 92886
+33.8884999,-117.8108395
+Address: 17465 Imperial Hwy, Yorba Linda, CA 92886
+33.898876,-117.829058
+Address: 31186 Hawthorne Blvd, Rancho Palos Verdes, CA 90275
+33.7491379,-118.40723
+Address: 17937 MacArthur Blvd, Irvine, CA 92614
+33.6870618,-117.8552061
+Address: 15991 Magnolia St, Westminster, CA 92683
+33.7309281,-117.9726298
+Address: 235 N Azusa Ave, West Covina, CA 91791
+34.07485,-117.9081885
+Address: 2222 W Commonwealth Ave, Fullerton, CA 92833
+33.8700498,-117.9673462
+Address: 3201 N Broadway, Los Angeles, CA 90031
+34.0737723,-118.2077664
+Address: 12170 Ramona Blvd, El Monte, CA 91732
+34.075573,-118.008123
+Address: 3259 Associated Rd, Fullerton, CA 92832
+33.9100977,-117.8807741
+Address: 1701 N Kraemer Blvd, Anaheim, CA 92806
+33.8651924,-117.8630427
+Address: 1000 W Orangethorpe Ave, Fullerton, CA 92832
+33.85981,-117.9250115
+Address: 4200 Long Beach Blvd, Long Beach, CA 90807
+33.8350173,-118.1889413
+Address: 610 W 1st St, Tustin, CA 92780
+33.7452452,-117.8301911
+Address: 5138 N Figueroa St, Los Angeles, CA 90042
+34.1058069,-118.1994905
+Address: 1347 S Azusa Ave, West Covina, CA 91791
+34.050466,-117.908465
+Address: 720 N Tustin St, Orange, CA 92867
+33.7992976,-117.8363485
+Address: 2410 Fullerton Rd, Rowland Heights, CA 91748
+33.976148,-117.909411
+Address: 2200 W Sunset Blvd, Los Angeles, CA 90026
+34.0778675,-118.2660213
+Address: 11140 Del Amo Blvd, Lakewood, CA 90715
+33.8458303,-118.0956937
+{:query=>"7-Eleven", :city=>"Yountville", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Yountville%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 2906 1st St, Napa, CA 94558
+38.301256,-122.310814
+Address: 5100 Geary Blvd, San Francisco, CA 94118
+37.780882,-122.474169
+Address: 1136 Imola Ave, Napa, CA 94559
+38.2803153,-122.2653379
+Address: 14501 San Pablo Ave, San Pablo, CA 94806
+37.9679834,-122.3442743
+Address: 349 Miller Ave, Mill Valley, CA 94941
+37.8985431,-122.5376224
+Address: 7022 Stockton Ave, El Cerrito, CA 94530
+37.9102604,-122.299498
+Address: 800 Diablo Ave, Novato, CA 94947
+38.100459,-122.5750003
+Address: 1388 46th Ave, San Francisco, CA 94122
+37.7607091,-122.5056076
+Address: 2010 Redwood Rd, Napa, CA 94558
+38.3212,-122.311297
+Address: 1704 E Cotati Ave, Rohnert Park, CA 94928
+38.335621,-122.676326
+Address: 700 Redwood Blvd, Novato, CA 94947
+38.077755,-122.551608
+Address: 4449 Central Pl, Fairfield, CA 94534
+38.2205054,-122.1265134
+Address: 217 Sutter St, San Francisco, CA 94108
+37.7895975,-122.4042789
+Address: 1497 Danville Blvd, Alamo, CA 94507
+37.8474001,-122.0308397
+Address: 115 Sunset Ave, Suisun City, CA 94585
+38.24411,-122.017226
+Address: 2601 Telegraph Ave, Berkeley, CA 94704
+37.86299,-122.2583756
+Address: 1901 Bridgeway, Sausalito, CA 94965
+37.8615173,-122.4942713
+Address: 5741 Thornhill Dr, Oakland, CA 94611
+37.8346719,-122.2121825
+{:query=>"7-Eleven", :city=>"Yreka", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Yreka%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 1281 Siskiyou Blvd, Ashland, CA 97520
+42.1864512,-122.6930093
+Address: 3960 S Pacific Hwy, Medford, CA 97501
+42.2822124,-122.8266167
+Address: 1220 Crater Lake Ave, Medford, CA 97504
+42.3413921,-122.860011
+{:query=>"7-Eleven", :city=>"Yuba City", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Yuba+City%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 525 L Street, Davis, CA 95616
+38.54921,-121.735087
+Address: 1325 J St, Sacramento, CA 95814
+38.5795572,-121.4882219
+Address: 1199 3rd Ave, Ste 4, Sacramento, CA 95818
+38.5557659,-121.5011622
+Address: 1199 43rd Ave., Sacramento, CA 95822
+38.5168068,-121.5171695
+Address: 6681 Blue Oaks Blvd, Rocklin, CA 95765
+38.79597,-121.2893884
+Address: 2101 Sunset Blvd, Rocklin, CA 95765
+38.810834,-121.2827168
+Address: 1229 E Main St, Woodland, CA 95776
+38.67744,-121.7643692
+Address: 9210 Kiefer Blvd, Sacramento, CA 95826
+38.5472954,-121.3574203
+Address: 2544 Arden Way, Sacramento, CA 95825
+38.5956307,-121.4020559
+Address: 8500 Madison Ave, Fair Oaks, CA 95628
+38.663914,-121.243808
+Address: 7700 La Riviera Dr, Sacramento, CA 95826
+38.55722859999999,-121.4105173
+Address: 5080 Auburn Blvd, Sacramento, CA 95841
+38.6612288,-121.3464225
+Address: 4010 Lake Road, West Sacramento, CA 95691
+38.572851,-121.579025
+Address: Hillsdale Boulevard, Sacramento, CA 95814
+38.6734426,-121.3550203
+Address: 7700 Folsom Auburn Rd, Folsom, CA 95630
+38.70668149999999,-121.1702724
+Address: 3448 Watt Avenue, Sacramento, CA 95821
+38.6283839,-121.382594
+Address: 6401 Antelope Rd Ste B, Citrus Heights, CA 95621
+38.707735,-121.314982
+Address: 2000 S Cirby Way, Roseville, CA 95661
+38.726945,-121.250967
+Address: 1020 Lincoln Rd, Yuba City, CA 95991
+39.1123457,-121.6278121
+Address: 2450 Northgate Blvd, Sacramento, CA 95833
+38.610955,-121.4750945
+{:query=>"7-Eleven", :city=>"Yucaipa", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Yucaipa%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 12041 BRYANT ST, STORE #13965, Yucaipa, CA 92399
+34.033625,-117.0430865
+Address: 150 W Vista Chino, Palm Springs, CA 92262
+33.845124,-116.546003
+Address: 41440 Big Bear Blvd, Ste A, Big Bear Lake, CA 92315
+34.2439029,-116.8979265
+Address: 3740 Iowa Ave, Ste 11, Riverside, CA 92507
+33.977114,-117.339503
+Address: 17937 MacArthur Blvd, Irvine, CA 92614
+33.6870618,-117.8552061
+Address: 1365 E Citrus Ave, Redlands, CA 92374
+34.0560368,-117.1569106
+Address: 40210 Murrieta Hot Springs Rd, Murrieta, CA 92563
+33.5556067,-117.1735596
+Address: 6602 Irvine Center Dr, Irvine, CA 92618
+33.66917520000001,-117.7654926
+Address: 28015 Scott Rd, Murrieta, CA 92563
+33.6410867,-117.1688458
+Address: 41901 Big Bear Blvd, Big Bear Lake, CA 92315
+34.242977,-116.887908
+Address: 41260 Murrieta Hot Spgs Rd, Murrieta, CA 92562
+33.5522114,-117.195649
+Address: 32487 Yucaipa Blvd, Yucaipa, CA 92399
+34.033577,-117.095771
+Address: 44260 Apis Rd, Temecula, CA 92592
+33.4819816,-117.0928339
+Address: 3211 Kendall Dr, San Bernardino, CA 92407
+34.1917566,-117.3605948
+Address: 8693 Irvine Center Dr, Irvine, CA 92618
+33.6441029,-117.7441362
+Address: 44535 Bedford Ct, Temecula, CA 92592
+33.4790601,-117.1386587
+Address: 1935 S Waterman Ave, San Bernardino, CA 92408
+34.066269,-117.278348
+Address: 610 W 1st St, Tustin, CA 92780
+33.7452452,-117.8301911
+Address: 631 S Main Ave, Fallbrook, CA 92028
+33.376848,-117.251754
+Address: 720 N Tustin St, Orange, CA 92867
+33.7992976,-117.8363485
+{:query=>"7-Eleven", :city=>"Yucca Valley", :state=>"CA"}
+http://api.yelp.com/business_review_search?term=7-Eleven&location=Yucca+Valley%2C+CA&ywsid=hp7lmmsmb2IRYSJEJchCPA
+
+Address: 150 W Vista Chino, Palm Springs, CA 92262
+33.845124,-116.546003
+Address: 41440 Big Bear Blvd, Ste A, Big Bear Lake, CA 92315
+34.2439029,-116.8979265
+Address: 55277 29 Palms Hwy, Yucca Valley, CA 92284
+34.1158822,-116.4581996
+Address: 73740 29 Palms Hwy, Twentynine Palms, CA 92277
+34.1359349,-116.053672
+Address: 66500 8th St, Desert Hot Springs, CA 92240
+33.96907789999999,-116.5010095
+Address: 40210 Murrieta Hot Springs Rd, Murrieta, CA 92563
+33.5556067,-117.1735596
+Address: 41901 Big Bear Blvd, Big Bear Lake, CA 92315
+34.242977,-116.887908
+Address: 1365 E Citrus Ave, Redlands, CA 92374
+34.0560368,-117.1569106
+Address: 73800 Highway 111, Palm Desert, CA 92260
+33.7218102,-116.376787
+Address: 28015 Scott Rd, Murrieta, CA 92563
+33.6410867,-117.1688458
+Address: 41260 Murrieta Hot Spgs Rd, Murrieta, CA 92562
+33.5522114,-117.195649
+Address: 44260 Apis Rd, Temecula, CA 92592
+33.4819816,-117.0928339
+Address: 65971 Pierson Blvd, Desert Hot Springs, CA 92240
+33.96112,-116.510443
+Address: 67510 Ramon Rd, Palm Springs, CA 92262
+33.8158841,-116.4840337
+Address: 44535 Bedford Ct, Temecula, CA 92592
+33.4790601,-117.1386587
+Address: 2493 N Palm Canyon Dr, Palm Springs, CA 92262
+33.851946,-116.5517104
+Address: 41125 Winchester Rd, Temecula, CA 92591
+33.524577,-117.161386
+Address: 15020 Perris Blvd, Moreno Valley, CA 92551
+33.902283,-117.2255644
+Address: 104 N San Jacinto St, Hemet, CA 92543
+33.7479946,-116.9581339
+]0;root@r1mysql01: /home/ubunturoot@r1mysql01:/home/ubuntu# exit
+]0;root@r1mysql01: ~root@r1mysql01:~# exit
+]0;ubuntu@r1mysql01: ~ubuntu@r1mysql01:~$ exit
+
+Script done on Wed 11 Dec 2013 03:20:30 PM PST
