@@ -37,3 +37,20 @@ puts "trying trade..."
 # trade = Btce::TradeAPI.new_from_keyfile.trade_api_call "Trade", @api_hash
 # puts trade.inspect
 
+iter = 0
+while iter <= 0
+  ticker = Btce::Ticker.new "ltc_usd"
+  puts ticker.last
+  if ticker.last.to_i >= 21.6
+    @api_hash = {
+      "pair" => "nmc_usd",
+      "type" => "buy",
+      "rate" => 4.85,
+      "amount" => 0.5,
+    }
+    trade = Btce::TradeAPI.new_from_keyfile.trade_api_call "Trade", @api_hash
+    puts trade.inspect
+  end
+
+  sleep 1
+end
