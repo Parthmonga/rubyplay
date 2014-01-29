@@ -42,7 +42,7 @@ def buy(price)
     ticker = Btce::Ticker.new "ltc_usd"
 
     api_hash = { }
-    puts "#{Time.now}: #{ticker.buy.to_f}"
+    puts "buy #{Time.now}: #{price}: #{ticker.buy.to_f}: #{ticker.sell.to_f}"
     if ticker.buy.to_f <= price
       api_hash = {
         "pair" => "ltc_usd",
@@ -52,12 +52,13 @@ def buy(price)
       }
       trade = Btce::TradeAPI.new_from_keyfile.trade_api_call "Trade", api_hash
       puts trade.inspect
-      return 0
+      return 1
+      puts 'exited'
     end
   rescue => e
     puts e.message
   end
-  return 1
+  return 0
 end
 
 def sell(price)
@@ -65,8 +66,8 @@ def sell(price)
     ticker = Btce::Ticker.new "ltc_usd"
 
     api_hash = { }
-    puts "#{Time.now}: #{ticker.sell.to_f}"
-    if ticker.sell.to_f <= price
+    puts "sell: #{Time.now}: #{price}: #{ticker.buy.to_f} #{ticker.sell.to_f}"
+    if ticker.sell.to_f >= price
       api_hash = {
         "pair" => "ltc_usd",
         "type" => "sell",
@@ -75,7 +76,7 @@ def sell(price)
       }
       trade = Btce::TradeAPI.new_from_keyfile.trade_api_call "Trade", api_hash
       puts trade.inspect
-      return 1
+      exit
     end
   rescue => e
     puts e.message
@@ -84,20 +85,21 @@ def sell(price)
 end
 
 iter = 0
-buy_price   = 20.86
-sell_price  = 20.96
+buy_price   = 20.94
+sell_price  = 21.13
 
 isBuy  = 1
-isSell = 0
+# isSell = 0
+isSell = 1
 
 while iter <= 0
   if isBuy == 1
-    isBuy = buy(buy_price)
+    isSell = buy(buy_price)
+    isBuy = 0
   end
 
-  if isSell == 0
+  if isSell == 1
     isSell = sell(sell_price)
   end
-  exit if isSell == 1 && isBuy == 0
   sleep 1
 end
