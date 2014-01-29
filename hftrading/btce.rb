@@ -40,7 +40,7 @@ puts "trying trade..."
 iter = 0
 while iter <= 0
   ticker = Btce::Ticker.new "ltc_usd"
-  puts ticker.last.to_f
+  puts "#{Time.now}: #{ticker.last.to_f}"
   if ticker.last.to_f >= 21.6
     @api_hash = {
       "pair" => "ltc_usd",
@@ -50,6 +50,8 @@ while iter <= 0
     }
     trade = Btce::TradeAPI.new_from_keyfile.trade_api_call "Trade", @api_hash
     puts trade.inspect
+    # exit 
+    iter = 0
   end
 
   sleep 1
