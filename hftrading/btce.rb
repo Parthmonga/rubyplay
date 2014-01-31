@@ -53,7 +53,6 @@ def buy(price)
       trade = Btce::TradeAPI.new_from_keyfile.trade_api_call "Trade", api_hash
       puts trade.inspect
       return 1
-      puts 'exited'
     end
   rescue => e
     puts e.message
@@ -85,17 +84,22 @@ def sell(price)
 end
 
 iter = 0
-buy_price   = 20.94
-sell_price  = 21.13
+buy_price   = ARGV[0].to_f
+sell_price  = ARGV[1].to_f
+
+puts "buy  price: #{buy_price}"
+puts "sell price: #{sell_price}"
 
 isBuy  = 1
-# isSell = 0
-isSell = 1
+# isSell = 1
+isSell = 0
 
 while iter <= 0
   if isBuy == 1
     isSell = buy(buy_price)
-    isBuy = 0
+    if isSell == 1
+      isBuy = 0
+    end
   end
 
   if isSell == 1
