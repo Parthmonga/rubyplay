@@ -90,24 +90,27 @@ def get_followers(user_id)
       i_sentinel = 0
     end
     puts "id: #{user_id} followers: #{followers}"
+    irand = rand(6)
+    puts "sleeping for #{irand}"
+    sleep irand
   end # while loop
   followers
 end
 
-# me = Instagram.user('self')
+me = Instagram.user('self')
 # me = Instagram.user(3080417)
-# puts me.id
-# puts me.inspect
+puts me.id
+puts me.inspect
 
-puts Instagram.user_search("jeffreydgerson")
-a = Instagram.user_follows(5934682, {:count => 50, :cursor => nil})
-puts a.inspect
+# puts Instagram.user_search("jeffreydgerson")
+# a = Instagram.user_follows(5934682, {:count => 50, :cursor => nil})
+# puts a.inspect
 # puts a['pagination']['next_cursor']
-i = 1
-a.each do |u|
-  puts "#{i}: #{u.inspect}"
-  i = i + 1
-end
+# i = 1
+# a.each do |u|
+#   puts "#{i}: #{u.inspect}"
+#   i = i + 1
+# end
 
 # puts Instagram.location_search("37.7808851","-122.3948632")
 # followers = get_followers(me.id)
@@ -116,8 +119,9 @@ end
 
 # get_followers(282741) #mayhemstudios
 # get_followers(375151762) #
-# get_followers(me.id)
+get_followers(me.id)
 
+# get_followers(417418840) # thesamgraves
 
 
 

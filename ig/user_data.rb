@@ -26,12 +26,16 @@ Instagram.configure do |config|
 end
 
 
-# 633269381 <-- gscalini
-id = 633269381
+#  633269381 <-- gscalini
+# 1385944769 <-- flyingthroughfilm
+id = 1385944769 + 7812740
 start_id = id
-finish_id = id + 2
+finish_id = id + 100
 # me = Instagram.user(id)
 
+# puts me.inspect
+
+# exit
 
 html = "<h1>recent photos for #{id}</h1>"
 

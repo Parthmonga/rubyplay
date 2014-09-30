@@ -25,7 +25,7 @@ Instagram.configure do |config|
 end
 
 
-# me = Instagram.user('self')
+me = Instagram.user('self')
 # me = Instagram.user(3080417)
 # puts me.id
 # puts me.inspect
@@ -34,6 +34,7 @@ def study_follows(username)
   begin
     h = Instagram.user_search(username)
     m = Instagram.user(h[0].id)
+    # m = Instagram.user(username)
   rescue => details
     puts details.inspect
     return
@@ -50,11 +51,11 @@ def study_follows(username)
 
 end
 
-fh = File.open('/Users/newuser/Desktop/mysortedfollowers.txt')
+fh = File.open('./barce_followers.txt')
 
 fh.each do |line|
-  study_follows(line.chomp)
-  # puts line.chomp
+  study_follows(line.chomp.gsub(/\s+/, ""))
+  puts line.chomp
 end
 
 fh.close
