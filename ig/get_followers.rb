@@ -119,7 +119,7 @@ puts me.inspect
 
 # get_followers(282741) #mayhemstudios
 # get_followers(375151762) #
-get_followers(me.id)
+# get_followers(me.id)
 
 # get_followers(417418840) # thesamgraves
 
