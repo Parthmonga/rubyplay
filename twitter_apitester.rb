@@ -61,17 +61,20 @@ def get_replies(timeline)
 end
 
 
-@replies = 0
-(16..16).each { |i|
-  puts "page: #{i}"
-  timeline = client.user_timeline("count" => 3200, "screen_name" => 'meganberry', "page" => i)
-  @replies = @replies + get_replies(timeline)
-  sleep 5
-}
+# @replies = 0
+# (16..16).each { |i|
+#   puts "page: #{i}"
+#   timeline = client.user_timeline("count" => 3200, "screen_name" => 'meganberry', "page" => i)
+#   @replies = @replies + get_replies(timeline)
+#   sleep 5
+# }
 
-puts "megan did: "
-puts @replies
-puts "out of 3200 tweets."
+timeline = client.user_timeline("count" => 10, "screen_name" => 'chrisheuer', "page" => 1)
+puts timeline.inspect
+
+# puts "megan did: "
+# puts @replies
+# puts "out of 3200 tweets."
 # puts timeline.count
 # timeline.each { |tl| puts tl.inspect # puts tl['text'] }
 # client.message("#{ARGV[2].chomp}", "something's changed with #{s.url} : alert #{i}")
