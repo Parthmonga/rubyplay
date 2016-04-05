@@ -9,6 +9,8 @@ require "twitter_oauth"
 require 'digest/md5'
 require "json"
 require "active_record"
+require 'mysql'
+require 'date'
 
 
 yamlstring = ''
@@ -26,7 +28,7 @@ Instagram.configure do |config|
 end
 
 ActiveRecord::Base.establish_connection(
-    :adapter => "postgresql",
+    :adapter => "mysql",
     :database => "#{@settings['database']}",
     :username => "#{@settings['username']}",
     :password => "",
@@ -39,6 +41,8 @@ class User < ActiveRecord::Base
 end
 
 
+class PostDate < ActiveRecord::Base
+end
 
 @users_list = Array.new
 
@@ -70,19 +74,33 @@ def get_followers(user_id)
     puts result["pagination"]["next_cursor"]
     result["data"].each do |user|
       uid = 0
+      puts user.inspect
+      # {"username"=>"kaylandjp", "profile_picture"=>"https://scontent.cdninstagram.com/t51.2885-19/s150x150/12716616_1052437788173707_1579909207_a.jpg", "id"=>"2911292764", "full_name"=>""}
       begin
-        uid = User.find(user["id"]).id
+        uid = User.find_by_instagram_id(user["id"]).id
       rescue
-
+        puts "could not find #{user.inspect}"
       end
       if uid == 0
         u = User.new
-        u.instagram_id = user["id"]
-        u.name         = user["username"]
-        u.bio          = user["bio"]
-        u.reference_id = user_id
+        u.instagram_id    = user["id"]
+        u.username        = user["username"]
+        u.full_name       = user["full_name"]
+        u.profile_picture = user["profile_picture"]
+        begin 
+          u2  = Instagram.user(user["id"])
+          u.bio             = u2.bio
+          u.website         = u2.website
+          u.followed_by     = u2.counts.followed_by
+          u.follows         = u2.counts.follows
+          u.media           = u2.counts.media
+        rescue => e
+          puts e.message
+          puts "couldn't get deeper user data for #{user['username']}"
+        end
         u.save
       end
+      u2 = nil
       followers = followers + 1
     end
 
@@ -97,10 +115,41 @@ def get_followers(user_id)
   followers
 end
 
-me = Instagram.user('self')
 # me = Instagram.user(3080417)
+# u = Instagram.user(2968734636)
+me = Instagram.user('self')
 puts me.id
 puts me.inspect
+puts me.bio
+puts me.counts.follows
+puts me.counts.followed_by
+puts me.counts.media
+
+counts = 0
+User.all.each do |user|
+  recents = []
+  begin 
+    recents = Instagram.user_recent_media(user.instagram_id)
+  rescue => e
+    puts e.message
+    puts "cannot view recents"
+  end
+  recents.each do |media|
+    puts DateTime.strptime(media.created_time, '%s').in_time_zone('America/Los_Angeles')
+    pd = PostDate.new 
+    pd.instagram_id = user.instagram_id
+    pd.posted       = DateTime.strptime(media.created_time, '%s').in_time_zone('America/Los_Angeles')
+    pd.save!
+  end
+  counts = counts + 1
+  sleep rand(6) if counts % 129 == 0
+end
+# client = Instagram.client(:access_token => @access_token)
+# client.user_recent_media.each do |media|
+#   puts media.inspect
+# end
+# puts u.inspect
+# get_followers(me.id)
 
 # puts Instagram.user_search("jeffreydgerson")
 # a = Instagram.user_follows(5934682, {:count => 50, :cursor => nil})
@@ -119,7 +168,6 @@ puts me.inspect
 
 # get_followers(282741) #mayhemstudios
 # get_followers(375151762) #
-# get_followers(me.id)
 
 # get_followers(417418840) # thesamgraves
 
