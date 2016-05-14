@@ -6,3 +6,4 @@ twilio.yaml
 yelp_YWSID.txt
 ig/*.txt
 settings.yaml
+*.log
