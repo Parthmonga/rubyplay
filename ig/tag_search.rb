@@ -25,7 +25,18 @@ Instagram.configure do |config|
 end
 
 
-me = Instagram.user('self')
+# me = Instagram.user('self')
 # me = Instagram.user(3080417)
-puts me.id
+# puts me.id
+
+result = Instagram.tag_search('igerssf')
+puts result[0].inspect
+result = Instagram.tag_recent_media('igerssf')
+puts result[0].inspect
+puts result[0].caption.from.username
+puts result[0].created_time
+puts result[0].id
+puts "--------------------------------------------"
+# puts Instagram.like_media(result[0].id)
+
 
